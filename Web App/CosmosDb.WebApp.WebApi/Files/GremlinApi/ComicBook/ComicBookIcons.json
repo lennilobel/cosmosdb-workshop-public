@@ -1,0 +1,380 @@
+[
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "ANT-MAN/DR. HENRY J.",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALpQTFRF5My0sTk3vWNi1ri3TC5RuZ/Bl2WmupnE8erzzsDSOTMtpX2xq5mHn3SslWOkd0qC3dre1cHbTUA6r4652NHaqoW1mmyoyLjNkoBxw6/JKhcq08nWRChHGQsWZj9vn4x8iFWWvqfFIhEgybOeyo6NW01F39fXrZmIZFlP062tbkR5XTlluaaSj4Bxu6aT2cLCwG5saFlQ1r+pt05MMSYjdmZbnYx8EQYMJBoYFg0NCAAC4uLikFug////DvHOBgAAAD50Uk5T/////////////////////////////////////////////////////////////////////////////////wC6+3E2AAABTklEQVR42pTW13KDMBAFUDkxBkIkMGAb917Se1uh//+tyPZD0ESrcl/g4Z4ZjSgrIkQU1o4JIyGI6HZq53S6gkQefSkiEtZeCUntGQSwJKHOgBWDjB8zXlIHwIJz+5yY2gAtuZrADAr+L0MToBm3CRWMuS4JCgptn8coGOoBZxgoEdBDQB/pK1vbBAkGYgQEGCgRsMQAR0CMAuoLEj1A+819dQMBBnaXmjxhgHH+1tLlBgHyQWv7rQ2+pM2FJs87DGS+uzRAQV8PCt+XD/lC1W9UAUy7qLJn+M1M4IOoATD+l9qQy9L91SkHeTu3gDuANXk9XJ/y8ElIDlMjuAXYNhf0CDAyghQA9rK4fsmrI3i3gXoF8FPNt9LBd7XP5WVmBosVqJnY5kP6pfRH9gmUNvvThcPImrX/kroORe8pagDeg9376OB9OPE9/vwKMAA6QeHoKSybYwAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "3aee12da-b0f6-2cae-c6aa-11076bc073f5"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "aquaman",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARdQTFRF1L2pkLDBlryoaae77t6Phbzg5vH5R5rR69ibAAAAq5mH////dKy25c6x3MWv+vXx59Kotdbt5s+54Mix2MGs8OOF5s+upbe+a6DC6dWh5t+H2tqM7t/Qm6238OLVkau56dbC9+/oRpjJ8uba/fz67+GI69nHRZbMWJvH6teei7atxNCVuMua5tGryrqrwbiuUJrL3sawj4Bx+PLsur67Up3FnYx8mrO/XaLAZaHIwrmu4cmynbi2wr+4v8eoYZ7F2ci2xryx38exeqjEysC07d2S1b6q69qY7+CLiKi8Vk1E1r+pTpjJcKXGrcafpLC1f7GydKPAz8W3Y5/GcmZa6NSk2cKs48uzRpfM8eSC5My0O5PO////m+UBeAAAAF10Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8A4a+dkAAAAYlJREFUeNq01tdygkAUBuATBSQBFAuW2Eusscf03ntve+D9nyMMxhmQPqP/hcPF/7mUmbMLisLQssfQjKKAEg3JnhOKKsD46KuCAVr2FRpkn1kcmPDtoFcw4QOddaImy7uDYHtT6/7nueIIdg1lYrmIAWSJRTqvtoAn1gnYgYANIBW/ILhMQAnOgBK+JK24Mf3NIEqOgEW8JURiBcSkKHZRDeW8AmYoqiWgLm7AFHax4MoMWrbg95hIghmIhDq0BilkKSzXCvp2oVYWSRIvLIH6Jm+wwHHj2KweG3NcrksQt2wAqt+pGuEipWm/pF5W1ae2A++z/63nphe5+mytlCV4QrucDqxf617qMm4q/wyPdga2Q+ANrsPG/jdAw2FqNAASRgDw4jhm8nMgDpB2BGmAOdBzGWQ9IxhC3gXk4QDxflXLCDE8f0cmcAJx3B6tafl8wHDfdRj3z/W3lCi6gqLhQySarqBpAPse9oczPbjzAD5WdHlc4h63OOB7Y/d9dPB9OPF7/PkTYAA1jetsH+uSWAAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "e90c4aef-6c44-8691-1ace-51a8d2efd923"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "BEAST",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQ5QTFRFSyUz8eSCQFl3UixIPXaiTSc4WTNcVC5NkFugQjtLXjhrVjBSS8D1PIzDnISmPX2t6+btakZ5QyUqXKfge2msUluTQy01dW2uUCpCPmeMQJDLYHu6WzVhRiAkPY3IQjRASCIpP2CBTyk9a3S0UIXDcHCxw7XJxNCVSSMuocGjQUphW369SXKrTmefRpjJQUNWQFFsRozIrcafaae7QIjCXkB2R3ex2tqMPIS4PJbQz9WQP57YPm6XXaLAVFaNXTdmZne3i1+jQoK8gGapf7GyuMuaQqffUp3FQ6riV1CIRa/mS4nFW0V8VaXeRk9wRGycSr3zWUuCTC5DVoLARrLpdKy2O5PORB4fYDpw////M2OKEQAAAFp0Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8A0daKbwAAAkxJREFUeNqUlnl7ojAQxoOiKKxiWQ6veltbq1bbbru9j73vO4Hv/0WWHAQowcL7R8DM/HiczEwS4HmNuptR9YbnAW9vx82snT0PNHL4+0QD1N1cqgM3pwSAWlaKRFo5A6Aq+yiikrYdUIvoqQbaFqA7QAIBNQ3o7iKh9lUxkOYfJ0JAHaBUlURACW2RkgTKobW/LsiyfF2Y23xqV40CS3i6+ASYyR7WINfrtcGmi9ZZr3fLAIvYjoihAOOqkWmjgL/S+xr8pQWxVX1LCyY055+xwhjOGHCU9Ic1mwFWJOhXjxTQBQAsUGARW6XfOgFE/lAmQEuJAcjQfaAvBGoYaAXJA0ESDH2NqvCLY5rTSeDa7kydThsiJLf8VEQBXNWGjaob53AyfqiYbeJ//1CZdsamD/Tx2nYjACsLmzi2xxUHPzsVc+M/NjBWHhQI6s63n7y9gZNDDNARQp0ZRyGgBiUDP5xLknTAQli9k6TzE7xKtJFCgBcehMdSSFzi90sOoBBQgim/Yv7NZgcrCtzMJOl4FQJ3HOCtL6dkmqrMAd4711sBjQNBLySKm1cx7QkO8O7viyuDqcmBsDtZuXbM+6nzh74Pww1KAMyJz5sK0Zj8sJPAXWR7IA39kuobK+4EENkwaNh/XxC9j4XMMvcUIFFcfPbdf36MR5AGGCTui6srEkALPQsgI5LuIcoAIPQj8P+OxIA7AhpoNtlQGrlWD7uf/uqCkeJPlBSg4EFLOePwtmMtl7eZD8Xcp+gzQO6DPffVIfflJO/1578AAwCPV7Ww3oUUHQAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "89a33f9d-a1b3-4301-0505-e66e73a6fc3b"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "BLACK PANTHER | MUTA",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGBQTFRFORMP////xkM0DgUE7Y+F5FdHVR0W++nmqjksEBAQjTAlcSYeuD4wYyEamzQpHAoHn5+fQEBA9Ly11Ec3fyshKg4L7+/vr6+vICAgMDAwj4+Pv7+/RxgSAAAA4kw7////Z7nylgAAACB0Uk5T/////////////////////////////////////////wBcXBvtAAABGUlEQVR42tzWyW7EIAwAUAMZQkLWWbs5/P9fli6qNGCb0M6pPiWIF2RFtoEQ2mbbGU0bAoTjYdsdh2OAtmJ/FC00W1U0sFXGn4GeCgspGM0pXZDBjP39gsFJAhpxPjlvAcwFwPfDGXGUQI95gARGAqAEgAKDAKj9eOaBI4HnwUQC4IF/DLjwwJIAeQD/AJhagL8Aa3e/+eOdBzOiUrf1Z/fTclVrIelXFcn3KS/x+RprkAexILtFqeULdPH7t2dEywNN5uyEArK1Na1NoUKzvuQLB+StMgN9oRmnWaStMwPpEbbY7t+klCng+HpmBgoIKZNgElKmR5YVDqBnnLOfP3we9f6hODinHzRFqwd79dWh+nJSe/15F2AA1+j/Ep9mDHEAAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "25797d3e-32ab-bc70-aede-cc6948f6e696"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "BLACK PANTHER",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGBQTFRFORMP////xkM0DgUE7Y+F5FdHVR0W++nmqjksEBAQjTAlcSYeuD4wYyEamzQpHAoHn5+fQEBA9Ly11Ec3fyshKg4L7+/vr6+vICAgMDAwj4+Pv7+/RxgSAAAA4kw7////Z7nylgAAACB0Uk5T/////////////////////////////////////////wBcXBvtAAABGUlEQVR42tzWyW7EIAwAUAMZQkLWWbs5/P9fli6qNGCb0M6pPiWIF2RFtoEQ2mbbGU0bAoTjYdsdh2OAtmJ/FC00W1U0sFXGn4GeCgspGM0pXZDBjP39gsFJAhpxPjlvAcwFwPfDGXGUQI95gARGAqAEgAKDAKj9eOaBI4HnwUQC4IF/DLjwwJIAeQD/AJhagL8Aa3e/+eOdBzOiUrf1Z/fTclVrIelXFcn3KS/x+RprkAexILtFqeULdPH7t2dEywNN5uyEArK1Na1NoUKzvuQLB+StMgN9oRmnWaStMwPpEbbY7t+klCng+HpmBgoIKZNgElKmR5YVDqBnnLOfP3we9f6hODinHzRFqwd79dWh+nJSe/15F2AA1+j/Ep9mDHEAAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "d4710387-ea5a-53f6-8111-5de8d9a7d3b3"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "BLACK WIDOW",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANhQTFRF1kc6vT44ykM5w0A5vl5W2rCd++nm7Y+Fy4N25FdHtEI/4cOsLA4O30s73Eo7t0tH0EU6////2Ug6tzs4cmZazUQ5AAAAu1VO9Ly11r+px3luxHBmzox9wWdewD8416eVtDo3q5mH3rqkuj04nYx85MSsKyYixkE50ZWF00Y6Vk1EDg0L5Lyl9+/oj4Bx4Htod1dO07ahgHNl69nH5LSd6dbC4lxK45yH3GJROxsZ1J6N5KyW9ezj8uba44x4+PLs4lRD4mRS/Pn2yLOe5My0sTk34kw7////Hz74kwAAAEh0Uk5T//////////////////////////////////////////////////////////////////////////////////////////////8AnOzyYAAAAcBJREFUeNqUlteagjAQhYemKAsKAoq9ra66vfeayPu/0YKoEBjaueIj5yczk4QJuG6lui2oasV1we3UtoVV67hQKeH3iApUt6VUBeytBrynJjqWfAlCix40s7Q8oBm6AwlaFmBwNKmlmgpYFNXMSAEEmqLxCgVS/Z6aCMBn+OnYSAAazRSXAIRsgEIMyJmA0mEMsPIAqrLALBdoMoCa4ez2gz3CAJBqr4+ItHtoMUDqIogKISSaBGQXtU/IEYAowKH2hrTzEzGS9R5oYf6eQv4mkyPARwEs2zMyX9j2YjMpBrQlsrY3pkMck8iRtU4Dul4k9toJcpgOwv0XAEY8nFfCqhEDACm+p4cLXf/98J/kTEA+fPdd1/WvuzzgUHxG3XRgoCB+qR4D1EjxEbtcj1fpWNYG4p8yxzq+DhIef3gg4oCcBBr7IWZrjNmYnFvz0jTnQQYUA8LtPfI8Ny8nO137QO8wYuGA6JvaYXzTOvtn2gNLdp2V/kAUe/5kSpuigAYWP+SCY9SLJBz4OU7gV4B3IBUAro7++2cwcnucp5/TwP/2XaQp+np88pDzz2JdNEflG3vpq0Ppy0nZ68+/AAMAIOU85oV0OooAAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "0266b1c2-95c3-03bd-d80f-3b803593672a"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "CAPTAIN AMERICA | MU",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALRQTFRFupSqV8Djj9XsrIS46ff7YZ7NyK3QOTMte3m0q5mHULbd6uDt+PX5l2Wm49bnwaPKWarVg22siGeoupnEXaTR9Pv91r+papLFvOb0x+r2bozB3Mzhs46+ec3pjGGknnCsf3OwZpjJsIWotpqum2mjcoW88evz2r6yxaKtd3+4zrfVineyhNHqyLOez7CvlWKhseLy38WzoHCkpXqy2NLlaKjTbKLP5My0kFug////TLzh////ch9K9AAAADx0Uk5T//////////////////////////////////////////////////////////////////////////////8Au4jrpwAAAcVJREFUeNq0lul2gyAQhXFJak1iTKJm3/d9ayuj7/9eBYXGqBE9J72/4Jz7KTMDA8j3VdnLKVn1feR3JC+3pI6P1AJ+QqhI9gpJRl5BvQkwS71e29JzAiVthEM1proYMBs4olFbBFg4pm02oI/iAC5lAsuEHzczgeQPMDYzgBLzKECksMkyA9gyT5kCZZ7cVGDYpZuQp7QPgwH0+ZropusOY4AE9sHTuaUK4zFU+czyDjZI8SV1AS7fzBGYCcSmPxeAbiIGmaz6izkGUFGUCgwiEcnJoNVHmDsItHsAakqWhg/AgJVhrMBg0zrAMC2tst1iDgAyagHwqthyeh2kPXcoNYxrCq/cXnpVuAlOVeNlpWnJqvWot17th5VLB5pBgEaN22sGQD22X58AjeawApV76L+TIU2c9hKYht9VWLZaSviv6evd2kyLuZnjPGSc0diJ00LPebZez87hWMs8osEvFpurS3TdLMRNgJyI28n90+mGsZ7dlyYYuREhPBE0sl4c6Ak7HwGcz0AOBSxRb6XABxMFhM1YQ65zDNdzdFykCYH2cwxtcbt/BkzxhTKPAvP/uuPeChS+2As/HQo/Too+f34FGAC7nN6MdtQkzQAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "d29eae1d-6f84-8da2-cdf5-a16c45b87389"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "CAPTAIN AMERICA DOPP",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALRQTFRFupSqV8Djj9XsrIS46ff7YZ7NyK3QOTMte3m0q5mHULbd6uDt+PX5l2Wm49bnwaPKWarVg22siGeoupnEXaTR9Pv91r+papLFvOb0x+r2bozB3Mzhs46+ec3pjGGknnCsf3OwZpjJsIWotpqum2mjcoW88evz2r6yxaKtd3+4zrfVineyhNHqyLOez7CvlWKhseLy38WzoHCkpXqy2NLlaKjTbKLP5My0kFug////TLzh////ch9K9AAAADx0Uk5T//////////////////////////////////////////////////////////////////////////////8Au4jrpwAAAcVJREFUeNq0lul2gyAQhXFJak1iTKJm3/d9ayuj7/9eBYXGqBE9J72/4Jz7KTMDA8j3VdnLKVn1feR3JC+3pI6P1AJ+QqhI9gpJRl5BvQkwS71e29JzAiVthEM1proYMBs4olFbBFg4pm02oI/iAC5lAsuEHzczgeQPMDYzgBLzKECksMkyA9gyT5kCZZ7cVGDYpZuQp7QPgwH0+ZropusOY4AE9sHTuaUK4zFU+czyDjZI8SV1AS7fzBGYCcSmPxeAbiIGmaz6izkGUFGUCgwiEcnJoNVHmDsItHsAakqWhg/AgJVhrMBg0zrAMC2tst1iDgAyagHwqthyeh2kPXcoNYxrCq/cXnpVuAlOVeNlpWnJqvWot17th5VLB5pBgEaN22sGQD22X58AjeawApV76L+TIU2c9hKYht9VWLZaSviv6evd2kyLuZnjPGSc0diJ00LPebZez87hWMs8osEvFpurS3TdLMRNgJyI28n90+mGsZ7dlyYYuREhPBE0sl4c6Ak7HwGcz0AOBSxRb6XABxMFhM1YQ65zDNdzdFykCYH2cwxtcbt/BkzxhTKPAvP/uuPeChS+2As/HQo/Too+f34FGAC7nN6MdtQkzQAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "b721ce0c-44b2-4c3d-90c1-47bac1628492"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "CAPTAIN AMERICA IV",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALRQTFRFupSqV8Djj9XsrIS46ff7YZ7NyK3QOTMte3m0q5mHULbd6uDt+PX5l2Wm49bnwaPKWarVg22siGeoupnEXaTR9Pv91r+papLFvOb0x+r2bozB3Mzhs46+ec3pjGGknnCsf3OwZpjJsIWotpqum2mjcoW88evz2r6yxaKtd3+4zrfVineyhNHqyLOez7CvlWKhseLy38WzoHCkpXqy2NLlaKjTbKLP5My0kFug////TLzh////ch9K9AAAADx0Uk5T//////////////////////////////////////////////////////////////////////////////8Au4jrpwAAAcVJREFUeNq0lul2gyAQhXFJak1iTKJm3/d9ayuj7/9eBYXGqBE9J72/4Jz7KTMDA8j3VdnLKVn1feR3JC+3pI6P1AJ+QqhI9gpJRl5BvQkwS71e29JzAiVthEM1proYMBs4olFbBFg4pm02oI/iAC5lAsuEHzczgeQPMDYzgBLzKECksMkyA9gyT5kCZZ7cVGDYpZuQp7QPgwH0+ZropusOY4AE9sHTuaUK4zFU+czyDjZI8SV1AS7fzBGYCcSmPxeAbiIGmaz6izkGUFGUCgwiEcnJoNVHmDsItHsAakqWhg/AgJVhrMBg0zrAMC2tst1iDgAyagHwqthyeh2kPXcoNYxrCq/cXnpVuAlOVeNlpWnJqvWot17th5VLB5pBgEaN22sGQD22X58AjeawApV76L+TIU2c9hKYht9VWLZaSviv6evd2kyLuZnjPGSc0diJ00LPebZez87hWMs8osEvFpurS3TdLMRNgJyI28n90+mGsZ7dlyYYuREhPBE0sl4c6Ak7HwGcz0AOBSxRb6XABxMFhM1YQ65zDNdzdFykCYH2cwxtcbt/BkzxhTKPAvP/uuPeChS+2As/HQo/Too+f34FGAC7nN6MdtQkzQAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "21c566d0-ffb0-269b-fd27-4c184ff91cd0"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "CAPTAIN AMERICA V",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALRQTFRFupSqV8Djj9XsrIS46ff7YZ7NyK3QOTMte3m0q5mHULbd6uDt+PX5l2Wm49bnwaPKWarVg22siGeoupnEXaTR9Pv91r+papLFvOb0x+r2bozB3Mzhs46+ec3pjGGknnCsf3OwZpjJsIWotpqum2mjcoW88evz2r6yxaKtd3+4zrfVineyhNHqyLOez7CvlWKhseLy38WzoHCkpXqy2NLlaKjTbKLP5My0kFug////TLzh////ch9K9AAAADx0Uk5T//////////////////////////////////////////////////////////////////////////////8Au4jrpwAAAcVJREFUeNq0lul2gyAQhXFJak1iTKJm3/d9ayuj7/9eBYXGqBE9J72/4Jz7KTMDA8j3VdnLKVn1feR3JC+3pI6P1AJ+QqhI9gpJRl5BvQkwS71e29JzAiVthEM1proYMBs4olFbBFg4pm02oI/iAC5lAsuEHzczgeQPMDYzgBLzKECksMkyA9gyT5kCZZ7cVGDYpZuQp7QPgwH0+ZropusOY4AE9sHTuaUK4zFU+czyDjZI8SV1AS7fzBGYCcSmPxeAbiIGmaz6izkGUFGUCgwiEcnJoNVHmDsItHsAakqWhg/AgJVhrMBg0zrAMC2tst1iDgAyagHwqthyeh2kPXcoNYxrCq/cXnpVuAlOVeNlpWnJqvWot17th5VLB5pBgEaN22sGQD22X58AjeawApV76L+TIU2c9hKYht9VWLZaSviv6evd2kyLuZnjPGSc0diJ00LPebZez87hWMs8osEvFpurS3TdLMRNgJyI28n90+mGsZ7dlyYYuREhPBE0sl4c6Ak7HwGcz0AOBSxRb6XABxMFhM1YQ65zDNdzdFykCYH2cwxtcbt/BkzxhTKPAvP/uuPeChS+2As/HQo/Too+f34FGAC7nN6MdtQkzQAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "92aeffa3-be67-b614-9916-e25cb27d15a2"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "CAPTAIN AMERICA",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALRQTFRFupSqV8Djj9XsrIS46ff7YZ7NyK3QOTMte3m0q5mHULbd6uDt+PX5l2Wm49bnwaPKWarVg22siGeoupnEXaTR9Pv91r+papLFvOb0x+r2bozB3Mzhs46+ec3pjGGknnCsf3OwZpjJsIWotpqum2mjcoW88evz2r6yxaKtd3+4zrfVineyhNHqyLOez7CvlWKhseLy38WzoHCkpXqy2NLlaKjTbKLP5My0kFug////TLzh////ch9K9AAAADx0Uk5T//////////////////////////////////////////////////////////////////////////////8Au4jrpwAAAcVJREFUeNq0lul2gyAQhXFJak1iTKJm3/d9ayuj7/9eBYXGqBE9J72/4Jz7KTMDA8j3VdnLKVn1feR3JC+3pI6P1AJ+QqhI9gpJRl5BvQkwS71e29JzAiVthEM1proYMBs4olFbBFg4pm02oI/iAC5lAsuEHzczgeQPMDYzgBLzKECksMkyA9gyT5kCZZ7cVGDYpZuQp7QPgwH0+ZropusOY4AE9sHTuaUK4zFU+czyDjZI8SV1AS7fzBGYCcSmPxeAbiIGmaz6izkGUFGUCgwiEcnJoNVHmDsItHsAakqWhg/AgJVhrMBg0zrAMC2tst1iDgAyagHwqthyeh2kPXcoNYxrCq/cXnpVuAlOVeNlpWnJqvWot17th5VLB5pBgEaN22sGQD22X58AjeawApV76L+TIU2c9hKYht9VWLZaSviv6evd2kyLuZnjPGSc0diJ00LPebZez87hWMs8osEvFpurS3TdLMRNgJyI28n90+mGsZ7dlyYYuREhPBE0sl4c6Ak7HwGcz0AOBSxRb6XABxMFhM1YQ65zDNdzdFykCYH2cwxtcbt/BkzxhTKPAvP/uuPeChS+2As/HQo/Too+f34FGAC7nN6MdtQkzQAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "2a55e75a-9704-9014-e909-69bae09f6ecb"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "CYCLOPS",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALFQTFRF7KIi68qOS4nFpXelhWKmR5rRhbzg5vH5Zne3q5mHRozIrHZ/OTMti1+ja3S0VoLAtdbtUIXDVJm4gGapR5bDYHu6e2mszrlI8KsgcHCx88ImdW2uyLOeQJDLqa9puaaS2rw9nax1KyYi2H8pg5yQ6rE0u0s055kk8bgsZFlPW369eKOWxVwwraJspZexwrVToX2FvIuDkamAapWnYJyssTk35My0/8UbkFugO5PO////fXo1jAAAADt0Uk5T/////////////////////////////////////////////////////////////////////////////wChxDseAAABQ0lEQVR42rTW2XKCMBSA4TSNkEIBWa1atWr3fbMJvP+DNWgvWM5JyIz9Lxk+CQhJSFW5Tjkwx60qUo1H5eBG44q4Fucr4RKntMohpWVHAjTinEd0IIingTzEptQMvEI2my8MgAayXeDpQSq7pVrwKPtFOsAAMNcAKqEWOMhBEOOgAAHHQQCCAgUeeL5kKIhhIFEQ2QKOAA8B2cu9gLq5hkF2JbA+QbAWeAkEZkJsd0C3F0KsIaB+aAe2FWKCgGcQ3AmxhMCbEgRIjUg8QSCZofc8gf+Hb+y5LjPsbf3yff/jpJk68J7oP9HTn2bqxQh133QIAKoDtA+Yfl5ie3C273IPQj0Ia/CwOa/brGpADVNlDVZ/41GX6I6oPxmzzj3kJsA7wDNO922QmheU1xbI/2mNOyqwXtittw7WmxPb7c+vAAMAUiLcr5jjBYIAAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "8c37523b-98a0-c8ee-b918-5cbb5ee27fe8"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "DAREDEVIL",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKVQTFRFz2gr5osi7p4t9L5z/fLj3oAltT8213Qovl5WwFEx6ZEh////wF5duUU0uaaSxFYwOTMtq5mHy2It4oUkzox9+Nir+vPz4cOs16eVy4N2zoOCvEsz2nonu1JQ58HBHRoXx3lu7M7NtEI/wWdetkVE9ebmyXd205CPyW9SyFwu2rCdj4Bx3rqk0nU80ZWFxHBm024q3aioxWtp5My0sTk37Zcf////TP02CAAAADd0Uk5T////////////////////////////////////////////////////////////////////////ABBZnYsAAAFXSURBVHjaxNZpc4IwEAbgIDcBaQEBwVt7382G///TSqzjEAiJmenxfsFx9jHsCJugprFMemFMq2lQM5vQizOZNcjSqG+FhUyqFRNRzfSB0S8IAikIHLcH/FgKXHDaX0xt1ObdNtgXEMhADFD7cI7DPrsy4MAwDxJgCOqhlgBXBPgmeJAIgT0OfCFA4yDSBcJ68H8OpLrAFgNHF8A/AvQX4BNvl53ScIuXErAAOOQ4vz3XVxjfyFZgf1y4ynF1qv/A+SoEiFQPX3h3+L5W4fGajANx18Y4CETvdCwbAki1QB+0U2CzA3ibA+wyD8Db8y0PR2UEZZE9E/KYFYSUr2TPtzwECWSkG48fAUOwgDkPHMX0pkcwvWaZMhCrQLwh5Gl9xbJuBbgq4HrtAqf7YcBQAcPjeqhVOxCl9936AqnBSxeUqRpoboq/ALQ3du2jg/bhRPf48yXAAJptvhJjehdhAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "0c2aed6e-2d18-fca0-44a3-36e702cee0aa"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "DEADPOOL",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJBQTFRFORMPkUFcaDtt1Ec3nISmoUNWRxgScSYeqURSakZ56+bt2ks+yklFjTAleD1mfyshgT9j0kpC////wkhIcDxpDgUEiUBfz8/PEBAQsUVPw7XJqjkscHBwYyEamzQpVR0WHAoHuD4w7+/vMDAwYGBguUZMKg4LgICAQEBAv7+/r6+vxkM04kw7AAAAYDpw////18ZgTwAAADB0Uk5T//////////////////////////////////////////////////////////////8AYqXQeAAAAaxJREFUeNq0lmmTgjAMhttyWAFRDvE+1ls3gf//77ZFRGFpgZnd94t2Js8kJGlSkmWOmXaU6WQZyZbDtLOGy4w4PewF4RAz7SWTpD31J0DCIxCKeNIJoAGUCmgrwM5Q0ZnpAeZBTR7TAhx+ieuAGBoUa4BFE7BQAwwaxZQAbQaoEojAILgz3qaGjfsviJQAAEFE8gbk8QKgAnz4Qqnxy36cH1fgK4AJDHKLaRGUMc2PA5goAAo2Fia5nrgIMVEAVh5z6aJwIACrDcCRBEbYHbAlYLcCtARQRoQlnSiztMHHYf1MJWzl7/rw0GSJibDXYXif53kSOZrfw3CN20ozVSrtfSNeZ+HsiBv5CUfx94poeMrW4LAXYcxvJ9keBE+3ef4JXAn4RTPgE3il2FdfoOBVrE2Z1T0EmhtHXy5WZd1W1etQHwIB7KTVThbu8gwo0E6NiUgnIUV/jwnZQqUIDYMsqt/PqGXy+XXAb5utC92MaQJi99Pejdunt/UJWB3GPftw4bIuCyVRjDD1BqKFD5d23XExF2vC4/G/LUU90Hux93469H6c9H3+/AgwAC7zfb1qjy/dAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "f0d3b632-8cc5-0f75-8d01-f57968f15d37"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "DR. STRANGE",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPNQTFRF1L2pWJKzFT9aH1+GOTMteq/Q5O/1Noa4j4Bx1r+p////q5mHcmZa3MWvR0A4rs7iAwgLHRoXyLOelKWt2MGs7t/QGk9w+vXxSYqxybmqIWaRnq+04Mix+PLsDg0LNIKy6dbCv7Wq8OLVEjdOCiAt/fz6iaGtDSc438ex3saw69nHtbm0gHNl/Pn2Jnao5s+5NYOz8ubaXpKwVI6xY5aza3FwP4eygZWdyL6wh6W048uz4cmy1b6qnYx8uaaSaZavHFd718CrdJqvb5uz2Me0ZFlPwLarBRAWF0dlv7yyzcK0QIizubau5My0AAAAKX6z////dwkyrQAAAFF0Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////////8AaOyowQAAAYVJREFUeNq01mdzgkAQBuBVAaWIiIK9t2hiTe+9Zw/+/68JCeOEDjdj3i/MMPtQ7ub2DkyTY42EYTnTBLOQNRInWzCBo6i3BAesQRUWDMrsENT1dCYpqOuDIfmJ8hYPMumhQv4yWUSC+oR4o+hRQCEBedVDwR0JziAMpEMAWdCCDA0oUgKZjwYMf93+LWTsx+cQ25FAQt76hrbEI/KieINWmOg3YI6Rc+hMHPBF2i2Q/eAgFKyOSZH3A5HIp8GgYf0wtkZrZ/V61BKJio+BAFF9Rk0QWstt+bIiCJpKEPdDAFoD2q8I865d350Llb71E2HgY/vgmWZftdn2TiMQHGFYnj6DhzXVONvzFV9M389XoU3gFq7y7vp7gE5E1+jUoOwGAKXINlPygCbAJhJsADygFtPIam4w9XyRH5TgElG2l6c1jXk4jAFVaKJoryBeUjHfi23GPddUlMexYOyaiHI1FlRd4CXB/vDlBA8JwEnKkc4/7nE7A9QbO/XRgfpwQnv8+RZgANIdi0agnrmAAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "86dfaedb-5741-cfcb-fbfb-30b534b532da"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "FALCON",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJZQTFRFDxATv7+/BAQF7+/vQEBAHiAlMDAwODxFEBAQYGBg5+fohYiOSExVgICAICAgNThBGhwgz8/P/8UbLTA4r6+vj4+PUFBQExQXMTQ8CAgJn5+ftre7IiQq/9BG/+mq39/fFxgc/8kp/+ab//vx/+KNJigu//HG/9RUcHBwKSwz//TUCwwO/8w4/9di////AAAAPEBK////I/G5qgAAADJ0Uk5T/////////////////////////////////////////////////////////////////wANUJjvAAAB00lEQVR42sSWZ3PDIAyGwTvDSWzHI3vPtsj+/3+ugjQpmOLad72rzh8C0XMvAiFBqqo/KFvaoF9VpFoMy9Y2XFSk38EfiT4ZlJ1sQMqO9j9A4uYELXeTNsB4a8HLrO34N2ACNZs0A+ifye5ZUCdUoACYhzIQUoCkAcihx0YyMGJXIGZgDLCx1RA2dgBjI7BEAaoClPXUKBTgDSJWV2ARzEyAj0tmagwBTnjKmmQgwRUxXIK8rThxhZsBcCHF/6fc0RMfbjJOzME1AFsMEc1BR6R49B4fU8gNAMGY0ew0pAyARWFqi7FyEkTZJPYykH9bBgBMAHQEgibgY3eUgePuwg/CAFjotI7j1eEJHC5xvG9YEoEpY/tVvLs/gPt7vNrzgzHt0lKcNGPn9QNYn8WwB0sDgNlt60HX8puo9ycVLvQBUIHP1RukDG4iXaMAPExy24MgEtl7Ml/RGQ+79518Gc+kWcOdPoHzSL4v8/jIbQB8CxPWkWsABctvqksuSkiAownUAS4hXblME9BKJUqkUh3TBDQAJaTSF2oCevV2IZCKhiagA/5MrhqawA8NpZD7Q9GmAxXk6U+Klj0umfCWNUn+pil2buydnw6dHyddnz+fAgwA8W2KwzJy2p8AAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "45f212a4-66e4-5e36-7191-23d880938e1b"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "FLASH",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1QTFRFtEI/upnEl2Wm8erznE55qUJRklmZoUpswF5drHZ/////p0RYOTMt+vPz46s84cOsq5mHwYlmmFOG2H8pl2KY6rE0mlB/1cHbrT1Eqz9LuaaSyJBepW+Hu1JQzox9nkxypUZe+L4jzoOCrzs+lFeT16eVuoNunmiPyIV8xVwwx3luHRoX8bgsy4N258HBo0hlwFMyxHBmu1VOvl5W3KRF7M7N3rqks3x21Z1N05CPllWM3aioyXd2wWdeyLOexWtp1J6Nzm4t9ebm3Ygnt0tHtkVE55kkj4Bx0ZWF2rCd/8Ub5My0sTk3kFug////P+xQDAAAAE90Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////AD1WsLMAAAG6SURBVHjaxNbndoIwGAbgqCyxSMU96t57d++dfHD/l9OgVlEjgT/t+yuHfM9JopAEWVYoYHpMIGRZyEoHTc8Jpi0U8lFPRQgFTF8JINNn/glIgiyKoizUvQEjAr8RDT6QduV2IhIPiLCfLAcIcBjZHWSOQM0NFAw4TqpwEjTzIwYYxfInQKtyKTJANowLbBDFYWClhZNM0MT4hgkMjGMs0McVgQlKSVxJHAM6QFRmAjnqGAI5VoDxBxO80p7+EUjQpzjOBHG7q3UIwhwQ9gGe7a7YISjYTztM0GGOYC86NgZFXSiO2ouF+gjjfHL31+1AIj83acmLqlW39Xeaqr0DmPOrBPttzQIoQ0293dRXVW2oHLzg+6C8qlOqF+v5XK9nFzkNUtvJTL+m27bg8sVlASFagoqEkOKqhSDj9okKgPQB3OvEjj6Brv4GJTcg1WBJnNEBJNdNoAyNPdCAsvuuYcBgDxQhxdnIMhNalju3k6Otboa385VmtL53Zqf3SchM5oE6ULCZzwMhqM7dvSPfjiUsRf52n3py/kiCh/Oh7QBtLweKdKL9Z4ei74Pd99XB9+XE7/XnR4ABAF/8gANcLY9jAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "f4bd3b67-eb59-c4e7-fcb3-2567fd1ac9be"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "greenlantern",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAXdQTFRF1L2phK6DNFc4LHNFbEpEMpZc5PHphr6JdrmTq5mH////mcGSAAAA28uwarl83MWvQiUiWbp4dLuAW51thcyc4MixrdW9nLWPlHVqWDQyTiko0LahtcWekqyILmxBp9q32sGr0cmr3vHkMGU+OkEvnoBzQCwlxquY6fbtYbh4gF9X9Pr2tL2bj4BxYj87Ml47L5JXh6mDKIFLvKGPV7ZzJohO2MGsfbyFybqkPJdd2cKsTI9bPDosRpli48uzyruk2MiuRZhiNk81b8OKYKJwKnpITaxqZqByst/AvreekL+NbKZ2TaJlR0QzbYlbvePJ3cWvkNGlm9Wu4sqzVJ5qOpVc1b6qkLGJcmZa1r+qSUcyiKqDwbqgnYx8zMSospaFesiTosKWrMOaXX9at7ibeHxjUpxoMJNXRSckyLOeZL6BqIt8na+OcpFt0+3blolzVk1E3saw38ex28SuSFc9vr+gyMGlR004TrVv5My0RB4fJI9R////Mw7HDAAAAH10Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAQ+XgfAAAB20lEQVR42rTW91PbMBQH8AcxSbCbhAwIIzvsWfbee9OyRwsUunfL0HP8x6Mo5s4ktmzdwfcHW+d7nzud5HsSaJrbm3MYr1vTQKupyDlORY0GboF6KtzgzQnFCznBPCPoS/S4nIK+RPlElUrTnLUHrp5GVquncZALFp8Us1RleaBZNclE1hIkVPPMWYFyC6AOigKXCKgXBFKKD7obzutZYV3h+R2xjgvaEbvpNGpTiA39/S1II3GBhL9PpKYU6vFdpu2Az08GlHShPK0MEL+vlg9CJB+/Eospfjb08ME9KcmVJfj8Uf2yVArGVemnOYhi0yb51RoxVic7kuNqC66bArqSN2RFlreDj+XfMrIc2VAROy0AbpFgslXO6GK+Q868IaTdCrynwkPrghF9Vm8v2DLRz1FTsIC6eJJ8/cyo+bLuRe/+FQvP1N/bw1HLJhCGg4CnbbiwZyFluG1tDOA1r2uMwBD7h+iGh3z5EcAPbpuJw3HhP/oQY69dgGUuCAOgMdVFMyptZNPFIG7T+XqhGvHPK5YuxACEbcAsBe+6KlmOvmJgxLYZr+4YpzQWtwWnASMYCtuCyf9GcObgfLg2gl4H4FOZIfsveMY9GxA+2IWvDsKXE9Hrz4MAAwA5EOPxpY+AcgAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "32981caf-ef12-1dad-8bda-0b1b9e6f0c0a"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "HAWK",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYBQTFRFY01oLhoz6d3R39Tfto22OTMtq5mH7+/v6ujq/v7+4N/hwaHB////vZq9t7O5TzNSqqSr8vLy5+Hn09DTz7TPIQ8m49vjsJmN1MHUt4+32cPZqH+oZVlp2MfY287b8fHxzq6zc2h29PT0+vj68PDw+fn5ya7JPC1B0bKz3cvdnJWeyq3K0LvQfGZnJxEsY0Rm7OHs8/Pz9fD1xcHG+Pj4wJ7AupS6OiY2/Pz83sO0dlR5ZFlPxafF/f39u5SyRzNAHQgjqIGpOyI/ppmZ2dXabVNxalNu5+bnimWMYU1T4tLirIOsjYCQ1r+pnnafgF2C7Obgn3ugsIuwSjxOmoid8enxV0pcxaXFj4Bxwp2zuJCypJGLbExvgWiFr4WvhWqIcmZa39vZt5i3jWqMyKWz1LzUpH+fX0Rjtqy4OyhBvbO/Lh409vb2V0hbiXV0hW+J2dfa0cXSRSpJknKU27+04ci0d2B7WTtcc1J2uaaSfmaCEwAZ5My0soey7u7u////dXakagAAAIB0Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wA4BUtnAAACIklEQVR42pTWV3vaMBQGYLW4BRObsCGEMMrK3rNpRkfSNulu0r13m9G9kI/112Mkx1gxxtZ3Az4674NskAQiRJ6NBXUfKU7VCCGILFZ134nJBMlBXSAxgs7pQqmhoBiYQmL9elEU6J1BOBKJzPgGV27sYZqDL1ddwUDouPBtp4lYPz7V/PrJagykOVBXzXr0c9MGmuh+mNVD0gAHeqBOPyNKu2wAN6gIqTDKgXkA1RCJlAPgsjGclgDqHAAjalzPYyfAM3rA6IceBwDpO+uypQXyWTrKgQCwTHQA67fNwU4Aro0b4A9i2WyBS7egG4D+j/w9TFgjLgDg7vM2eHkRvAFsbxyDny/ABaTtA9Dfy8A/rio5H2s7VJzna/z3cMEpTvRDlv+1mtXke/PNj2fstS/30KzE+fUwz6qTyvQcuw92PVJRctyMLFBg5bmKUkm2pzGkKNN97JbjJ1dc1pxCcmjXEluTuRHzERWcS7QggWvUdKc1HbI9qseDpdX21ajbJhC4R8dXB39rRpZKT+jlm7j7rhEd//uhtKRZ+fXube96ots2k8JjGpc1/KDrvlTG13mwgKNdQQKv8QCnPHa+xoLRtXyG5lELlD3AMNa0/6/O0izf1DI44QHCKW5GmYbnZpzP2MHYsCeIcOAw7L3dP7WDyz7OhzunbXnt8wQSPrLcUxUFMdGDfRatCJ3sRRmRmoCoLhr/ZsiK31kF92VCjgQYADUy/Ax2N8LeAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "e7f1ba90-c3b6-c4bc-814a-4e6b1adcdf29"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "HULK III",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9QTFRFKJlWyebV////O6djeb+VodK1MqBcbkAw8uvnlMyrnmtNv5yJRa5pTLNtWbp4apZeTI9bRTEpSSIhiFQ7g1A5NqRfkNGl2MS3k2ZEaTsufG9GTaxqWS8oSnNMSFc9eUg03vHkZL6BYaBkTJlgp9q3L55bQKtmj2xHc0QygXtPTaJlXKVmfIFSXjMqZDcsSnxRSGBCRjoust/AbpBbTyYjR7BqQqxnSbJsm9Wujlk9LZ1Zk10/V6JjS4ZWR004OaVhTVs/yOjSV6tp0+3bvePJKptYPalk6fbtRSckbn9PimhEYJdeVCsl9Pr2hnZNVHJLU7BsRB4fTrVvmGFB////BQeYGQAAAFV0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////ALChB88AAAG8SURBVHjalNYHc4IwFAfwKK66rbvuUVfrrNvuvds8+P6fpQGspfAS4R3nvVz+v0vg1EAUJRCSbVYooChEyQZl2xXMKiTgIM9EgIRkRxUissNCQX4l9zdyMm8DFP2sUpS+0+mU0hQb5PtCMKCW6ghBxwoqIlCx5ulhkg+wvFmQvXmTMIAUpTaEARS5gPpRkOeDDgr86tS4nDAmEyNtmOLeQ6IA0CiN9fRlqcdGz6zboGDFZhqgVWFYHl3oLZTYTXMeKwNgrTilRQ4o8sAAB6fXPPD1iYEuQBkHJYA2AuoAPRQk2McZAtTJMtxVl7W/cG1SbcaHrKnjK0AB7t1u9yS6jd+wwbIAnBW6euiDhapaG31SWx230af0rcUyzcx2BbXVmtsu5wf0kkZuOnLc5v7ijkgayRNZACyC5cWALOY+Qy1aZA/wgeR1eXdXGNYi8ErIHCSX27W7wiCJgEzWAJLnwLO7whARg0cwbwnSIvAQAfOWYCYC6kM1bQnAJwDnbH4mGYqtCG8CkDuxfjViOdHf/U60wr/5PUdWLqbnrlp4HjnjYv/2Y+9QdHyKCoHjg93xq4PjlxOnrz8/AgwAGDeO6qur4u8AAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "cea8f3ff-e05d-85a6-9d0d-7faa734bcc1a"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "HULK",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9QTFRFKJlWyebV////O6djeb+VodK1MqBcbkAw8uvnlMyrnmtNv5yJRa5pTLNtWbp4apZeTI9bRTEpSSIhiFQ7g1A5NqRfkNGl2MS3k2ZEaTsufG9GTaxqWS8oSnNMSFc9eUg03vHkZL6BYaBkTJlgp9q3L55bQKtmj2xHc0QygXtPTaJlXKVmfIFSXjMqZDcsSnxRSGBCRjoust/AbpBbTyYjR7BqQqxnSbJsm9Wujlk9LZ1Zk10/V6JjS4ZWR004OaVhTVs/yOjSV6tp0+3bvePJKptYPalk6fbtRSckbn9PimhEYJdeVCsl9Pr2hnZNVHJLU7BsRB4fTrVvmGFB////BQeYGQAAAFV0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////ALChB88AAAG8SURBVHjalNYHc4IwFAfwKK66rbvuUVfrrNvuvds8+P6fpQGspfAS4R3nvVz+v0vg1EAUJRCSbVYooChEyQZl2xXMKiTgIM9EgIRkRxUissNCQX4l9zdyMm8DFP2sUpS+0+mU0hQb5PtCMKCW6ghBxwoqIlCx5ulhkg+wvFmQvXmTMIAUpTaEARS5gPpRkOeDDgr86tS4nDAmEyNtmOLeQ6IA0CiN9fRlqcdGz6zboGDFZhqgVWFYHl3oLZTYTXMeKwNgrTilRQ4o8sAAB6fXPPD1iYEuQBkHJYA2AuoAPRQk2McZAtTJMtxVl7W/cG1SbcaHrKnjK0AB7t1u9yS6jd+wwbIAnBW6euiDhapaG31SWx230af0rcUyzcx2BbXVmtsu5wf0kkZuOnLc5v7ijkgayRNZACyC5cWALOY+Qy1aZA/wgeR1eXdXGNYi8ErIHCSX27W7wiCJgEzWAJLnwLO7whARg0cwbwnSIvAQAfOWYCYC6kM1bQnAJwDnbH4mGYqtCG8CkDuxfjViOdHf/U60wr/5PUdWLqbnrlp4HjnjYv/2Y+9QdHyKCoHjg93xq4PjlxOnrz8/AgwAGDeO6qur4u8AAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "9139533b-3f8a-de30-6f62-3519f5e802f4"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "HUMAN TORCH",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIFQTFRF8Ykr52M1/b0d////sUVPakZ56+btkUFcnISm2ks+wkhIaDtt0kpCoUNWgT9jcDxp+NLOqURS5mJUw7XJiUBf9Ly2yklF6XlseD1msIBGuUZMiF1b/fTz+Kcj74Et75qR8aad5FdHmUJZnG5Q1n43xHRAakNr/8Ub4kw7YDpw////KGrO5AAAACt0Uk5T////////////////////////////////////////////////////////ACPJp9AAAAFiSURBVHjarNZps4IgFAZgTBJxySU1tb3uvR39/z/w6qQpKNtM50Pr+wwNEAfUto7baJbrtC1q99tGu7b7FjkG+U44yG2MykWNYX0JHJ9VVR3/NAH5fQ318/DVYBcAGgECGqrADmAOALAc+JQHQKQggQUIpIAuAWQSkMEKSCQgWQOFBBRrACSg//qCziM4o0v/yU4I+kUAa/P61MZaTOwSzMQ7D6EQhMCIIa8Ggxjz7O5gAIaZ+OTBEwIPJjHltQBYU57dTYhbhhS4SrmVQ9xCx6f8MKUP+SmWjVADXG3bjodh0rh7cwWohYB0qbwL3d7g1r3Mu+eHEPh97D7/Sff+0RdvPgwrhSW7NVoDkewvilUD8CBSDbA4l2o+72kcZExlqqOyYPOB8mwlLCDq05vO89RXg3AOEo3+4FPZAGsNpaTCKRK0rDIYZqjU7nEEex4mX+qixo3d+OpgfDkxvf78CzAAD0dXJYErRAsAAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "8f6498d2-93d8-5468-6adb-dda5f3485dcc"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "INVISIBLE WOMAN",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARFQTFRFaae7xNCVXaLARpjJ+Obalryo8OOFR5rR5vH5hbzg5t+H18W3+PLs6dWh69ib59Ko7+GI2tqMrcaf////69nH5tGrtqOT7t6P7NuVtdbt5c6x7+CL69qY6dbCcmZa6NSk5s+uZFlPHRoXur678ubaf7Gyi7atdKy2nYx8z9WQ59K928Suj4Bx9uPV1r+pAAAAocGj6tee7d2SUp3F7tnH/fz65s+50Lqm9ezjuMuaR0A4OTMt2ci2UJrLx7Kf58+5pbe+RpfM7t/Q7dfF3sew79vJyLOehazDxMG5r7q8W57J4cq16NG7Dg0LuaaS8+neuaaVmrO/6tTA2sa2eqjEzbik2cKs5My08eSCO5PO////z7jP4gAAAFt0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AJz6uLwAAAHjSURBVHjalJbnYoIwFIVDqIgUFVErjrq79957790E3v9BSgLagAnI+aGX5HwZN4EEOI6ascdURnUc4FTT9thKVx2gJvC7hAoydiJlAKcQpEzJlZniVoYLoKnhoTQTxgBQwiFJMAKQ1zFH67IIgAuYq4UtPgA1LJAGeYDYHyCGgFzAESrII0AKRyoVBmQtGtDkEDCDYzQTAqQ4QAoCMo6VHADmoqyGQn7nAoA4R4qVRxUmTyByCorVQq5yzCR8gLtqm1nkiQKFAMBz1xBiAcwC4STVN3z3fLO5jFCeSZMHgKC77bc8313rdg6PVj0AcAGj0R6OpLn24jaPbl/LIsBolBGjTmfVj8oKF6jQysVSaXfITJdK9D/LBXKk6q1YLO70fbtOHhZJKAZ2+7quX/rAvq7ve11EDImrFn/SWZG/bQjSWs/x7HlLEa8DrxMDRyycNeov41EA/m9oz3S9t7f08+vFDb9qi79b6ZiW3qeITtkRYcH2prn9mvT05Gd0FGBeoLxr2p6gWnHDWn3w8QsAB8xrSTbgDfU/u5E1KD8IfSohmKUnlUuQPs6utj9J+xV6ds0CKDyyiM4HGT1+jD/jqO48//2FPSZgn3z0eg/ftj02IFbygz3x1SHx5STp9edPgAEAjvLMKzkbmT8AAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "70cf5680-13c7-f2df-7fcb-117df2cd3675"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "IRON MAN",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJlQTFRF2H8p7KIi3VA/////wEE6z0g9yWUuxVwwtkI1/ern85aJ5VNB3Ygn7WJO+rwd6FVBtTs4wFMyw0I6x0Q70ko98Ksg4pEm03Yr9bQf2k4//8kp+MC4u0s01kw+/+24uD0455kkzm4tvD85/9txy0Y8/9BG/+ab//TU//jj4VFA//vx/+KN//HG/+mq/9disTk3/8Ub7FdC////EWv+DAAAADN0Uk5T//////////////////////////////////////////////////////////////////8AcZ69jgAAAaZJREFUeNrE1teSgyAUBmAsYI29rKaXTdl20Pd/uCVRM9EF1Kv9LzJh5nwTJHIA1bVlVxNjW3WN6uWimpzFskbWjHomLGRXs2Kjamb+CTgFxnqEsepPAc7pAM/oiT8CnBj6CbAvA34Af6LLQMIKSLrvalNksk9HAiJYKZTu2vqQUi8HSCQgIB5lMRvg3r9nZiwGTkgfIQ14ewwyXQxUowFZN6N7FBAD3IJeXAk48QACVQj0ueDAB4kQgMkFWAyAC04ioMKKu0q6GJCfy+f7S3F53HwpYrAG91vTtOu5bMqPGzbSSjHAkB6vrOTS/sj5gw02pQFiQHlBgQgUfJALp+SDwgOh+H+IQo+3rI4QFED+1PdXdbjjDs0ue4ln9t69IVC7bfYMgUjal7ZgDCYEhRTEg/eP7W5pI7s3JoV6qElKqQFbeau8gbnPcqWJu9uHEI8044DQ3fO5M0+B9QiImnX1lFb1GyUHYMSqkRGCaRD2DGkwdj7cgKBV14zz3IxHD5R1r+NH/viR5Sd6W72N1amHoqOy8A/F2Qf77KvD7MvJ3OvPrwADAAg5kZ9WaT/6AAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "dff78dca-47c6-023d-6b69-60fa48297861"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "JAMESON, J. JONAH",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVZQTFRFz7CvLTA4cmZaSSIn1L2pAAAA8erzupnEl2Wm1r+paj1gVy0/i1eYgF9XlWKhDxATHiAlq5mHgHNlTiYvfUyAYj87Jigu4cmy1cHbpXelsIWo1LewR0A4eEh43sawuaaSyqmuTikoGhkZxaKtGhwg1b6qZFlP2sGrlGGhXDFHsoylm2mjKSwznoBzLyomnYx8b0BoKyYiupSqVk1ECwwONThBj4BxoXSidERw38Wz2sOtqIt8YTVPyLOegICAoY5+qoCjNDQ0lHVquJKpWDQy28SuIiQq0rWvtYyp48uzOTMtxquYExQX3sSy3cWvMTQ818Cr2cKs3MWvDg0LvKGPUik3v56m4Mixh1OQCAgJVEU+UFBQHRoXoHCknW2ijXhrYGBgw6Wn2sCvbEpEMxcXimpgzLGoNxgZxKWn1r+q38exu5imeWNYPEBKRB4f5My0kFug////eUu7DAAAAHJ0Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AfNfL6AAAAg1JREFUeNqUlmd32jAUhoUtIAwzbEYgYYUEsnezkzZ7tEmbtBlt9myTNrr4/3+pLMw5ASTFfj/gC3of60ro3Ctkmj5/zaH8PtNEZmdHzbE6Ok3kc+GnhA/5a67kR6KRsOB3PjCwlFPncgMhB0CCEKKGVMJUDxLyGQzSIkM2QziokjYZc2EBwLWz1IJhLmAQoQwuEBQD4/yUhH5VsOhjERASACFrUCu9tZY0GbBEx0aguphs2JOLAI/0GRQAdNUaWPrB3qt9Zl80MTBOkmCrujZSbcQbJCcAEuQeOEq+PU4tQIkHEHImOkuE8AHh4SMPH3VFUfQ4MwbiNFZmrn+rAiCCfq2spjxUqeluRZn4MmzFsfObf1k+gGDGO/xa10+vN2qHse8FyPCAIZrFlG16jeqVXjv06ABFHpChgOKxXRewPG2HW3RFiJvSPEA8VjelFIC9D/ZkAYBJLpClU4x+ZVmMUlOhhxGpCkBXhL+tmfJdoDsa6+2ZCljbWmBxJb29ExFWjb8LbX9buq9fUmYG8UKbH8vq0izGB81AH76VAVcYp5uBQ3wirXz4W0tKL3hQCjzlrVM34WUas4jnT1Lgzy71jNmnVbd292hWCqy3bet+v7x6l1v885fvNZRiM5B9twNFuphxM88ekw5aVp3In1qfZUc9bgg1VHTaFCVyD7hu7K6vDq4vJ26vP/8FGADN5IrPQtSSsgAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "a95cde9d-4302-b25a-f3a7-4ae2e6ecd684"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "MAGNETO | MUTANT X-V",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOdQTFRF38HAmFOGpUZe3NLfpXellmSl6uPjlWKh1Lew7+/v9PT0/f3959XDsIWo38Wz////lFeT5tfXoUpsvFtZrzs+tURC05+eklmZ+fn5v5ur2r6y+vXxAAAAnE55llWM7t/Q18nbm2mjyLOe3sawDg0Lo0hlp0RY16qp8OLV4Mix/Pn2zIiHqUJR2cfU6OXpy7fRmlB/rT1E6dbC69nH/fz6yH188uba+PLsqn6m5s+5gHNlonev0JSTwGZl0cDW6NnK59fG7OjjuVBOnkxy7ezq4tzkuaaS5tK/kFug5My0sTk37u7u////wXHTpwAAAE10Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////wDTahGAAAAB5klEQVR42pTW53abQBAF4KUIZCkUoWZJUXVvce92nJ67K97/ebIUBVkwa7i/ds+ZTwwHsQMLw2ZjWTKNZhiycHtrWTpb2yFrVqiXoskay0ppsGXFFAKL9V5eeswqB6yDtkjTPrA+Br2uWEu39wGwXsVGXi0VsNoilx8tGhTVyzuxSHAiCnNCgZYg0iLALQVuCdClQLcYkB2962kNMCE6gY/+hb6q0y/68IOOEIwCE9imDfgx0X3E2wkNdDy4nNcdQLu81ACnzrnrQCeBBlkvMzTR78McxhsXGglg8jQD2x6s1iZKAF6v/18+KMH9zR1fy93NPXeUYOp5o8dV+ePI86aqliY254cj7/gqqb869kaHnM8nJBgj7vx6moDpdXw3GJNgHw7PxcE+/aT96BLDrHgYXcBX/DVOMXcHdgbsgTvHqQKIADIZiHaBUAGxtwn2hBqIjrYOtI6gwVnyHrwHyXtxVghm0FOw2P0ss/snBTpmhcBALCR4WkQ/v3hKgA4YxYfAeSw2W5L159RBNqvhZwqOjlIQoPaVPluNGsYJ2NlJwBg1Q3V6SwG8rTr6Kzcb9bn5EIlf3z4l+Z6vzw8UKbJNvr5gZP1+ztbPRpmh+KVwqZyiyrFbebBX/nSo/HFS9fPnnwADABzjWv3xDFJWAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "fd985be0-2cd7-9646-0d78-815367f484aa"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "MAGNETO",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOdQTFRF38HAmFOGpUZe3NLfpXellmSl6uPjlWKh1Lew7+/v9PT0/f3959XDsIWo38Wz////lFeT5tfXoUpsvFtZrzs+tURC05+eklmZ+fn5v5ur2r6y+vXxAAAAnE55llWM7t/Q18nbm2mjyLOe3sawDg0Lo0hlp0RY16qp8OLV4Mix/Pn2zIiHqUJR2cfU6OXpy7fRmlB/rT1E6dbC69nH/fz6yH188uba+PLsqn6m5s+5gHNlonev0JSTwGZl0cDW6NnK59fG7OjjuVBOnkxy7ezq4tzkuaaS5tK/kFug5My0sTk37u7u////wXHTpwAAAE10Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////wDTahGAAAAB5klEQVR42pTW53abQBAF4KUIZCkUoWZJUXVvce92nJ67K97/ebIUBVkwa7i/ds+ZTwwHsQMLw2ZjWTKNZhiycHtrWTpb2yFrVqiXoskay0ppsGXFFAKL9V5eeswqB6yDtkjTPrA+Br2uWEu39wGwXsVGXi0VsNoilx8tGhTVyzuxSHAiCnNCgZYg0iLALQVuCdClQLcYkB2962kNMCE6gY/+hb6q0y/68IOOEIwCE9imDfgx0X3E2wkNdDy4nNcdQLu81ACnzrnrQCeBBlkvMzTR78McxhsXGglg8jQD2x6s1iZKAF6v/18+KMH9zR1fy93NPXeUYOp5o8dV+ePI86aqliY254cj7/gqqb869kaHnM8nJBgj7vx6moDpdXw3GJNgHw7PxcE+/aT96BLDrHgYXcBX/DVOMXcHdgbsgTvHqQKIADIZiHaBUAGxtwn2hBqIjrYOtI6gwVnyHrwHyXtxVghm0FOw2P0ss/snBTpmhcBALCR4WkQ/v3hKgA4YxYfAeSw2W5L159RBNqvhZwqOjlIQoPaVPluNGsYJ2NlJwBg1Q3V6SwG8rTr6Kzcb9bn5EIlf3z4l+Z6vzw8UKbJNvr5gZP1+ztbPRpmh+KVwqZyiyrFbebBX/nSo/HFS9fPnnwADABzjWv3xDFJWAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "cddcefbd-4f09-2f57-f3ce-daf0ec5ddffb"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "MAN-SPIDER | MUTANT",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALpQTFRFKg4LcSYeqjksORMPDgUEVR0WRxgSjTAlxkM0YyEa1Ec3fyshuD4wEBAQz6WoyMjTmzQpyNzq+Pr82ujxHAoH3Gdc14F8z8/P23BnzLe+3l5RcHBw6fH31YqHv7+/za6zgICAj4+P4FVGyr/IICAgYSol7+/v0ZydYGBg39/fr622vbK6r6+vSlJXrL/MxtHe05OSusTQslhRtFBGol1Y2XhxMDAwPURJpFRN4kw7////AAAAxNrp////y70zkwAAAD50Uk5T/////////////////////////////////////////////////////////////////////////////////wC6+3E2AAACYUlEQVR42pSW12KrMAxAhScbmhCymtGmu717CiX//1tXJuW2fTAJerJBB1lCw3A4jMb7M2U8OhzgcHmxP1suLg8wGqDPxAjG+0Eyhv1A8QC756fd2UCxmiCKAHGyKs4Ail/oxAEss+IUkF/jewCv834gx1cJom6V9wHfbl+1rCL7urz93APUWjudUMsyAh26tda1HygQDUhZGet8sLKSEgxi4QVWfHYl3jstFPtSe4EFWyghfgNiEMCR8gEbp4FJ9AZECQJ7svEAX1mD9SDtgJA/X7ITKw8w0wE4XdkB0vmjjZl5gO9k2vM7PQe0JFulHx5AkGpjL/gUzhPtDISRotIDBMTiEPcvFP8D9wvds8AL3GTutVUmFEFsVBIoouymB7hqpktmOPjsA6SsvZw26x5g2zTN3ZIUlCJIQdHyjh+8eAFDy8bJOiNtg4iydbvdkvEAP+mm1WimmYJKZdPj7jf99QC1ZCeOJioOVfbSbq4Iag+QC6LtYzN9IC0VSE0P0+ZxyzHIPUCB1kWdVCIg5kTlsnNiPxTEh/SecLopqcI2RcMKQ95wKk689XCPlqvBgmgLVZdgOd8t3nuBL6KtnkhpI6WJVHCsIX+J7j8Z9+lUJe5IiXKFgeZPT9eYB86ETY4NJuFOE8to3tfIZpZrwKRHIGR7xk56O98GdYJV1/QArenvfNw44irVHaBTiBcnmvEcI0g6wEqN+al2PxOUiiRgSURK5ezkfNghRWXbVcMyIpyfnkC5xP8i83NG1tOi0188nzkU5zVPuUm9GTBFe8bu4ME++Oow+HIy9PrzT4ABABGDwr3QDozjAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "2677a427-5f1f-1dea-3a24-f33a6c70bf8d"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "MAN-SPIDER CLONE | M",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALpQTFRFKg4LcSYeqjksORMPDgUEVR0WRxgSjTAlxkM0YyEa1Ec3fyshuD4wEBAQz6WoyMjTmzQpyNzq+Pr82ujxHAoH3Gdc14F8z8/P23BnzLe+3l5RcHBw6fH31YqHv7+/za6zgICAj4+P4FVGyr/IICAgYSol7+/v0ZydYGBg39/fr622vbK6r6+vSlJXrL/MxtHe05OSusTQslhRtFBGol1Y2XhxMDAwPURJpFRN4kw7////AAAAxNrp////y70zkwAAAD50Uk5T/////////////////////////////////////////////////////////////////////////////////wC6+3E2AAACYUlEQVR42pSW12KrMAxAhScbmhCymtGmu717CiX//1tXJuW2fTAJerJBB1lCw3A4jMb7M2U8OhzgcHmxP1suLg8wGqDPxAjG+0Eyhv1A8QC756fd2UCxmiCKAHGyKs4Ail/oxAEss+IUkF/jewCv834gx1cJom6V9wHfbl+1rCL7urz93APUWjudUMsyAh26tda1HygQDUhZGet8sLKSEgxi4QVWfHYl3jstFPtSe4EFWyghfgNiEMCR8gEbp4FJ9AZECQJ7svEAX1mD9SDtgJA/X7ITKw8w0wE4XdkB0vmjjZl5gO9k2vM7PQe0JFulHx5AkGpjL/gUzhPtDISRotIDBMTiEPcvFP8D9wvds8AL3GTutVUmFEFsVBIoouymB7hqpktmOPjsA6SsvZw26x5g2zTN3ZIUlCJIQdHyjh+8eAFDy8bJOiNtg4iydbvdkvEAP+mm1WimmYJKZdPj7jf99QC1ZCeOJioOVfbSbq4Iag+QC6LtYzN9IC0VSE0P0+ZxyzHIPUCB1kWdVCIg5kTlsnNiPxTEh/SecLopqcI2RcMKQ95wKk689XCPlqvBgmgLVZdgOd8t3nuBL6KtnkhpI6WJVHCsIX+J7j8Z9+lUJe5IiXKFgeZPT9eYB86ETY4NJuFOE8to3tfIZpZrwKRHIGR7xk56O98GdYJV1/QArenvfNw44irVHaBTiBcnmvEcI0g6wEqN+al2PxOUiiRgSURK5ezkfNghRWXbVcMyIpyfnkC5xP8i83NG1tOi0188nzkU5zVPuUm9GTBFe8bu4ME++Oow+HIy9PrzT4ABABGDwr3QDozjAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "863a0dc7-0c04-e5b9-9c52-3379e1a57288"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "MR. FANTASTIC",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPNQTFRF1L2pWJKzFT9aH1+GOTMteq/Q5O/1Noa4j4Bx1r+p////q5mHcmZa3MWvR0A4rs7iAwgLHRoXyLOelKWt2MGs7t/QGk9w+vXxSYqxybmqIWaRnq+04Mix+PLsDg0LNIKy6dbCv7Wq8OLVEjdOCiAt/fz6iaGtDSc438ex3saw69nHtbm0gHNl/Pn2Jnao5s+5NYOz8ubaXpKwVI6xY5aza3FwP4eygZWdyL6wh6W048uz4cmy1b6qnYx8uaaSaZavHFd718CrdJqvb5uz2Me0ZFlPwLarBRAWF0dlv7yyzcK0QIizubau5My0AAAAKX6z////dwkyrQAAAFF0Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////////8AaOyowQAAAYVJREFUeNq01mdzgkAQBuBVAaWIiIK9t2hiTe+9Zw/+/68JCeOEDjdj3i/MMPtQ7ub2DkyTY42EYTnTBLOQNRInWzCBo6i3BAesQRUWDMrsENT1dCYpqOuDIfmJ8hYPMumhQv4yWUSC+oR4o+hRQCEBedVDwR0JziAMpEMAWdCCDA0oUgKZjwYMf93+LWTsx+cQ25FAQt76hrbEI/KieINWmOg3YI6Rc+hMHPBF2i2Q/eAgFKyOSZH3A5HIp8GgYf0wtkZrZ/V61BKJio+BAFF9Rk0QWstt+bIiCJpKEPdDAFoD2q8I865d350Llb71E2HgY/vgmWZftdn2TiMQHGFYnj6DhzXVONvzFV9M389XoU3gFq7y7vp7gE5E1+jUoOwGAKXINlPygCbAJhJsADygFtPIam4w9XyRH5TgElG2l6c1jXk4jAFVaKJoryBeUjHfi23GPddUlMexYOyaiHI1FlRd4CXB/vDlBA8JwEnKkc4/7nE7A9QbO/XRgfpwQnv8+RZgANIdi0agnrmAAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "8000119f-f150-9cc8-cba0-411d6eb3692f"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "MYSTIQUE",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQ5QTFRF1kc6dmaD++nmUYKytzs4qj9A7Y+F5FdHykM5Qo3FZne3S8D1kFug8eSC30s7tDo32Ug6lFBdZYGp0EU6aae7gGapUIXDvT44b2yMxNCVjFVmhVtw9Ly13Eo7WX2ob32gwD84w0A5cHCx2tqMm0pTo2dy00Y6i1+jhWKmQJDLe2mseniXokRKa3S0zUQ5Up3FxkE5Z3GVPpvVYHefuMuaQaTdfWB5RpjJ2FBEW369XKfgVoLAYHu6XaLAR7XrVLPqPJbQuj04ocGjn1xokWBxvEZCRozIrcafdW2uQKHabo7LdKy2z9WQi26Ef7GyXpjTuF5gQ6riWoaySr3zaZTQS4nFO5POsTk34kw7////nTPQGAAAAFp0Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8A0daKbwAAAgNJREFUeNrElll32jAQhWXABByz7xAgkLCTfW2WpkvSfUnaZMb+/3+kI5k49Hjk4qfeF0v2/WTZZ3Ql4bqxpLOikjHXFe7GmrOy1jZcEYvgJyImkk4kJQV3ty1SJJHnngUB0UvgQrne8J9AyXd7SqRCgXwNA0oIPVBCVvs6oIcabWZZYB+1qnGAwBCVGGAzDHjLALkwALNBINSP4n8BhtEq/OUrNA3DmPMAFZEJUvFT03O3jlQf5BjMX6IyKngGSBuEtNKLHjSpoBgg9QLQW7Y7fhsMKg4GGCI2gRUBuwyQpW8GqFrWq4lvvaQeQB0xzxVfDevQn1oVe2R59quRPbY+VaCDObZadw9gckm+6tSuSP+OPa7S5ekDdO5YYKCG3SuX4WqqgB24Ll+rm99ZoCsffctkMltfvSmVt2TnjFpFFihK09m7RuP4xwI4bjQ+7oEWGIBWM35Nd3X+X+ea1Hhf5+xHt9qYyWM86E+bJX2Q4WkQOMC2HkjMX4xVv1b1yUflpOY06Y8rI9vuqxktFxITlS1p+vnl8eLiZv23bFPl9XRAVia3fMXJutTrQ/XJlPptDZCS69KUxJvPDyeHakLbKlt5YJGV5tKv9fzL62cJaD9Hn+mvzvj8OT2GIVsWaeb5u+cr7XFS97NisTtwnJWBEEUHIm/skY8OkQ8nUY8/fwQYAFQ7z2xgUzz4AAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "fadafd2d-fba0-ffe2-0d44-90ce03dbba01"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "SCARLET WITCH",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOdQTFRF5V8044x46oQm6HIt6Xsq64kk41E54lRD520v7JIh7p4t////7I4j/fLj9L5z5KyW5Lyl4cOscSYet0tH4mRS5Fo25LSd42xZ43xo41U4+Nir5mgxu1VOy4N2wF5d2rCd44Rw5MSswWde9ebmzox943Rhx3lu45R/xHBm16eV1J6N45yHtkVE1r+ptEI/5r+P15eG4rW02oBv57h82Jyb3Eo7fzMp+vPzxkE56HYr0ZWF3aio4lxKzoOCtDo31kc6ymNX6JJLgHNl13dncmZaR0A4OTMt46SO5My0sTk34kw77Zcf////N7eJkwAAAE10Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////wDTahGAAAACL0lEQVR42pSW6XqiMBSGA0iRgoIjYhet1qVu3fd970wSuf/rmYQ95KD1++FzTL6XnJCTBBQEtfryl6rXggAFe9vLX2t7L0C1DfyMqCEwH1tlssGskGx+QDQWepChImDvU0H79krArFJJVbMc0FsUUEsvA/QtCmpLh4Eyv0hkgFnqZ4QJAIiuEJKBCl2pigTsrgZ2i8CaAbIhEqC1DmiJgA27ntuKooyj2BYAMKMdH4cScooBuYYM5RDHakc1JQDFRXiepPYEQAAwdhYK1z8XNxoZMAaAsOntq5eaOp007H29heUhAOGyvRKm5mDEHn5EyBTjxmjQ5G2vuaXLp3RPYnUf+e9jN/l/XzKHS1KiSxnQWEsfN2F/E/dZtyYBDs/8aWjdXRxHxuOLO2v4RMgRdkqAHiEvQ8uyriPgmoXDF0J6AKCyFgXjU2Y7OMiSCeNTjBXWrUqA4eMBNIUB9g0JMKNqe4eA92ilTXE/RCV0c96ddvh7Gc1mI/7OOtPu+U3Ut4QAOmGl0JjPopqYz3lBTSgIxOXqYUmeeG4UAOpyz8nn3+/vn88THrsUBpI9rXDT7Z9QtzxWSoB0o/EhduItygcwKDgHPd1rHt9qTr/d7jssOPTSDl0ActeI52YTdr3c1ZIHhEPD8BO/b8hHGQLODGMR+RdG4S5KAL14uKOPq7Ozqw9UvAD0ZARVQ7GqWkXN3WmmWtGqSZ+mQrfoWqH6Zv765p8OG3+cbPr581+AAQC6JlVjp2hiRwAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "08f41f6d-1c0a-aa1d-b1b3-fed6eca0acf9"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "SPIDER-MAN",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALpQTFRFKg4LcSYeqjksORMPDgUEVR0WRxgSjTAlxkM0YyEa1Ec3fyshuD4wEBAQz6WoyMjTmzQpyNzq+Pr82ujxHAoH3Gdc14F8z8/P23BnzLe+3l5RcHBw6fH31YqHv7+/za6zgICAj4+P4FVGyr/IICAgYSol7+/v0ZydYGBg39/fr622vbK6r6+vSlJXrL/MxtHe05OSusTQslhRtFBGol1Y2XhxMDAwPURJpFRN4kw7////AAAAxNrp////y70zkwAAAD50Uk5T/////////////////////////////////////////////////////////////////////////////////wC6+3E2AAACYUlEQVR42pSW12KrMAxAhScbmhCymtGmu717CiX//1tXJuW2fTAJerJBB1lCw3A4jMb7M2U8OhzgcHmxP1suLg8wGqDPxAjG+0Eyhv1A8QC756fd2UCxmiCKAHGyKs4Ail/oxAEss+IUkF/jewCv834gx1cJom6V9wHfbl+1rCL7urz93APUWjudUMsyAh26tda1HygQDUhZGet8sLKSEgxi4QVWfHYl3jstFPtSe4EFWyghfgNiEMCR8gEbp4FJ9AZECQJ7svEAX1mD9SDtgJA/X7ITKw8w0wE4XdkB0vmjjZl5gO9k2vM7PQe0JFulHx5AkGpjL/gUzhPtDISRotIDBMTiEPcvFP8D9wvds8AL3GTutVUmFEFsVBIoouymB7hqpktmOPjsA6SsvZw26x5g2zTN3ZIUlCJIQdHyjh+8eAFDy8bJOiNtg4iydbvdkvEAP+mm1WimmYJKZdPj7jf99QC1ZCeOJioOVfbSbq4Iag+QC6LtYzN9IC0VSE0P0+ZxyzHIPUCB1kWdVCIg5kTlsnNiPxTEh/SecLopqcI2RcMKQ95wKk689XCPlqvBgmgLVZdgOd8t3nuBL6KtnkhpI6WJVHCsIX+J7j8Z9+lUJe5IiXKFgeZPT9eYB86ETY4NJuFOE8to3tfIZpZrwKRHIGR7xk56O98GdYJV1/QArenvfNw44irVHaBTiBcnmvEcI0g6wEqN+al2PxOUiiRgSURK5ezkfNghRWXbVcMyIpyfnkC5xP8i83NG1tOi0188nzkU5zVPuUm9GTBFe8bu4ME++Oow+HIy9PrzT4ABABGDwr3QDozjAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "73b4fe66-aee2-9ad4-3526-b9b741c665e5"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "STORM, JOHNNY | MUTA",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMNQTFRFhbzgncnnzuTzR5rR5djQv5yIbK7a8/j8nmtNzLCg5vH5pXVZ2MS4HiAlYKfX8uvn+fXzckkxj1s9wt3wVKHUsolxAAAAPEBK7OHbq39lhVU5tdbtJhgQCgYEkcLjEwwIVjclOSQY5/L5TDEhuJJ8qdDqxaaUHRIMZUc3kmRKWUpHttftcFNF2uv2kl9CdXR2QkJJh1tD0rqseLXdMB4UR428X5rDQyocXoCZb3d/fE81Xz0pU0hImGFB////O5PO////B2ZOVgAAAEF0Uk5T/////////////////////////////////////////////////////////////////////////////////////wAwVezHAAAB/0lEQVR42pSW6XqqMBCGhyUIQgVEOWrd7b63Z2+bwP1fVRMCloQE5PsB8zzOazILk0CeDyE7UTDMc8jPrexkWec5DHv4U2IIkPVS03+yTh4Jk3kPqsUlwDFJXcnPdmAiujPtnRYABkShxNIBQNQajNSAzp8KVIBDyElEZVqDNoCMGsBlqz/ZWxIwIR0yJOC+CxhYAmCRToEAQDdgCkDSDRABKHMa2rY968gs1HPkYSoX2UrAqQFVlaeYa6pC1jUAJABjP4g0lSgAowGwZbyAhhR4COkB6hYf4vE3NI4X9NkCvG+W12m6K5F4maab67ECqILGW+q6+JWu2P/iQ7r6GOPFFkeaLM3m5UbizZa9Vn/LlfyZDGQF4BfZCUPPrUJAgecXhFy4jE0Lm/10USzFCbeoxgUzbbk11hWAEd1w6POdhEe4AbDeiPg23On8mFXkIW5EcrcW7RpgnYJGe/M82chVeJfNmEhDIPluV0me+FGLYyZUAKEaKIs3b/jPiQbgPf7GS71bHpa7uLDflN/0cXhHLOybM66bMqN8zijG/eiRh/368oPp5ZXaV/KcEU8g2BNWqqeHu8+7hydWusbUl884MFEtYiQMP1ABtE3+H/2vFKNJder+q3VEfQVDB2S/n2/x7fMfxzAMk+vSgJHuoO462HtfHXpfTvpef74EGAD1iffMSmJnwgAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "e8b3d299-704e-991a-7713-162570554057"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "STORM",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMNQTFRFhbzgncnnzuTzR5rR5djQv5yIbK7a8/j8nmtNzLCg5vH5pXVZ2MS4HiAlYKfX8uvn+fXzckkxj1s9wt3wVKHUsolxAAAAPEBK7OHbq39lhVU5tdbtJhgQCgYEkcLjEwwIVjclOSQY5/L5TDEhuJJ8qdDqxaaUHRIMZUc3kmRKWUpHttftcFNF2uv2kl9CdXR2QkJJh1tD0rqseLXdMB4UR428X5rDQyocXoCZb3d/fE81Xz0pU0hImGFB////O5PO////B2ZOVgAAAEF0Uk5T/////////////////////////////////////////////////////////////////////////////////////wAwVezHAAAB/0lEQVR42pSW6XqqMBCGhyUIQgVEOWrd7b63Z2+bwP1fVRMCloQE5PsB8zzOazILk0CeDyE7UTDMc8jPrexkWec5DHv4U2IIkPVS03+yTh4Jk3kPqsUlwDFJXcnPdmAiujPtnRYABkShxNIBQNQajNSAzp8KVIBDyElEZVqDNoCMGsBlqz/ZWxIwIR0yJOC+CxhYAmCRToEAQDdgCkDSDRABKHMa2rY968gs1HPkYSoX2UrAqQFVlaeYa6pC1jUAJABjP4g0lSgAowGwZbyAhhR4COkB6hYf4vE3NI4X9NkCvG+W12m6K5F4maab67ECqILGW+q6+JWu2P/iQ7r6GOPFFkeaLM3m5UbizZa9Vn/LlfyZDGQF4BfZCUPPrUJAgecXhFy4jE0Lm/10USzFCbeoxgUzbbk11hWAEd1w6POdhEe4AbDeiPg23On8mFXkIW5EcrcW7RpgnYJGe/M82chVeJfNmEhDIPluV0me+FGLYyZUAKEaKIs3b/jPiQbgPf7GS71bHpa7uLDflN/0cXhHLOybM66bMqN8zijG/eiRh/368oPp5ZXaV/KcEU8g2BNWqqeHu8+7hydWusbUl884MFEtYiQMP1ABtE3+H/2vFKNJder+q3VEfQVDB2S/n2/x7fMfxzAMk+vSgJHuoO462HtfHXpfTvpef74EGAD1iffMSmJnwgAAAABJRU5ErkJggg==",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "dc20783c-9033-a753-1488-972cf4fc2162"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "THANOS",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWtQTFRF////yK3QSzkzgnJO6+btakZ5nISmzbp+ZT90iWGRnnSi1sR/lmOjrIS4aUVxkl6hOyI/w7XJn4R4IQ4gb0h8ta+3hmWGx7lu49Z7nHacGAQerJ1hrYKuo3mmaUB51ch1kmOdmG+dqH+okFugm2mmhGV1akR4ZlZAb1RvlG6Vuqtof1eJbGBvTkBTdGRHp3qrqH2qY0RmdU2Bk2Ggno9benB+WURZlGGiupnEHQckWzZrck9yHQgjQyRPLx0mMRk2o3SqIhAnqY95pXerwp6mmm6hWEc62cGU0raau6R7SChVWkFNOh1FYEdWnnCsYzxzbExvjmWVxK98gF2ClWmde11qnWynnnafRSpJNR8zpXqyelKFTSxaspp6WTtcl2WmJg8v7d6F+PX5n4huNB01k2qZPSsttZeQUi9gw7NxVjNldlR5p3mslnp3el16l2yezLONupOsEwAZmWalqnyusoey8eSCYDpw////JgNfvgAAAHl0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AKVUiuwAAAHhSURBVHjalNZnW8IwEADgUhFKUURBQBDFvfeeqLj33nvvcZC0P9+CFqzkAr0nHxKS9yEkIRdBVa02Jc+wWVVVUEsLlbyjsFQVrCbGa8Iq2BRTYRMUk8ECY2d2qoVzqSFPsEd/4yYvMDEi6qAguDqaCzxfAmQAQHAZBy6XojwGwQgAJpJdTNDgdI2OQBaAU6VshgnKqHMFGOB2m9qZYEYfYgTz1doKM0Fq8atFI5gMpWo4oDQ0mQGeggDNCShtTVcCeo0PGIGsEhrsHz2Ggzf20UC/wo6dpYenTtFz3+TXBwY6RRCbQp8uDMg9AO1COfT/jPd7kg1wE/S01pAoDCTH9NOFxSu/J9UYb8GBg9RGoWMa4GiWkK817Vx0TGvjwxxAyMuh+3yHpOKgx+3erCVERsEJ+Y2K5grie9dbWyhoTIPBZt+gT2+14X9RmTCiUsKBo34q8S9i9R+cS8DxWjdsKbb8LXVxmQNqEkPH1xZByJThojjhADkRj63/BRf7CS7o1rqnSuJF6TJEtE+8OEh2Z5dezj4wAb4PvWzgwKd0xwJhzsYpu9mgT+Ld3lLkP+iq4l/3UtgIKr25Eoo0Z5iPN3cG2ojg82HnOKkbnQ+SFPlp13RiN/10MP04Mfv8+RZgAAOswuNdx8/bAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "ec002ebe-6bd6-40d2-4ff0-9b6e0832d379"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "THING",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAR1QTFRF7M7NxkBAz0g9zoOCg0FlwEE6TTFaaTxt6+btWzhq2JybejxknISmakZ5tkc33k5Bej9n3VA/0lJLGRcdOihEUjNf1ElBIhwoJx4tw7XJ97aswE5QLx0cZS4n+tXQ31M/0EZB+MC47mxaPSEfIhka8ox9PypJxEs6qUI1/vXz41VFgDYt5VNC6lZClUVfMSM4HhoiLCEz2UxBrT9MSC5U0U89RCxP8YFxmz4y21NIWCokqEZW5VNBy0NAt0hQ4VFAOSIoazM7nUdc41FC+cvEjjov85aJ2k4/r0pWSiYi/ernNSU+VzVlczIqcj5qZjpt7WJOpklZ++Dc10pB51RC9quh8HdlsUFM6FVB9KGVFBUX7FdC////YDpw////JHMMtgAAAF90Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCTml8sAAABxUlEQVR42pTWB1PCMBQA4BSRgqKtLJEhKAioDPfee++Z1/T//wxDUa40L6l91yvvkvfRNL20IbYdjbN/Rjxq28SeGmP/jrEpm0QD1HMRJXEWKOIEabxbY6zGWCyCiUEQS61FeNClW7rcSWZjPN+oqQDLUiFSSpASQVoF0mI9nYzJQTpJfQXxrfcI4l8/KIhyhpCZcoFlOaihwJnSQmGwtOKcIyjY4D3VOqyf7/wWV4tbJdjqZvg9RHhPA5xoFAuVxXovv6c0KZlWDkCMcUqzErAkAx0cmEcycKxjIAylCg6KkNARkO/2YaDKTycI6HZeQy734a6em7kYX+S/eQRs8/Y6TFvWzdxf+fu8ZX2vl3h2hYDn3l9aPM6cdPaFp/NPTh7GZinvdG3OTOdmwZO28edg7hrITcNr+0G24kY1RGQ0+RId1USR0dRAezsMueLL0HxAGUKEDPWPiZYfMCBkWSP9Y8JvSPvguQI01WBFAFBeVYEWeIcEhgI8ZkC8AnzKgdnk/ZfDrtjjDQeKl7G5ID5p1+JBXvd9YZzi9V7AzO1eXXkFrxcA0xOK8WCA6WFX6Mwf+ERwEPjDHnjrEHhzEnT78yPAADyM2tUupUc0AAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "412d1bdc-0040-5acc-3b26-4c19ae68117b"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "THOR",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAS9QTFRF2trXx93tq9Luaae7YKjZcmZarcafkLDBR5rRhbzghr3k6dbCRJjR1L2p////5vH5lryou9bnfLjhUp3F4cmyVaDT1b6qRpjJXaLA5tGrc7Pef7Gy+PLs2ci2z9WQvd30V6PW4sqzaq3btdbtuaaS6dWhqs3k69nHoc3sxNCVmcThRJfQ3saw/fz6W57J4c6YeqjE4cyj7d2Sd7La2cKs5d2K7N2J28SumcHB2MKkuMua5t+Hj8Lm8OOFgLfcdKy2Tp7TosjihazD8+nemMjptNfxR0A42tqM3N3Q6tqM3MWv5s+57t/Q49GW5c6x9+/oTJzR28efiLvdbq7Yvtnri7ath7G1ttTqfa23pbe+kb/fcKXGx+L2ZqnWRpfMxNrp8eSC0Of55My0O5PO////1v9xqQAAAGV0Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAZaNKDAAACkElEQVR42pSWZ3+qMBTGucq1LhAn1l1btdq999573b1IGr7/Z7gZkBAE2z5vSM5z/iQnJD+i2HYmgd6pRMa2FXsyjt6t+KStZHh+KzyRW/GMwueTbqY9KSsrno7HSig8Og1VkVLMZouip8Jp3lZEELZFSteyuqLXhuJlHIhAmHSaMy8DC2vw1/WSEEb8AB4A7rLmftZylN1nkV0ohlB4Bc5bil3Lo+6jMzqvwgHSOATPaLWWJFr7GXHTEtAmIYin78vHxAxC1GxLQBKylwysIf1iw7tLovA1IoUVrQA9qtSMBACt5yDguRUG5NBREHCEciGAqn7/FKAvqvonZEojJQOnbwOnEpB7G8hJwCFZ6FCqQj7TobyXIvgNyTAgiWcQ8W2+ShOhzUslUJebCDUr/vNQQWUw/hqocVBGlaEDhKJrIfmYWIsOH1EDdIiXSsm5rN8Bhh+IAUATHvTajUi/qekP5HkPQEwGcD64J1ZP1+f4IKk5Xe/RFuAEA6o4wKb02jup6bcs/1avnbD8DvGrAjB3SGCPF52SHrjoPeLvmBz4CpiWlwrDS1RYWnbsKgf6TgRclYaIQunKdfsccCNgXfMThZK2zm0XKIMLw2AhTVuVgVVNY45hXOAPzoA8nlyDhbe0WRmY1baY08Brmfd8OGfQpxLJmvpMNUXapSfPfAQQdaILGyT/nAHnhNhYcKxoIHA34V+libuRwLe6H6j/GAX00byPqM+7X0kGTBbE6/ZbBhbJqlOZ8vbeBu6GXKSJ19f0MeZuZbDtOw8HJJinzWNaK63+Jw3kiXfgP3ENcUaOx1z946elMXREo+4AAcrzkjHAf+xGLPwmEDPEj11cHcxwwPRcHT58Ofno9ee/AAMAXMIBKyYIELQAAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "1f9d7364-fd37-02e8-e788-fa2d9b3551ae"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "VISION",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYBQTFRFY01oLhoz6d3R39Tfto22OTMtq5mH7+/v6ujq/v7+4N/hwaHB////vZq9t7O5TzNSqqSr8vLy5+Hn09DTz7TPIQ8m49vjsJmN1MHUt4+32cPZqH+oZVlp2MfY287b8fHxzq6zc2h29PT0+vj68PDw+fn5ya7JPC1B0bKz3cvdnJWeyq3K0LvQfGZnJxEsY0Rm7OHs8/Pz9fD1xcHG+Pj4wJ7AupS6OiY2/Pz83sO0dlR5ZFlPxafF/f39u5SyRzNAHQgjqIGpOyI/ppmZ2dXabVNxalNu5+bnimWMYU1T4tLirIOsjYCQ1r+pnnafgF2C7Obgn3ugsIuwSjxOmoid8enxV0pcxaXFj4Bxwp2zuJCypJGLbExvgWiFr4WvhWqIcmZa39vZt5i3jWqMyKWz1LzUpH+fX0Rjtqy4OyhBvbO/Lh409vb2V0hbiXV0hW+J2dfa0cXSRSpJknKU27+04ci0d2B7WTtcc1J2uaaSfmaCEwAZ5My0soey7u7u////dXakagAAAIB0Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wA4BUtnAAACIklEQVR42pTWV3vaMBQGYLW4BRObsCGEMMrK3rNpRkfSNulu0r13m9G9kI/112Mkx1gxxtZ3Az4674NskAQiRJ6NBXUfKU7VCCGILFZ134nJBMlBXSAxgs7pQqmhoBiYQmL9elEU6J1BOBKJzPgGV27sYZqDL1ddwUDouPBtp4lYPz7V/PrJagykOVBXzXr0c9MGmuh+mNVD0gAHeqBOPyNKu2wAN6gIqTDKgXkA1RCJlAPgsjGclgDqHAAjalzPYyfAM3rA6IceBwDpO+uypQXyWTrKgQCwTHQA67fNwU4Aro0b4A9i2WyBS7egG4D+j/w9TFgjLgDg7vM2eHkRvAFsbxyDny/ABaTtA9Dfy8A/rio5H2s7VJzna/z3cMEpTvRDlv+1mtXke/PNj2fstS/30KzE+fUwz6qTyvQcuw92PVJRctyMLFBg5bmKUkm2pzGkKNN97JbjJ1dc1pxCcmjXEluTuRHzERWcS7QggWvUdKc1HbI9qseDpdX21ajbJhC4R8dXB39rRpZKT+jlm7j7rhEd//uhtKRZ+fXube96ots2k8JjGpc1/KDrvlTG13mwgKNdQQKv8QCnPHa+xoLRtXyG5lELlD3AMNa0/6/O0izf1DI44QHCKW5GmYbnZpzP2MHYsCeIcOAw7L3dP7WDyz7OhzunbXnt8wQSPrLcUxUFMdGDfRatCJ3sRRmRmoCoLhr/ZsiK31kF92VCjgQYADUy/Ax2N8LeAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "93c2abb5-cfba-95b6-1d1d-7192eddc074a"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "WASP",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOdQTFRFaj94fU2MSSdUVzFji1ibUi5e8erzTi5VupnEl2WmWiIieEqH////gGJ1qI2OdEaCh1SWWDhcs0RE2sGuxqyhbE1oglGRnoKI/Pn2OTMt8ubaq5mHXDVob0N9xaKt1cHb0Len1r+plHiCVk1E/fz6vKKbAAAAYThtYkNiTipZdlhv5s+5z5GDim17tk1L9+/o4cStgHNl7NzLrYR259K9yLOecmZaDg0LnYx8ZTxy27Of38WzoHCk3rumv2ZglmadspeUKyYiuaaSwJ6n2r6yHRoXsIWoxXduwm9n5My0RCNPkFug////vhE2fwAAAE10Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////wDTahGAAAAB0UlEQVR42pTW55KCMBQF4IAguqLi2ntva6/be82F93+eJcEGSVDOLwbO5yQhGUGWFY6YFyYStixk1aPmxYnWLRQO0LdFGEXMQIkgzk0lhmgkhfOQAUpVhUPUqnEOIBnc6Rt+IKcCExmJQUwGXlRFAJIgiJzjgpwMF4gjUMR9e1QcUAG/IAbEfPsgM2DoDyDpAckzfah4QOUckN1AoTc1P5FzAWfK3UYrJQRVF0AOwBhnJgLTd4EQvZfBNN04b2whDsC4Wd6Wm7Z5Y43MAx/fxfder00ITtx4BAs0vLCrm2LvdkOHlnYbwwsGDWcK+O52sbvC6fzgACTvKu37njT2RvK8hyx5uizoeqe0q5Y6ul5YkqVOMUDZgVGpoHdma9pfz+x+aUQus8cdftxLGhZHY4EEEBf248ACsk7ZRJrTTieywAMGOdIt4c+zgG7YFAekRIAeugzTz4AQEDGhpXK7uC22y+4RcYApDenarq6crMiUNT9gKihvlx6m1yTTZ/u6Bfy9dIjxabfm47+X3/Gc7HE4B0yzdjLj074QnIg8XATMH+8r4xwgd55qj/ir9hq7DwmPqDBSta8GAo5KopC6+4sI/sce+NMh8MdJ0M+ffwEGADg6YU2qNGbXAAAAAElFTkSuQmCC",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "dc768b54-4066-fe8e-1075-5c18939d2ed9"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "WATSON-PARKER, MARY",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAN5QTFRFykM5vT440ZWF1kc630s72Ug65FdH7Y+F++nmtDo33rqkxHBm////tEI/wWdetzs4WR0c0EU6u1VO4cOs3Eo7q5mHxkE5zox9w0A5uj049Ly1/fz616eV2rCd/Pn25s+51J6NzUQ500Y6AAAAKyYiVk1E42xZ6dbCuaaSOTMt9ezjy4N2yLOe7t/Q5MSs1r+pR0A4t0tH45yHj4Bxx3lu43xo5LylgHNlz62Zpm9j44x4cmZaDg0L005B4lRDvl5W46SO8OLV5LSd9+/o4lxK8+ne5My0sTk34kw7////zhzKlQAAAEp0Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////wBaK78bAAAB2UlEQVR42pSWZ2OCMBCGIwQVEKgDt7XuWbXavWcS/v8fqiSIQgjC+4nxPnq5HHcBjpPPkYTK5R0HOM0sSaxs0wH5FP49kQc5kko5QFIqCoAyoJJhEgAWG9hXo1c5BwAVB1WvxAFKA/MCYkBWcZQaUAD0sUCqEgkoKk5AHAFoYbEsyANVHCfAAXKsH6swDGTiAdwLAZUzfmyFgOo5AFeCgHUWKAYARWws1TSdFlUAKArcNzUNIbRwLzMBAES6bzuISqK3AYBPqqF77r3a9AmMAQz9ilnXtm0fAFkImJ4bLUeDwWw4XGtxgCmVD5HYr4PREqHpDp3kNQiUju69XobTwyIMv/7AyUYbGhKpHQZ6LqC7r75ahcLlNbN1/9ybiXsZBuhOL6hp3iq05l0KTH582AgBtJZKwoiQFv4HtghJCJgcwL4HPRLRaiXMAaTOEisJfp4HIGsyJu8ve1sqh7qG18bKHCAJAO+bYDHtNpuH2cg+jYgHGEFz+3TB9OhllC9vb/vcknJLtWOw0nLj0w9A5HxQ6pbRoZk0P3RaiZLfykQjS3n7Pllxbd+RMpkq6MsxM+596/vvEg1FQp6ZfTUmCQEy/lyh++1v1BRNPdhTHx1SH07SHn/+BRgAIghJ1wYeDHUAAAAASUVORK5CYII=",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "065911e8-3c65-aaaf-a633-00bdf6c2d2b9"
+  },
+  {
+    "_graph_icon_set": "ComicBook",
+    "_graph_icon_property_value": "WOLVERINE",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPNQTFRFGA8cWjZpBgQHVDNiPCRGakZ56+btnISmMB04OTMt77kZ////cmZaEgsVEAwCMCUFq5mHv5QUDAcONiE/MDAw16Iww7XJYGBgHhIjICAgj4Bxz6AWgHNlKyYiSCxUuaaSTi9bYEoKJBYqQihN7+/v4asrQDEHj28P9bwgzZo2flRg36wYnG5QUD4IyLOen5+f39/fdEtlVk1Ev7+/n3sRKSElnYx8gGMOKhkxuYhAw5E7eFBZzralPipDr4cTR0A4r6+vZD9kgICAPzc0EBAQQEBAiF1bcFYM67QmsIBGZFlPakNr5My0/8UbAAAAYDpw////ZDrd1AAAAFF0Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////////8AaOyowQAAAf9JREFUeNqUlml7ojAUhQNaqaKCinWptnZ02uky3Wffl3Y2POH//5oJJDQJoIH7QWLueZ+bk8B9QqKo4dCS4TSiiER7O7R07OxFpFFBz4gG4euxSogTjUP4n0EJoJ78CoDUzAXGGrBrLkA0wDa66OsATCUGyADY7sKycwDZCoyRAyC39ubi/XA4PP1zJh2jAMCCjx9P12n8vuBTC7sQsBMb79ZqDG9iAx0UAuhY9N/ztR4vzoS+CEDnW1bPiA9cXwigu58Dzj1sAdC9z+g/d7EVAI5aqv6XTGwC4Emi5aEEAO8JeIlNwK6awRuhP0FJoMsX1eqWBXCSAPf65DMVGOg5L+8A4osRwELPIQH0FeFABWhfTyYHrk/ZVAOEiYl7F8TPHtP34kFw5z6oFp4Ay+bT1647UoDRyl39hHz3JUCXHAiurt0rDrSA7+7qa8ATdZoB6FLUwGQ0wXkCTEZBaiDVKwBrbdLhMQOOlDOTLUXrFUu5V731vtyfuqLRm4vVl0d3nA77WlPMdCPWTi796d8m+yyA+e3MD5HpiSTX4PwwjkNfPLMtMdvv3mIaquGnB7YJqKHNZK/bcczYaCZeoY0AHd+G4XTejGPOirU71AAcNMPwUqznMAy/1E0AfaV5+EGNwEADPpkB66MK1MyAIYhTTe9UvzpUvpxUvf78",
+    "format": "png",
+    "label": "icon",
+    "type": "vertex",
+    "id": "6151084d-0647-6a30-7c22-9cfbc5d56d1d"
+  }
+]

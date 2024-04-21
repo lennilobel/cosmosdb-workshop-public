@@ -1,0 +1,30 @@
+<h1>
+	Core API Indexing
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<table width="100%">
+	<tr>
+		<td valign="top" width="250">
+			<h3>Available Demos</h3>
+			<div>
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.AutomaticIndexing()">Automatic Indexing</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ManualIndexing()">Manual Indexing</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PathIndexing()">Custom Index Paths</button><br />
+			</div>
+		</td>
+		<td valign="top">
+			<div *ngIf="this.document" style="margin-top: 8px;">
+				<button mat-raised-button class="SmallButton" (click)="this.document = null">Close</button>
+				<div class="JsonBlock mat-elevation-z8">
+					<pre>{{this.formatter.AsJson(this.document)}}</pre>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

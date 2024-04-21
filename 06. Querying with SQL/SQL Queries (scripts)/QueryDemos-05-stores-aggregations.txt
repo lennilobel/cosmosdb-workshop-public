@@ -1,0 +1,45 @@
+﻿---------------------------------
+-- Aggregate functions (store) --
+---------------------------------
+
+-- Entire container (cross-partition)
+SELECT
+    COUNT(c) AS TotalStoreCount
+FROM
+    c
+
+-- Entire container, grouped by country (cross-partition)
+SELECT
+    c.address.countryRegionName AS Country,
+    COUNT(c) AS StoreCount
+FROM
+    c
+GROUP BY
+    c.address.countryRegionName
+
+-- Country (cross-partition)
+SELECT 
+    COUNT(c) AS TotalUsStoreCount
+FROM
+    c
+WHERE
+    c.address.countryRegionName = 'United States'
+
+-- Country, grouped by state (cross-partition)
+SELECT
+    c.address.location.stateProvinceName AS State,
+    COUNT(c) AS StateStoreCount
+FROM
+    c
+WHERE
+    c.address.countryRegionName = 'United States'
+GROUP BY
+    c.address.location.stateProvinceName
+
+-- On zip-code (single-partition)
+SELECT 
+    COUNT(c) AS Zip14111Count
+FROM
+    c
+WHERE
+    c.address.postalCode = '14111'

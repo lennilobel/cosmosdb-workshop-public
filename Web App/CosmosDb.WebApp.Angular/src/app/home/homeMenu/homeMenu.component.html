@@ -1,0 +1,22 @@
+<script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=getMap'></script>
+<h1>
+	Cosmos DB Demos
+</h1>
+<div>
+	<table width="100%">
+		<tr>
+			<td valign="top" width="250">
+				<h3>Available Demos</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [routerLink]="['/coreApiMenu']">Core API</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [routerLink]="['/mongoDbApiMenu']">MongoDB API</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [routerLink]="['/tableApiMenu']">Table API</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [routerLink]="['/cassandraApiMenu']">Cassandra API</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [routerLink]="['/gremlinApiMenu']">Gremlin API</button><br />
+				</div>
+			</td>
+			<td valign="top">
+			</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,9 @@
+{
+	"profiles": {
+		"WebStore.ChangeFeedFunctions": {
+			"commandName": "Project",
+			"commandLineArgs": "--port 7070",
+			"launchBrowser": false
+		}
+	}
+}

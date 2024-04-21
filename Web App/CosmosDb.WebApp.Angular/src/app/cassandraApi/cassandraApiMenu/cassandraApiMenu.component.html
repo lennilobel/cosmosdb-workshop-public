@@ -1,0 +1,67 @@
+<h1>
+	Cassandra API Demos
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<div>
+	<table width="100%">
+		<tr>
+			<td valign="top" width="250">
+				<h3>Available Demos</h3>
+				<div>
+					<div class="InfoTextBlock">Create <b>movie</b> table in <b>movies</b> database, with three movies</div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateMoviesTable()">Populate Movies Table</button><br />
+					<br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryAllMovies()">Query for All Movies</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QuerySciFiMovies()">Query for Sci-Fi Movies</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryStarWarsVI()">Query for Star Wars VI movie</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateMovieRow()">Add Star Wars VI Movie</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteMovieRow()">Delete Star Wars VI Movie</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteMoviesTable()">Delete Movies Table</button><br />
+				</div>
+			</td>
+			<td valign="top">
+				<div *ngIf="this.documents" style="margin-top: 8px;">
+					Row count: {{this.documents.length}} <button mat-raised-button class="SmallButton" (click)="this.documents = null">Close</button>
+					<div class="TableGrid mat-elevation-z8" style="max-height: 500px;">
+						<table mat-table #table [dataSource]="this.documents">
+							<ng-container matColumnDef="genre">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Genre</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.genre}}</td>
+							</ng-container>
+							<ng-container matColumnDef="title">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>ID (title)</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.title}}</td>
+							</ng-container>
+							<ng-container matColumnDef="description">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Description</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.description}}</td>
+							</ng-container>
+							<ng-container matColumnDef="year">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Year</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.year}}</td>
+							</ng-container>
+							<ng-container matColumnDef="length">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Length</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.length}}</td>
+							</ng-container>
+							<tr mat-header-row *matHeaderRowDef="this.documentColumns"></tr>
+							<tr mat-row *matRowDef="let row; columns: this.documentColumns;"></tr>
+						</table>
+					</div>
+				</div>
+				<div *ngIf="this.document" style="margin-top: 8px;">
+					<button mat-raised-button class="SmallButton" (click)="this.document = null">Close</button>
+					<div class="JsonBlock mat-elevation-z8">
+						<pre>{{this.formatter.AsJson(this.document)}}</pre>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

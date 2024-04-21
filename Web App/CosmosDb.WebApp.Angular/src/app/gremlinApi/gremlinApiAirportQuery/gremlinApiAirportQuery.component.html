@@ -1,0 +1,128 @@
+<h1>
+	Gremlin API Airport Demo
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<form [formGroup]="this.criteriaForm">
+	<mat-form-field style="width: 130px;">
+		<mat-select placeholder="Arrival Gate" formControlName="ArrivalGate">
+			<mat-option *ngFor="let gate of this.gates" [value]="gate">
+				{{gate}}
+			</mat-option>
+		</mat-select>
+	</mat-form-field>
+	&nbsp;
+	<mat-form-field style="width: 130px;">
+		<mat-select placeholder="Departure Gate" formControlName="DepartureGate">
+			<mat-option *ngFor="let gate of this.gates" [value]="gate">
+				{{gate}}
+			</mat-option>
+		</mat-select>
+	</mat-form-field>
+	&nbsp;
+	<mat-form-field style="width: 240px;">
+		<mat-select placeholder="Terminal Preference" formControlName="FirstSwitchTerminalsThenEat">
+			<mat-option [value]="false">First eat, then switch terminals</mat-option>
+			<mat-option [value]="true">First switch terminals, then eat</mat-option>
+		</mat-select>
+	</mat-form-field>
+	&nbsp;
+	<mat-form-field style="width: 130px;">
+		<mat-select placeholder="Min Rating" formControlName="MinYelpRating">
+			<mat-option [value]="1">1</mat-option>
+			<mat-option [value]="2">2</mat-option>
+			<mat-option [value]="3">3</mat-option>
+			<mat-option [value]="4">4</mat-option>
+			<mat-option [value]="5">5</mat-option>
+			<mat-option [value]="6">6</mat-option>
+		</mat-select>
+	</mat-form-field>
+	&nbsp;
+	<button mat-raised-button color="primary" (click)="this.FindFood()">Find Food!</button>
+	<div *ngIf="this.choices">
+		<div *ngFor="let choice of this.choices; let i = index">
+
+			<!-- Show/hide choice -->
+			<div class="expand-collapse-div">
+				<div>
+					<span class="choice-number">{{ i + 1 }}</span>
+					<span class="choice-heading">{{ choice.restaurant }}</span>
+					<span class="choice-subheading">({{ choice.totalDistanceInMinutes }} min)</span>
+				</div>
+				<a class="expand-collapse-link" (click)="choice.isExpanded = !choice.isExpanded">
+					<span style="font-family: Arial">
+						<span *ngIf="!choice.isExpanded">► </span>
+						<span *ngIf="choice.isExpanded">▼ </span>
+					</span>
+					<span *ngIf="!choice.isExpanded">Show</span>
+					<span *ngIf="choice.isExpanded">Hide</span>
+					steps
+				</a>
+				<table>
+					<tr>
+						<td valign="top">
+							<img [hidden]="choice.isExpanded" src="data:image/png;base64,{{choice.imageB64}}" class="restaurant-image-large" />
+						</td>
+						<td valign="top">
+							<table [hidden]="!choice.isExpanded" cellpadding="0" cellspacing="0" border="0" class="result-table">
+								<tr *ngFor="let step of choice.steps; let j = index">
+									<td class="step-cell">
+										<span class="step-number" [ngClass]="{
+											'step-number-start': step.action === 'start',
+											'step-number-go': step.action === 'go',
+											'step-number-end': step.action === 'end'
+										}">
+											{{j + 1}}
+										</span>
+									</td>
+									<td class="step-cell">
+										<span *ngIf="step.action === 'start'">Start at</span>
+										<span *ngIf="step.action === 'go'">Arrive at</span>
+										<span *ngIf="step.action === 'end'">End at</span>
+										<b>&nbsp;{{step.vertexName}}</b>
+										<div *ngIf="step.vertexType == 'restaurant'" class="step-restaurant">
+											<table cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td valign="top">
+														<img src="data:image/png;base64,{{choice.imageB64}}" style="max-width: 48px;" />
+													</td>
+													<td valign="top" style="padding-left: 8px;">
+														<div>
+															Rating: {{choice.rating * 10}}
+														</div>
+														<div>
+															Avg: {{choice.averagePrice | currency}}
+														</div>
+													</td>
+												</tr>
+											</table>
+										</div>
+										<div class="step-distance" *ngIf="step.action !== 'end'">
+											Walk {{step.stepDistanceInMinutes}} min
+										</div>
+									</td>
+									<td class="step-cell" *ngIf="step.action !== 'end'">
+										<div class="total-step-distance">
+											{{step.totalDistanceInMinutes}} min
+										</div>
+									</td>
+									<td class="step-cell" *ngIf="step.action === 'end'">
+										<div class="total-distance">
+											{{choice.totalDistanceInMinutes}} min
+										</div>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<br />
+			</div>
+
+		</div>
+	</div>
+</form>
+<div>
+	<message-box #alertMessage></message-box>
+</div>

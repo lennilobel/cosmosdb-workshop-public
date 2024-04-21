@@ -1,0 +1,30 @@
+{
+	"familyName": "Smith",
+	"isRegistered": true,
+	"address": {
+		"addressLine": "123 Main Street",
+		"city": "Chicago",
+		"state": "IL",
+		"zipCode": "60601"
+	},
+	"parents": [
+		{
+			"name": "Peter",
+			"dob": "1964-08-30"
+		},
+		{
+			"name": "Alice",
+			"dob": "1969-09-26"
+		}
+	],
+	"kids": [
+		{
+			"givenName": "Michelle",
+			"favoriteColor": "Red"
+		},
+		{
+			"givenName": "John",
+			"favoriteColor": "Green"
+		}
+	]
+}

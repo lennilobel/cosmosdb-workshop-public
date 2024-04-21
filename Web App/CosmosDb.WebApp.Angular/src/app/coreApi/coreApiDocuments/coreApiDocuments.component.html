@@ -1,0 +1,88 @@
+<h1>
+	Core API Documents
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<form [formGroup]="this.containerSelectionForm">
+	<mat-form-field>
+		<mat-select placeholder="Database ID" formControlName="DatabaseId" (selectionChange)="this.GetContainers()">
+			<mat-option *ngFor="let d of this.databases" [value]="d.id">
+				{{d.id}}
+			</mat-option>
+		</mat-select>
+	</mat-form-field>
+	&nbsp;
+	<mat-form-field *ngIf="this.containerSelectionForm.value.DatabaseId">
+		<mat-select placeholder="Container ID" formControlName="ContainerId">
+			<mat-option *ngFor="let c of this.containers" [value]="c.id">
+				{{c.id}}
+			</mat-option>
+		</mat-select>
+	</mat-form-field>
+</form>
+
+<div *ngIf="this.containerSelectionForm.value.ContainerId">
+	<table width="100%">
+		<tr>
+			<td valign="top" width="300">
+				<div class="InfoTextBlock">Use with <b>mystore</b> container</div>
+				<h3>Create Documents</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateDocument('dynamic')">Create Documents (dynamic)</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateDocument('json')">Create Document (JSON)</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateDocument('poco')">Create Document (POCO)</button><br />
+				</div>
+				<h3>Query Documents</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryDocuments('dynamic')">Query Documents (dynamic)</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryDocuments('poco')">Query Documents (POCO)</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryDocuments('linq')">Query Documents (LINQ)</button><br />
+				</div>
+				<h3>Query with Paging</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryDocumentsFirstPage()">Query Documents (First Page)</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryDocumentsNextPage()">Query Documents (Next Page)</button><br />
+				</div>
+				<h3>Replace/Delete Documents</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ReplaceDocuments()">Replace Documents</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteDocuments()">Delete Documents</button><br />
+				</div>
+			</td>
+			<td valign="top">
+				<div *ngIf="this.documents" style="margin-top: 8px;">
+					Document count: {{this.documents.length}} <button mat-raised-button class="SmallButton" (click)="this.documents = null">Close</button>
+					<div class="TableGrid mat-elevation-z8" style="max-height: 500px;">
+						<table mat-table #table [dataSource]="this.documents">
+							<ng-container matColumnDef="DocumentId">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Document ID</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+							</ng-container>
+							<ng-container matColumnDef="Name">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Name</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.name}}</td>
+							</ng-container>
+							<ng-container matColumnDef="City">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>City</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.city}}</td>
+							</ng-container>
+							<tr mat-header-row *matHeaderRowDef="this.documentColumns"></tr>
+							<tr mat-row *matRowDef="let row; columns: this.documentColumns;"></tr>
+						</table>
+					</div>
+				</div>
+				<div *ngIf="this.document" style="margin-top: 8px;">
+					<button mat-raised-button class="SmallButton" (click)="this.document = null">Close</button>
+					<div class="JsonBlock mat-elevation-z8">
+						<pre>{{this.formatter.AsJson(this.document)}}</pre>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

@@ -1,0 +1,32 @@
+{
+	"familyName": "Jones",
+	"isRegistered": true,
+	"address": {
+		"addressLine": "456 Harbor Boulevard",
+		"city": "Chicago",
+		"state": "IL",
+		"zipCode": "60603"
+	},
+	"parents": [
+		{
+			"name": "John",
+			"dob": "1988-12-11"
+		},
+		{
+			"name": "Pam",
+			"dob": "1994-02-14"
+		}
+	],
+	"kids": [
+		{
+			"givenName": "Richard",
+			"favoriteColor": "Purple"
+		}
+	],
+	"pets": [
+		{
+			"name": "Sabrina",
+			"type":  "Cat"
+		}
+	]
+}

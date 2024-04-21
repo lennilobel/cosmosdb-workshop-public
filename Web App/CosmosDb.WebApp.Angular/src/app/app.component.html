@@ -1,0 +1,13 @@
+<div class="NavBar">
+	Cosmos DB Demos&nbsp;&nbsp;&nbsp;&nbsp;
+	<button mat-raised-button class="SmallButton" [routerLink]="['/homeMenu']">Home</button>&nbsp;
+	<button mat-raised-button class="SmallButton" [routerLink]="['/coreApiMenu']">Core API</button>&nbsp;
+	<button mat-raised-button class="SmallButton" [routerLink]="['/mongoDbApiMenu']">MongoDB API</button>&nbsp;
+	<button mat-raised-button class="SmallButton" [routerLink]="['/tableApiMenu']">Table API</button>&nbsp;
+	<button mat-raised-button class="SmallButton" [routerLink]="['/cassandraApiMenu']">Cassandra API</button>&nbsp;
+	<button mat-raised-button class="SmallButton" [routerLink]="['/gremlinApiMenu']">Gremlin API</button>&nbsp;
+</div>
+<img src="/assets/Cosmos70.png" class="CosmosLogoImage" />
+<div style="margin-left: 100px; margin-top: 90px;">
+	<router-outlet></router-outlet>
+</div>

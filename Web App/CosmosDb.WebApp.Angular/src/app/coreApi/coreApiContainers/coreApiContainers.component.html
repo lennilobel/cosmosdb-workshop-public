@@ -1,0 +1,106 @@
+<h1>
+	Core API Containers
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<form [formGroup]="this.databaseSelectionForm">
+	<mat-form-field>
+		<mat-select placeholder="Database ID" formControlName="DatabaseId">
+			<mat-option *ngFor="let d of this.databases" [value]="d.id">
+				{{d.id}}
+			</mat-option>
+		</mat-select>
+	</mat-form-field>
+</form>
+<div *ngIf="this.databaseSelectionForm.value.DatabaseId">
+	<table width="100%">
+		<tr>
+			<td valign="top" width="250">
+				<h3>Available Demos</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewContainers()">View Containers</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PromptCreateContainer()">Create Container</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PromptDeleteContainer()">Delete Container</button><br />
+				</div>
+			</td>
+			<td valign="top">
+				<div *ngIf="this.databaseSelectionForm.value.DatabaseId">
+					<div *ngIf="this.gridData" class="TableGrid mat-elevation-z8">
+						<table mat-table #table [dataSource]="this.gridData">
+							<ng-container matColumnDef="ContainerId">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Container ID</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+							</ng-container>
+							<ng-container matColumnDef="PartitionKey">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Partition Key</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.partitionKey}}</td>
+							</ng-container>
+							<ng-container matColumnDef="LastModified">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Last Modified</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.lastModified | date:'medium'}}</td>
+							</ng-container>
+							<ng-container matColumnDef="Delete">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef></th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">
+									<button mat-raised-button (click)="this.PromptDeleteContainer(item.id)">Delete Container</button>
+								</td>
+							</ng-container>
+							<tr mat-header-row *matHeaderRowDef="this.gridColumns"></tr>
+							<tr mat-row *matRowDef="let row; columns: this.gridColumns;"></tr>
+						</table>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<ng-template #createContainerDialog>
+		<div class="dialogHeader">
+			Create Container
+		</div>
+		<div class="dialogBody">
+			<form [formGroup]="this.form">
+				<mat-form-field>
+					<input matInput formControlName="ContainerId" type="text" placeholder="Container ID" />
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput formControlName="PartitionKey" type="text" placeholder="Partition key" />
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput formControlName="Throughput" type="number" placeholder="Throughput (RU/sec)" />
+				</mat-form-field>
+			</form>
+		</div>
+		<div class="dialogFooter">
+			<button mat-raised-button (click)="this.CreateContainer()">Create</button>&nbsp;
+			<button mat-raised-button (click)="this.dialogRef.close()">Cancel</button>
+		</div>
+	</ng-template>
+
+	<ng-template #deleteContainerDialog>
+		<div class="dialogHeader">
+			Delete Container
+		</div>
+		<div class="dialogBody">
+			<form [formGroup]="this.form">
+				<mat-form-field>
+					<input matInput formControlName="ContainerId" type="text" placeholder="Container ID" />
+				</mat-form-field>
+			</form>
+		</div>
+		<div class="dialogFooter">
+			<button mat-raised-button (click)="this.DeleteContainer()">Delete</button>&nbsp;
+			<button mat-raised-button (click)="this.dialogRef.close()">Cancel</button>
+		</div>
+	</ng-template>
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>
+

@@ -1,0 +1,61 @@
+﻿# Connect to your Azure account using MFA
+Connect-AzAccount -TenantId 25bedbed-1ab5-45a6-aa35-eb80d498c9f9
+
+# Set subscription
+Set-AzContext -SubscriptionName "Microsoft Azure Sponsorship"
+
+# View role definitions
+Get-AzCosmosDBSqlRoleDefinition `
+    -ResourceGroupName cosmos-demos-rg `
+    -AccountName cdb-sql
+
+# View role assignments
+Get-AzCosmosDBSqlRoleAssignment `
+    -ResourceGroupName cosmos-demos-rg `
+    -AccountName cdb-sql
+   
+# Delete role definition with assignments
+Remove-AzCosmosDBSqlRoleDefinition `
+    -ResourceGroupName cosmos-demos-rg `
+    -AccountName cdb-sql `
+    -Id 16d343f2-075d-4061-9da4-df14591a6a5e
+
+# Create role definition for the ingest-only application
+New-AzCosmosDBSqlRoleDefinition `
+    -ResourceGroupName cosmos-demos-rg `
+    -AccountName cdb-sql `
+    -Type CustomRole `
+    -RoleName CosmosIngestOnlyRole `
+    -DataAction @( `
+        'Microsoft.DocumentDB/databaseAccounts/readMetadata', `
+        'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/items/create') `
+    -AssignableScope "/dbs/iot-demo"
+
+# Assign the ingest-only role definition to the principal ID of the ingest-only app registration
+New-AzCosmosDBSqlRoleAssignment `
+    -ResourceGroupName cosmos-demos-rg `
+    -AccountName cdb-sql `
+    -RoleDefinitionName CosmosIngestOnlyRole `
+    -Scope "/dbs/iot-demo/colls/iot" `
+    -PrincipalId 20e01406-dab2-4278-a8af-d59568258ece
+
+# Create role definition for the read-only application
+New-AzCosmosDBSqlRoleDefinition `
+    -ResourceGroupName cosmos-demos-rg `
+    -AccountName cdb-sql `
+    -Type CustomRole `
+    -RoleName CosmosReadOnlyRole `
+    -DataAction @( `
+        'Microsoft.DocumentDB/databaseAccounts/readMetadata', `
+        'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/items/read', `
+        'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/executeQuery', `
+        'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/readChangeFeed') `
+    -AssignableScope "/dbs/iot-demo"
+
+# Assign the read-only role definition to the principal ID of the read-only app registration
+New-AzCosmosDBSqlRoleAssignment `
+    -ResourceGroupName cosmos-demos-rg `
+    -AccountName cdb-sql `
+    -RoleDefinitionName CosmosReadOnlyRole `
+    -Scope "/dbs/iot-demo/colls/iot" `
+    -PrincipalId a40b0d25-ff07-40b4-a9bb-bb4692b6a2e3

@@ -1,0 +1,34 @@
+<h1>
+	Gremlin API Demos
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<table width="100%">
+	<tr>
+		<td valign="top" width="250">
+			<h3>Available Demos</h3>
+			<div>
+				<div class="InfoTextBlock">Use the portal to create <b>Airport</b> graph in <b>GraphDb</b> database, with <b>/city</b> partition key</div>
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PopulateAirportGraph()">Populate Airport Graph</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.QueryAirportGraph()">Query Airport Graph</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" routerLink="/gremlinApiAirportQuery">Airport Graph Demo</button><br />
+				<div class="InfoTextBlock">Use the portal to create <b>ComicBook</b> graph in <b>GraphDb</b> database</div>
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PopulateComicBookGraph()">Populate Comic Book Graph</button><br />
+			</div>
+		</td>
+		<td valign="top">
+			<div *ngIf="this.document" style="margin-top: 8px;">
+				<button mat-raised-button class="SmallButton" (click)="this.document = null">Close</button>
+				<div class="JsonBlock mat-elevation-z8">
+					<pre>{{this.formatter.AsJson(this.document)}}</pre>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>
+

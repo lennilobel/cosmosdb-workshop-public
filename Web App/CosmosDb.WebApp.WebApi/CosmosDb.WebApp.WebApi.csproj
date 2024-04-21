@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CosmosDb.WebApp.DataLayer\CosmosDb.WebApp.DataLayer.csproj" />
+    <ProjectReference Include="..\CosmosDb.WebApp.Shared\CosmosDb.WebApp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,74 @@
+.NavBar {
+	background-color: #e0e0e0;
+	padding: 16px;
+	top: 0px;
+	left: 0px;
+	width: 3000px;
+	z-index: 999;
+	position: fixed;
+}
+
+.CosmosLogoImage {
+	position: fixed;
+	top: 70px;
+	left: 16px;
+}
+
+.TableGrid {
+	display: flex;
+	flex-direction: column;
+	margin-top: 8px;
+	overflow: auto;
+}
+
+div.JsonBlock {
+	margin-top: 8px;
+	font-family: Consolas;
+	font-size: 10pt;
+	display: block;
+	padding-left: 8px;
+	max-height: 500px;
+	overflow: auto;
+}
+
+.DemoButton {
+	margin-top: 4px;
+	width: 240px;
+	text-align: left;
+}
+
+.SmallButton {
+	padding-left: 4px;
+	padding-right: 4px;
+	line-height: 0px;
+	min-height: 23px !important;
+	font-size: 12px !important;
+}
+
+.Spinner {
+	position: fixed;
+	left: 30px;
+	top: 85px;
+}
+
+.dialogHeader {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #999999;
+}
+
+.dialogBody {
+	padding-left: 32px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	min-width: 400px;
+}
+
+.dialogFooter {
+	text-align: right;
+}
+
+.InfoTextBlock {
+	margin-top: 16px;
+	margin-bottom: 8px;
+	font-size: 10pt;
+}

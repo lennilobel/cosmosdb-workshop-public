@@ -1,0 +1,1402 @@
+[
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 111",
+        "id": "fdefedf8-666d-488c-832b-a37465602cfa"
+      }
+    ],
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27c"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 118",
+        "id": "443990a4-bf3e-4f72-8e44-aebc572d5234"
+      }
+    ],
+    "id": "b2f2904d-2bc7-44f3-a796-abbe49a40efe"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 137",
+        "id": "6cb0f5aa-cbf4-42b6-a5e2-3ccd18d43cd4"
+      }
+    ],
+    "id": "ae6e12d0-f360-4db6-9e3c-9e70cd6ed6ce"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 168",
+        "id": "8606d15b-fcdb-4458-a88d-a29b9eb093d6"
+      }
+    ],
+    "id": "e96cae30-dfc6-434a-8112-2618d8b4d154"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 181",
+        "id": "01c19127-a9ef-4bcd-b3b8-d601098442f7"
+      }
+    ],
+    "id": "6e1c7ea1-3113-4381-8771-491fc3e42cb0"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 211",
+        "id": "81ae466d-4fbf-4e36-9da5-c68a3b55a4d8"
+      }
+    ],
+    "id": "3eb22360-79ae-4865-8769-2d795a9ee103"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 3",
+        "id": "78ec2334-4f6e-4f34-bc01-fd0a952579fe"
+      }
+    ],
+    "id": "fcedd1a6-fa2c-40a4-83b6-44fe8d0e4fcd"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 305",
+        "id": "3028dd3d-9c08-4ec4-906e-088aa9f83f21"
+      }
+    ],
+    "id": "cb9f7508-6519-42c9-a532-e67d5b23a974"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 329",
+        "id": "53e08e18-5bd9-4c83-a6a7-c10a830b16ee"
+      }
+    ],
+    "id": "e04ea441-e299-41d5-bcc5-602590e156ce"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 332",
+        "id": "35f147d3-07df-42be-8747-a95dc9847793"
+      }
+    ],
+    "id": "59fc2296-0721-441a-9d71-970dee2037ee"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 333",
+        "id": "0f9cd602-4341-4a24-abc7-b384e8fc80f0"
+      }
+    ],
+    "id": "7d762531-2d49-4afe-9c7c-5fbffc7dc1ef"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 400",
+        "id": "3196db0c-05c4-40ed-a903-265409a7c309"
+      }
+    ],
+    "id": "6111f685-68db-454e-9838-14a9ed7ad8fe"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 60",
+        "id": "d8fcf6ab-d742-40df-939f-fe642bd400a6"
+      }
+    ],
+    "id": "cc0c2dbe-bb8f-4b05-a2c7-12390d59fa2e"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A 82",
+        "id": "3d5323e9-21e0-4300-bc3e-1f095f0bbe4d"
+      }
+    ],
+    "id": "cf960c32-f107-47dd-9dae-cddcbea2bd4b"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A2 12",
+        "id": "e08ac092-f7b1-4c95-851f-661f6883be42"
+      }
+    ],
+    "id": "786eabc9-eb8f-40d9-8f35-10d90c58f1af"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A3 1",
+        "id": "454df532-fb68-4cb7-a9a8-69ef1e60dc06"
+      }
+    ],
+    "id": "abebd176-de2f-45be-a245-a73752e5fab5"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A3 10",
+        "id": "027361b2-ac79-4762-8b3e-71f2a396d983"
+      }
+    ],
+    "id": "50e0b141-c4ea-4c67-bad8-81083f0a3642"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A3 11",
+        "id": "311663c2-8910-41f5-bac5-bc68028b945a"
+      }
+    ],
+    "id": "1bdd76bd-da4a-4a76-b18a-988cce4e7793"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A3 2",
+        "id": "92f76df2-0d55-4a58-a10f-472495512225"
+      }
+    ],
+    "id": "1e0f3c0a-e56e-4e74-abf2-b61674ba18c8"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A3 3",
+        "id": "9c84e01f-c32a-4d0b-9d01-b063cb3f0178"
+      }
+    ],
+    "id": "c75cee89-3d8c-4120-8cd0-167c6c354986"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A3 4",
+        "id": "0fdef525-af7d-4d33-af3f-1b3932aed0f5"
+      }
+    ],
+    "id": "490e038b-8083-4f8b-bf3f-90b4f214757e"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A@ 18",
+        "id": "0bcd0226-58a4-48db-8020-a78eb9a9fe6d"
+      }
+    ],
+    "id": "940faf70-808b-437c-834d-3c5ae85f1929"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "A@ 8",
+        "id": "f452f237-7e53-41bc-a894-52f81e261c0e"
+      }
+    ],
+    "id": "88318776-ed2f-441d-a86e-501d659e7ce1"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "ASM 18",
+        "id": "d780468b-d32d-4e54-b450-3daea544a951"
+      }
+    ],
+    "id": "a48678fc-3af9-4c4c-bdad-e1ae8f9da2f8"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "ASM2 1",
+        "id": "8e3b79e7-6a2c-44db-b9f4-6300202fe27c"
+      }
+    ],
+    "id": "2bef2b49-652e-4061-b17d-42d5eee676ee"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "ASM@ 1",
+        "id": "dcf2bb77-1ce9-4591-bf82-42058eaaf4b3"
+      }
+    ],
+    "id": "369186a6-d7df-4f56-add0-8c4ec405b8c6"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "CAPTAIN AMERICA COMI",
+        "id": "e64b0e5b-e37e-4ef6-b2db-d3dabdc2c46d"
+      }
+    ],
+    "id": "61fabc87-7e19-4c49-9dc6-3ca936dc2a84"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "COC 1",
+        "id": "1d8a7c56-9b23-492b-a284-99287edea587"
+      }
+    ],
+    "id": "e1c2bdaa-c330-40ff-8973-6e8f05ec416e"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "COC 3",
+        "id": "4a012564-882a-4b5e-8f88-ef6d98be94db"
+      }
+    ],
+    "id": "23f43208-d715-42b5-a2ad-843631f0733a"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "COH 3",
+        "id": "4478ea61-447c-4183-b5cf-64fe3f8e35fb"
+      }
+    ],
+    "id": "b617736d-eeae-44fe-ae00-6abe5b5bb8a2"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "DAMCON3 4",
+        "id": "22e451e6-3e5f-4d71-9342-78c8568c1bdc"
+      }
+    ],
+    "id": "941d0d64-6997-4ed8-8fe8-dd95db2a199e"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "DAZZ 21",
+        "id": "de57522f-8593-4162-8241-bb58f0bf1523"
+      }
+    ],
+    "id": "b60cb2c9-f782-4ad1-8a0d-3ed00c23a666"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "DD 164",
+        "id": "b40a341f-1faa-43b3-bcee-f037e79bd515"
+      }
+    ],
+    "id": "7b3ac1d3-f137-4306-b2f0-b5e3134f844c"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "DD2 8",
+        "id": "c12df70e-fa5d-4b3d-8289-11edc3a9afed"
+      }
+    ],
+    "id": "4646608c-3616-4af5-a6d5-5af603330c70"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF 243",
+        "id": "df814de7-7393-4be9-853a-8e758218d0c7"
+      }
+    ],
+    "id": "72791395-89d9-49a7-a07f-c680213caa71"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF 36",
+        "id": "7bf78e9b-11d1-4303-aef4-eebe6a8b7c5e"
+      }
+    ],
+    "id": "27d23b1c-4109-4b95-9787-6c6c1e2da882"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF 367",
+        "id": "c6a1378d-18f6-450a-bb58-2a1dab886c6c"
+      }
+    ],
+    "id": "e68be67a-7f8f-492e-bded-151041fb4f88"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF 368",
+        "id": "3bb3288e-aef6-4656-b564-42816ebd3ec7"
+      }
+    ],
+    "id": "beeb94f0-5888-4672-b821-3369370a04ff"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF 369",
+        "id": "34fe74c2-209d-4244-9725-cd1c06d18596"
+      }
+    ],
+    "id": "41c9bc25-486e-4178-8c6d-0441a59fd501"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF 370",
+        "id": "732ad0ec-6d74-471f-bb88-8caa69550d8d"
+      }
+    ],
+    "id": "6d92728c-c5db-4881-a7c4-a7f636fcb7c6"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF2 12",
+        "id": "57f2e3b6-6364-4486-a1b7-1e67e1f34d5b"
+      }
+    ],
+    "id": "904816a8-ec70-4e9f-9651-ce7ea07ecb98"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF3 27",
+        "id": "aa190cd6-ebc1-4af5-8366-da1c8beef9bc"
+      }
+    ],
+    "id": "6d3ee674-e364-4a8e-855d-fc50b57b141b"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF@ 22",
+        "id": "e6addead-fc84-4e7e-9f7d-f5e6abf907d5"
+      }
+    ],
+    "id": "0768eb88-7f4d-461a-86b8-815613517a11"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "FF@ 3",
+        "id": "7d972dfe-c1ec-4d3c-aa4b-a7eee7a7110e"
+      }
+    ],
+    "id": "57773d03-64cf-44ae-860b-35797711d95a"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "GAL 2",
+        "id": "e63c0007-be56-4bec-97c3-9fd1506974e8"
+      }
+    ],
+    "id": "561ba2f2-682e-4d01-9795-f4262825e1b2"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "GAL 3",
+        "id": "ab7d9586-de91-4be5-bc3c-837b0410f9f4"
+      }
+    ],
+    "id": "5bbfd700-e75b-40b3-838b-69e7d58dae63"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "H2 153",
+        "id": "9f7cca75-adf5-4388-9975-5973dc273180"
+      }
+    ],
+    "id": "92010e73-e6a4-4d23-bb9b-a11515deff9b"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "H2 277",
+        "id": "a48a8437-5635-468a-a612-43c5262d50c6"
+      }
+    ],
+    "id": "edffc291-aa81-4403-926a-7ed790a2009f"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "H2 278",
+        "id": "51d13d12-d125-4882-889b-3287938f2f87"
+      }
+    ],
+    "id": "db67a228-162e-4d37-a22d-e25ff69454da"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "H2 279",
+        "id": "dc62f008-41cd-4b0b-838c-29d35428d7c6"
+      }
+    ],
+    "id": "f36850b2-09e0-411b-99e6-bd1dd5aec0b7"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "H@ 11",
+        "id": "b355e2bb-83a1-4dde-8429-5739900da39a"
+      }
+    ],
+    "id": "b2d147e5-07b1-4e44-b2b8-8c262ca6a4fc"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "HR:R 3",
+        "id": "fcca956a-9810-4d84-843a-9a44952904b3"
+      }
+    ],
+    "id": "5a061cb5-f108-454a-8cb8-7382e5040d02"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "HR:R 4",
+        "id": "8e5572ca-8bc1-49a1-a8dd-f0c19b2b2fc6"
+      }
+    ],
+    "id": "85c49281-efb2-4726-8946-a4c9eec914c1"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IFW 2",
+        "id": "73b5bb68-fac2-4f24-9ae5-4b16b0f7c046"
+      }
+    ],
+    "id": "f20bb16a-1582-4069-b743-28c15fe3659b"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IG 3",
+        "id": "77390fe9-2b86-4732-a9f6-51d5338a6f9c"
+      }
+    ],
+    "id": "105a5b11-faec-443d-ac30-44b42fbbae22"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IM2 12",
+        "id": "6381de8b-4322-4389-9014-514b7146b248"
+      }
+    ],
+    "id": "4cd34107-4738-49e5-a724-0c721b4d6fd3"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IW 1",
+        "id": "e6186f95-4b76-4a56-9f20-001cfdc0127f"
+      }
+    ],
+    "id": "e2cd336e-79fd-4a10-8a99-7758e944b1fd"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IW 2",
+        "id": "015e7eea-8666-4c35-9cb9-a1585c6b53d8"
+      }
+    ],
+    "id": "e4ca9b52-42a7-4a6b-82c7-7cb8af54e588"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IW 3",
+        "id": "89f80d90-c33f-4d1c-b997-04b47f7b1a60"
+      }
+    ],
+    "id": "c10606bb-926d-4a45-ae67-dd4ed9a93209"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IW 4",
+        "id": "aedbaea4-f64f-4c3d-a064-48bdced89705"
+      }
+    ],
+    "id": "d55ffe75-f8a9-426f-9c31-105843ffa938"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IW 5",
+        "id": "0763028d-40b3-4abe-8b6e-d57e0f1cdccc"
+      }
+    ],
+    "id": "8b2a945c-28a0-4835-ba74-f3657d24bb16"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "IW 6",
+        "id": "20485ea8-afaf-4686-b12e-5df344aef5a0"
+      }
+    ],
+    "id": "7c27b27e-9f43-4e36-a38c-1599d7a64517"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/GN 1",
+        "id": "061ced70-0b42-4ecc-be36-c175f612aceb"
+      }
+    ],
+    "id": "d4e11bc8-d0a2-4f9e-adb2-50287e1c7a25"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 1",
+        "id": "3c2f066b-cf28-490c-b8e9-b4beb31e4a37"
+      }
+    ],
+    "id": "5490b155-c1bd-4510-9c26-02a3f0c3c8c6"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 10",
+        "id": "6cebb8f9-823f-44a5-aef8-f3021a58ea77"
+      }
+    ],
+    "id": "6ac3c480-1d0a-49b0-96c3-31cf86fc60c0"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 11",
+        "id": "9ab61198-9102-4d99-89f1-0c6d1801998d"
+      }
+    ],
+    "id": "496f0404-b8e4-481f-8cdb-367c4fd4a6db"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 12",
+        "id": "70ca72b5-ab6c-4224-bdb7-0b27a65327dc"
+      }
+    ],
+    "id": "3066b92a-bb03-42ad-90d0-6c8343d2cbc0"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 2",
+        "id": "6d72ca7f-ac81-4850-b8b0-bb7bdb8b39d9"
+      }
+    ],
+    "id": "c80ca16f-4475-4f80-9670-268ef9ada1e3"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 3",
+        "id": "574dd3c9-d62f-4839-ab7d-c118e0a768e2"
+      }
+    ],
+    "id": "993afc22-b116-435d-8adc-80f1c3d21bf2"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 4",
+        "id": "fd00f84d-371b-41c3-993c-f29339b8245e"
+      }
+    ],
+    "id": "40770f16-b2ee-45bb-9f7f-7fb72035aee2"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 5",
+        "id": "b7a16558-e8d5-440d-a392-e94bfcb0f39c"
+      }
+    ],
+    "id": "3897a774-19b8-4691-a875-2d551bd5a5b8"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 6",
+        "id": "5b744d63-a480-402b-8b40-22f998ab1eb6"
+      }
+    ],
+    "id": "9400b33f-9ab7-4a76-b200-ce7d1a9936c0"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 7",
+        "id": "879ee0a7-6bc4-4287-a22a-fd7b60c135a9"
+      }
+    ],
+    "id": "added8d0-d88e-4629-afa0-5c6b402555ff"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 8",
+        "id": "bdbfa074-428b-4eea-84ce-53d7b056d961"
+      }
+    ],
+    "id": "932bc2b1-1346-4c45-a570-c593269f4459"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SHSW 9",
+        "id": "456facdf-abf2-48ed-8e56-dd4168bb1778"
+      }
+    ],
+    "id": "7d7c1bab-98d9-482c-8ffe-11d0ca955fd4"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/SS 1",
+        "id": "cfdbf7ac-21b3-4c6f-989b-c879c3c309a9"
+      }
+    ],
+    "id": "f2efd8f1-8135-4f9e-a360-15cc73208af6"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/TE 13",
+        "id": "10661681-4d0f-4322-a198-8f139292931c"
+      }
+    ],
+    "id": "9efd158c-dcda-482d-9367-7a71420f9970"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/TIO 96",
+        "id": "f5749ea4-4adb-463e-9efb-a1998401c42b"
+      }
+    ],
+    "id": "b2ce476a-3e5c-4561-aee0-a62209e8eef4"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "M/TIO@ 7",
+        "id": "4f60c6ff-40cf-4f6a-b632-f8279c71df91"
+      }
+    ],
+    "id": "71e69ba6-e6fc-42e9-8c27-585c82410efa"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "MARVELS 2",
+        "id": "669e3653-607a-4932-9ec9-bc83fc214a50"
+      }
+    ],
+    "id": "777db5ba-11ed-4070-9708-43429946b030"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "MAXSEC 2",
+        "id": "b66ddfeb-d950-4074-8fca-cfb797c83d61"
+      }
+    ],
+    "id": "d4c2506c-20a5-43e7-b2dd-5ac182f3949f"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "MAXSEC 3",
+        "id": "530b71eb-7ded-419f-8f49-11a34757d44e"
+      }
+    ],
+    "id": "bf5bbe0a-5a69-46cc-9a0b-f0c39021c089"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "MK3 41",
+        "id": "30535faa-5d89-4a36-b482-0e6fba8e43b2"
+      }
+    ],
+    "id": "c4720ebd-01c2-46c2-b94a-6df8e39eddea"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "O:MU",
+        "id": "405bf18f-ebf8-4815-811e-daccbaa65507"
+      }
+    ],
+    "id": "f6c570d6-e75b-41d7-a606-125e0b557cfa"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "O:X",
+        "id": "9da4177e-d5b3-45de-8a0d-e6ddd7ca41ff"
+      }
+    ],
+    "id": "c76a4f86-b385-4668-9ad1-b657bd123fcd"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "Q 38",
+        "id": "ce20e173-d531-4caa-ba60-af4df0a7bd69"
+      }
+    ],
+    "id": "e09f2582-3a90-4094-8e6e-494076942f66"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "SLT 12/08/2017",
+        "id": "d721be32-e9bf-4794-9b78-9b019caa2d66"
+      }
+    ],
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d28a"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "ST 156",
+        "id": "99970f70-65b3-49ef-bb64-c9fc84b4068d"
+      }
+    ],
+    "id": "438674c1-8060-4828-b42e-5d7107458cb6"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "SWII 9",
+        "id": "c9816473-8abd-444f-bebb-89dafe412b6c"
+      }
+    ],
+    "id": "35a6be30-a569-44af-a4ae-982fd55ce32b"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "TB 11",
+        "id": "bee2feac-b264-4baf-aed5-7479082b547a"
+      }
+    ],
+    "id": "6cd96817-1e74-4c18-8bf0-078c4a723dc9"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "TB 12",
+        "id": "352d6977-7187-454f-b608-7d81a087bdbf"
+      }
+    ],
+    "id": "4f7bdd3d-b22d-42bb-93f9-e3b608d74f1f"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "UTSM 97",
+        "id": "ac71228b-6ea1-426a-b8cc-fe4c2c2dbb2a"
+      }
+    ],
+    "id": "c62c1507-4e25-46d0-b94b-5e3acae82cbe"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "UX 108",
+        "id": "852d5f39-3a6c-4056-b186-56cdc5c8867a"
+      }
+    ],
+    "id": "80200b13-b371-4c0f-a472-27ec8fbd728a"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "WCA@ 1",
+        "id": "10d83175-4e29-4ced-8f24-13b51552b0e2"
+      }
+    ],
+    "id": "1374adb5-6774-4d94-9884-f636551fe59c"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "WIW 8",
+        "id": "9950a2b8-e1ce-470e-a36e-3eb449c68592"
+      }
+    ],
+    "id": "83b90833-167e-43cd-9311-5aa44cecdf69"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "WM2 13",
+        "id": "73b8f574-2c70-4380-a9ac-10237d319dc0"
+      }
+    ],
+    "id": "7876fa6e-7883-4a15-8fdf-56d3323a449e"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "WM2 14",
+        "id": "f47f17a0-b7f1-47c1-ac03-c0f742e1c33c"
+      }
+    ],
+    "id": "d575d2ef-ec66-4ba0-b853-20f20c75aea4"
+  },
+  {
+    "label": "comic",
+    "name": [
+      {
+        "_value": "X 55",
+        "id": "a37dcddd-9352-4ed5-b19c-b1463bae23f2"
+      }
+    ],
+    "id": "a6e9674f-4620-4bdd-9404-c32969a4e0d6"
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27d",
+    "name": [
+      {
+        "_value": "Amy Hood",
+        "id": "4b201d81-446d-4bf0-8753-c95ef185ac2f"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "ANT-MAN",
+        "id": "7328d227-62cc-412c-a299-29ed0d4a7db3"
+      }
+    ],
+    "id": "4c7632a1-15b7-48b6-b3bf-dea68567a0bf"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "BEAST",
+        "id": "123277fa-6744-4969-a442-df4b0ebaf037"
+      }
+    ],
+    "id": "827a375c-efb4-4198-9ab1-d5448132196e"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "BLACK PANTHER",
+        "id": "d7e93b02-545a-45ff-9fea-8ec30a385cb6"
+      }
+    ],
+    "id": "2e68cba4-7a1a-4bd4-96b9-cc43c1c8c85e"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "BLACK WIDOW",
+        "id": "0443d19a-c0a0-499c-bdd0-1ff4eae74577"
+      }
+    ],
+    "id": "26517e3d-1fd9-4bc3-95af-267ad5f43873"
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27e",
+    "name": [
+      {
+        "_value": "Brad Smith",
+        "id": "c1cf9a59-f273-42c1-bfe3-0b846bc71249"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "CAPTAIN AMERICA DOPP",
+        "id": "88ca7cab-5bc1-4361-b122-fbf94de3590c"
+      }
+    ],
+    "id": "96377aa7-5070-4855-ae08-63da437505d8"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "CAPTAIN AMERICA",
+        "id": "c534aa5c-053b-40f5-b6e0-41e40fcfb4c7"
+      }
+    ],
+    "id": "d5cd5706-7d17-4d6a-98ba-84b96677bbd9"
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27f",
+    "name": [
+      {
+        "_value": "Chris Capossela",
+        "id": "4c86ffa1-9781-4eab-b8a4-32de63c5065d"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "CYCLOPS",
+        "id": "97332d2f-2f61-44fe-a8c1-10a79053d32b"
+      }
+    ],
+    "id": "c2faf304-3581-4c70-b9bb-03278136bbd3"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "DAREDEVIL",
+        "id": "ef8f94a8-f8f3-4278-aab5-f4eec8dd185a"
+      }
+    ],
+    "id": "826b6deb-9b1f-42bc-b895-5dd6a06f2fd0"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "DR. STRANGE",
+        "id": "bcbb8a5a-64a0-4445-8cfe-9b103ca1a20f"
+      }
+    ],
+    "id": "1e80766f-2187-45d0-8e8d-6cfdece93ebf"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "FALCON",
+        "id": "159b93b6-b88b-492f-9013-d515de1dbbf1"
+      }
+    ],
+    "id": "25270779-f475-45ca-be86-aff535b4d943"
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27g",
+    "name": [
+      {
+        "_value": "Hary Shum",
+        "id": "cae3f4bc-c04a-43f3-a94a-b22f06929327"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "HAWK",
+        "id": "af782bab-67ba-4be2-8d99-1e9a452dfc4f"
+      }
+    ],
+    "id": "1b2d53be-398b-41f1-a000-49fe493c14b0"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "HULK III",
+        "id": "99e47a6f-3ebc-4c66-bb69-44e0724edde6"
+      }
+    ],
+    "id": "a95c339c-a0a7-4ff7-97ba-5cdfef00fb3c"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "HULK",
+        "id": "2a2db627-7c21-4a52-b7ff-cc0b0970150f"
+      }
+    ],
+    "id": "ddaa8a77-1c31-4dbd-9fee-d8c1b02e4034"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "HUMAN TORCH",
+        "id": "f5bd0034-6ec1-4de6-869f-65776a3d2a8c"
+      }
+    ],
+    "id": "ca2b51ce-40d9-41bb-b092-703a4b751bdb"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "INVISIBLE WOMAN",
+        "id": "56b5b0dc-c9d0-4e68-bbb8-5f5b8274f4f1"
+      }
+    ],
+    "id": "883ea37f-e59f-449b-9e8f-0777b0dd451f"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "IRON MAN",
+        "id": "217d58aa-a0e6-428e-be9c-7eb61f4ab618"
+      }
+    ],
+    "id": "1f005186-2f70-4e08-b271-11fc64962306"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "JAMESON, J. JONAH",
+        "id": "69ebe105-c036-4b73-a39f-2282ce20b438"
+      }
+    ],
+    "id": "4cea7918-52d8-40f5-bcb7-6112a732e1b4"
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27h",
+    "name": [
+      {
+        "_value": "Jeff Weiner",
+        "id": "a1db0b9b-c4df-4cfd-a777-8c7e803c0502"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27i",
+    "name": [
+      {
+        "_value": "Judson Althoff",
+        "id": "8ea2a8d3-7ce8-4616-94ea-dbea82b07c3e"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27j",
+    "name": [
+      {
+        "_value": "Kathleen Hogan",
+        "id": "28ff8c61-e5a5-4a33-96ed-7bd08d4906af"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27k",
+    "name": [
+      {
+        "_value": "Kevin Scott",
+        "id": "d47c0413-5792-476d-b9a5-3297e31672b8"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27l",
+    "name": [
+      {
+        "_value": "Kurt DelBene",
+        "id": "10b95db8-55a2-44e1-a481-32430fc0adbb"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "MAGNETO",
+        "id": "a7d463aa-971d-49f9-81d2-80f52421a3b9"
+      }
+    ],
+    "id": "808278fc-c248-4020-88a9-f3ffe85c03fd"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "MR. FANTASTIC",
+        "id": "b433a997-78d7-41a7-be54-f2171204b94a"
+      }
+    ],
+    "id": "0dc69283-1bb5-4832-9f06-da579605fef2"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "MYSTIQUE",
+        "id": "59158e65-442c-4b53-a840-348b25e23a05"
+      }
+    ],
+    "id": "e10521a2-dc84-4dbc-989f-3023a0518dab"
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27m",
+    "name": [
+      {
+        "_value": "Peggy Johnson",
+        "id": "3f89fa06-b60b-44a6-8080-9ddf39a2f134"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27n",
+    "name": [
+      {
+        "_value": "Phil Spencer",
+        "id": "98863fec-15b8-4862-b1b1-f61a6d82bfc6"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "id": "502c7eb9-e2d2-44c3-9e19-383e90c7d27b",
+    "name": [
+      {
+        "_value": "Satya Nadela",
+        "id": "137de893-824f-46b0-88c3-8a49608ba5fb"
+      }
+    ]
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "SCARLET WITCH",
+        "id": "eca43d4c-8787-4d18-a41b-89e3c820757f"
+      }
+    ],
+    "id": "b3df2db6-0004-4b29-a0bf-ddf6215e29c7"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "SPIDER-MAN",
+        "id": "60e70282-c8fd-42aa-975f-75c57e5f1a0f"
+      }
+    ],
+    "id": "9bf5d877-8b21-4998-a871-273d45ac1e4d"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "STORM",
+        "id": "429bfebf-25ea-4e73-bc1d-5e140316bbb5"
+      }
+    ],
+    "id": "1284c940-6ad6-4de4-a56f-4aedb8cbd601"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "THANOS",
+        "id": "8c1a5a65-f781-4ae6-8dbf-646003242da0"
+      }
+    ],
+    "id": "f08f7373-e9fc-4eef-b1f7-5cdf255d34dd"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "THING",
+        "id": "51103084-d696-4c54-b541-efaa5a956805"
+      }
+    ],
+    "id": "37385ec6-c732-4fa8-bf9b-50423e567c73"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "THOR",
+        "id": "a639afe1-a012-4fb6-b5cd-e892e2a5c611"
+      }
+    ],
+    "id": "be02d483-344e-474d-91f3-6a137c477d0a"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "VISION ",
+        "id": "64943093-7c03-4c30-a699-88f25147a95f"
+      }
+    ],
+    "id": "d69ba29e-2fe8-4466-8419-5e414029e5a7"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "WASP",
+        "id": "a1e7d712-1dd6-4142-9d1c-566c48b2e60f"
+      }
+    ],
+    "id": "237ed03f-1b17-426b-9c19-dd4c9c0dd18d"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "WATSON-PARKER, MARY ",
+        "id": "85b836fd-d559-4f1c-990b-82768ea1dfec"
+      }
+    ],
+    "id": "0e6ee25b-37a4-4857-a061-61c724b5d8eb"
+  },
+  {
+    "label": "hero",
+    "name": [
+      {
+        "_value": "WOLVERINE",
+        "id": "a878c55c-a1f5-4f2d-81c8-d11ee7af862c"
+      }
+    ],
+    "id": "fadc52a5-3910-4e18-9c99-916d2e70399d"
+  }
+]

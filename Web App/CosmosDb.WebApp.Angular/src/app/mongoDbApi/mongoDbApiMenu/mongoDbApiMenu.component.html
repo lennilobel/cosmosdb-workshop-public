@@ -1,0 +1,95 @@
+<h1>
+	MongoDB API Demos
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<div>
+	<table width="100%">
+		<tr>
+			<td valign="top" width="250">
+				<h3>Available Demos</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateTaskListCollection()">Create TaskList Collection</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PromptCreateTaskDocument()">Create Task Item</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewTaskListCollection()">View TaskList Collection</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteTaskListCollection()">Delete TaskList Collection</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteTasksDatabase()">Delete Tasks Database</button><br />
+				</div>
+			</td>
+			<td valign="top">
+				<div *ngIf="this.documents" style="margin-top: 8px;">
+					Document count: {{this.documents.length}} <button mat-raised-button class="SmallButton" (click)="this.documents = null">Close</button>
+					<div class="TableGrid mat-elevation-z8" style="max-height: 500px;">
+						<table mat-table #table [dataSource]="this.documents">
+							<ng-container matColumnDef="Id">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Id</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+							</ng-container>
+							<ng-container matColumnDef="Name">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Name</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.name}}</td>
+							</ng-container>
+							<ng-container matColumnDef="Category">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Category</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.category}}</td>
+							</ng-container>
+							<ng-container matColumnDef="DueDate">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Due Date</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.dueDate}}</td>
+							</ng-container>
+							<ng-container matColumnDef="Tags">
+								<th style="padding: 8px;" style="padding: 8px;" mat-header-cell *matHeaderCellDef>Tags</th>
+								<td style="padding: 8px;" style="padding: 8px;" mat-cell *matCellDef="let item">{{item.tags}}</td>
+							</ng-container>
+							<tr mat-header-row *matHeaderRowDef="this.documentColumns"></tr>
+							<tr mat-row *matRowDef="let row; columns: this.documentColumns;"></tr>
+						</table>
+					</div>
+				</div>
+				<div *ngIf="this.document" style="margin-top: 8px;">
+					<button mat-raised-button class="SmallButton" (click)="this.document = null">Close</button>
+					<div class="JsonBlock mat-elevation-z8">
+						<pre>{{this.formatter.AsJson(this.document)}}</pre>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<ng-template #createTaskDialog>
+		<div class="dialogHeader">
+			Create Task
+		</div>
+		<div class="dialogBody">
+			<form [formGroup]="this.form">
+				<mat-form-field>
+					<input matInput formControlName="Name" type="text" placeholder="Name" />
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput formControlName="Category" type="text" placeholder="Category" />
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput formControlName="DueDate" type="date" placeholder="Due date" />
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput formControlName="Tags" type="text" placeholder="Tags" />
+				</mat-form-field>
+			</form>
+		</div>
+		<div class="dialogFooter">
+			<button mat-raised-button (click)="this.CreateTaskDocument()">Create</button>&nbsp;
+			<button mat-raised-button (click)="this.dialogRef.close()">Cancel</button>
+		</div>
+	</ng-template>
+
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

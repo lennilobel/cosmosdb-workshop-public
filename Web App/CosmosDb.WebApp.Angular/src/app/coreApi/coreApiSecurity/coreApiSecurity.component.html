@@ -1,0 +1,68 @@
+<h1>
+	Core API Security
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<table width="100%">
+	<tr>
+		<td valign="top" width="250">
+			<h3>Available Demos</h3>
+			<div>
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewUsers()">View Users</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateUsers()">Create Users</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreatePermissions()">Create Permissions</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewPermissions('Alice')">View Permissions (Alice)</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewPermissions('Tom')">View Permissions (Tom)</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.TestPermissions('Alice')">Test Permissions (Alice)</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.TestPermissions('Tom')">Test Permissions (Tom)</button><br />
+				<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteUsers()">Delete Users</button><br />
+			</div>
+		</td>
+		<td valign="top">
+			<div *ngIf="this.documents" style="margin-top: 8px;">
+				Item count: {{this.documents.length}} <button mat-raised-button class="SmallButton" (click)="this.documents = null">Close</button>
+				<div class="TableGrid mat-elevation-z8" style="max-height: 500px;">
+					<table mat-table #table [dataSource]="this.documents">
+						<ng-container matColumnDef="UserId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>User ID</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+						</ng-container>
+						<ng-container matColumnDef="PermissionId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Permission ID</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+						</ng-container>
+						<ng-container matColumnDef="ResourceId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Resource ID</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item._rid}}</td>
+						</ng-container>
+						<ng-container matColumnDef="SelfLink">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Self-link</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item._self}}</td>
+						</ng-container>
+						<ng-container matColumnDef="PermissionMode">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Permission Mode</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.permissionMode}}</td>
+						</ng-container>
+						<ng-container matColumnDef="Token">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Token</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item._token.substr(0, 40)}}...</td>
+						</ng-container>
+						<tr mat-header-row *matHeaderRowDef="this.documentColumns"></tr>
+						<tr mat-row *matRowDef="let row; columns: this.documentColumns;"></tr>
+					</table>
+				</div>
+			</div>
+			<div *ngIf="this.document" style="margin-top: 8px;">
+				<button mat-raised-button class="SmallButton" (click)="this.document = null">Close</button>
+				<div class="JsonBlock mat-elevation-z8">
+					<pre>{{this.formatter.AsJson(this.document)}}</pre>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

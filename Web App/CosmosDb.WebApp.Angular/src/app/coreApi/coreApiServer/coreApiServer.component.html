@@ -1,0 +1,111 @@
+<h1>
+	Core API Server Code
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<div>
+	<table width="100%">
+		<tr>
+			<td valign="top" width="250">
+
+				<mat-accordion>
+
+					<mat-expansion-panel [expanded]="true">
+						<mat-expansion-panel-header>
+							<mat-panel-title>
+								Stored Procedures
+							</mat-panel-title>
+						</mat-expansion-panel-header>
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateStoredProcedures()">Create Stored Procedures</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewStoredProcedures()">View Stored Procedures</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteStoredProcedure('spHelloWorld')">Execute spHelloWorld</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteStoredProcedure('spSetNorthAmerica')">Execute spSetNorthAmerica</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteStoredProcedure('spGenerateId')">Execute spGenerateId</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteStoredProcedure('spBulkInsert')">Execute spBulkInsert</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteStoredProcedure('spBulkDelete')">Execute spBulkDelete</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteStoredProcedures()">Delete Stored Procedures</button><br />
+					</mat-expansion-panel>
+
+					<mat-expansion-panel>
+						<mat-expansion-panel-header>
+							<mat-panel-title>
+								Triggers
+							</mat-panel-title>
+						</mat-expansion-panel-header>
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateTriggers()">Create Triggers</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewTriggers()">View Triggers</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteTrigger('trgValidateDocument')">Execute trgValidateDocument</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteTrigger('trgUpdateMetadata')">Execute trgUpdateMetadata</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteTriggers()">Delete Triggers</button><br />
+					</mat-expansion-panel>
+
+					<mat-expansion-panel>
+						<mat-expansion-panel-header>
+							<mat-panel-title>
+								User-Defined Functions
+							</mat-panel-title>
+						</mat-expansion-panel-header>
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateUserDefinedFunctions()">Create User-Defined Functions</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewUserDefinedFunctions()">View User-Defined Functions</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteUserDefinedFunction('udfRegEx')">Execute udfRegEx</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteUserDefinedFunction('udfIsNorthAmerica')">Execute udfIsNorthAmerica</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ExecuteUserDefinedFunction('udfFormatCityStateZip')">Execute udfFormatCityStateZip</button><br />
+						<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.DeleteUserDefinedFunctions()">Delete User-Defined Functions</button><br />
+					</mat-expansion-panel>
+
+				</mat-accordion>
+
+			</td>
+			<td valign="top" style="padding-left: 16px;">
+				<div *ngIf="this.documents" style="margin-top: 8px;">
+					Document count: {{this.documents.length}} <button mat-raised-button class="SmallButton" (click)="this.documents = null">Close</button>
+					<div class="TableGrid mat-elevation-z8" style="max-height: 600px;">
+						<table mat-table #table [dataSource]="this.documents">
+							<ng-container matColumnDef="SprocId">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Stored Procedure ID</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+							</ng-container>
+							<ng-container matColumnDef="TriggerId">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Trigger ID</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+							</ng-container>
+							<ng-container matColumnDef="UdfId">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>UDF ID</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+							</ng-container>
+							<ng-container matColumnDef="ResourceId">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Resource ID</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item._rid}}</td>
+							</ng-container>
+							<ng-container matColumnDef="SelfLink">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Self-link</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item._self}}</td>
+							</ng-container>
+							<ng-container matColumnDef="Type">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Self-link</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.triggerType}}</td>
+							</ng-container>
+							<ng-container matColumnDef="Operation">
+								<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Operation</th>
+								<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.triggerOperation}}</td>
+							</ng-container>
+							<tr mat-header-row *matHeaderRowDef="this.documentColumns"></tr>
+							<tr mat-row *matRowDef="let row; columns: this.documentColumns;"></tr>
+						</table>
+					</div>
+				</div>
+				<div *ngIf="this.document" style="margin-top: 8px;">
+					<button mat-raised-button class="SmallButton" (click)="this.document = null">Close</button>
+					<div class="JsonBlock mat-elevation-z8">
+						<pre>{{this.formatter.AsJson(this.document)}}</pre>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

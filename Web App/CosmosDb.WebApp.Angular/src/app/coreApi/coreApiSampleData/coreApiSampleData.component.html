@@ -1,0 +1,29 @@
+<h1>
+	Core API Sample Data
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<div>
+	<table width="100%">
+		<tr>
+			<td valign="top" width="250">
+				<h3>Create Families Collection</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateFamiliesCollection('globalDistDemos')">Global Distribution Demos</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateFamiliesCollection('queryDemos')">SQL Query Demos</button><br />
+				</div>
+				<h3>Create mystore Collection</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateMyStoreCollection('fromSqlServer')">Import from SQL Server</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.CreateMyStoreCollection('fromJson')">Import from JSON</button><br />
+				</div>
+			</td>
+			<td valign="top"></td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

@@ -1,0 +1,86 @@
+<h1>
+	Core API Databases
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<div>
+	<table width="100%">
+		<tr>
+			<td valign="top" width="250">
+				<h3>Available Demos</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.ViewDatabases()">View Databases</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PromptCreateDatabase()">Create Database</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" (click)="this.PromptDeleteDatabase()">Delete Database</button><br />
+				</div>
+			</td>
+			<td valign="top">
+				<div *ngIf="this.gridData" class="TableGrid mat-elevation-z8">
+					<table mat-table #table [dataSource]="this.gridData">
+						<ng-container matColumnDef="DatabaseId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Database ID</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+						</ng-container>
+						<ng-container matColumnDef="ResourceId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Self-link</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.selfLink}}</td>
+						</ng-container>
+						<ng-container matColumnDef="SelfLink">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Last modified</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.lastModified | date:'medium'}}</td>
+						</ng-container>
+						<ng-container matColumnDef="Delete">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef></th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">
+								<button mat-raised-button (click)="this.PromptDeleteDatabase(item.id)">Delete Database</button>
+							</td>
+						</ng-container>
+						<tr mat-header-row *matHeaderRowDef="this.gridColumns"></tr>
+						<tr mat-row *matRowDef="let row; columns: this.gridColumns;"></tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<ng-template #createDatabaseDialog>
+		<div class="dialogHeader">
+			Create Database
+		</div>
+		<div class="dialogBody">
+			<form [formGroup]="this.form">
+				<mat-form-field>
+					<input matInput formControlName="DatabaseId" type="text" placeholder="Database ID" />
+				</mat-form-field>
+			</form>
+		</div>
+		<div class="dialogFooter">
+			<button mat-raised-button (click)="this.CreateDatabase()">Create</button>&nbsp;
+			<button mat-raised-button (click)="this.dialogRef.close()">Cancel</button>
+		</div>
+	</ng-template>
+
+	<ng-template #deleteDatabaseDialog>
+		<div class="dialogHeader">
+			Delete Database
+		</div>
+		<div class="dialogBody">
+			<form [formGroup]="this.form">
+				<mat-form-field>
+					<input matInput formControlName="DatabaseId" type="text" placeholder="Database ID" />
+				</mat-form-field>
+			</form>
+		</div>
+		<div class="dialogFooter">
+			<button mat-raised-button (click)="this.DeleteDatabase()">Delete</button>&nbsp;
+			<button mat-raised-button (click)="this.dialogRef.close()">Cancel</button>
+		</div>
+	</ng-template>
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

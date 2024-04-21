@@ -1,0 +1,30 @@
+<h1>
+	Core API Demos
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+<div>
+	<table width="100%">
+		<tr>
+			<td>
+				<h3>Available Demos</h3>
+				<div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiSampleData']">Create Sample Data</button><br />
+					<div class="InfoTextBlock">Create <b>Families</b> and <b>mystore</b> collections</div>
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiDatabases']">Databases</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiContainers']">Containers</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiDocuments']">Documents</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiConflicts']">Conflicts</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiIndexing']">Indexing</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiSecurity']">Security</button><br />
+					<button mat-raised-button color="primary" class="DemoButton" [disabled]="this.busyIndex > 0" [routerLink]="['/coreApiServer']">Server Code</button><br />
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

@@ -1,0 +1,83 @@
+<h1>
+	Core API Conflicts
+</h1>
+<div *ngIf="this.busyIndex > 0" class="Spinner">
+	<mat-spinner [diameter]="44" [strokeWidth]="2"></mat-spinner>
+</div>
+
+<table width="100%">
+	<tr>
+		<td valign="top">
+			<div>
+				<button mat-raised-button color="primary" class="DemoButton" style="width: 150px;" [disabled]="this.busyIndex > 0" (click)="this.ViewConflicts()">View Conflicts</button>&nbsp;
+				<span *ngIf="this.conflict">
+					<button mat-raised-button color="primary" class="DemoButton" style="width: 150px;" [disabled]="this.busyIndex > 0" (click)="this.KeepWinner()">Keep Winner</button>&nbsp;
+					<button mat-raised-button color="primary" class="DemoButton" style="width: 150px;" [disabled]="this.busyIndex > 0" (click)="this.KeepLoser()">Keep Loser</button>&nbsp;
+				</span>
+			</div>
+			<div *ngIf="this.conflict">
+				<div style="font-size: 24pt;">Conflict</div>
+				<div style="font-size: 12pt;">{{this.conflictProps.id}}</div>
+				<table style="width: 100%;">
+					<tr>
+						<td style="padding-right: 8px;">
+							<div style="font-size: 12pt; font-weight: bold; margin-top: 16pt;">Winner</div>
+							<div class="JsonBlock mat-elevation-z8" style="color: darkgreen;">
+								<pre>{{this.formatter.AsJson(this.conflict.winner)}}</pre>
+							</div>
+						</td>
+						<td style="padding-left: 8px;">
+							<div style="font-size: 12pt; font-weight: bold; margin-top: 16pt;">Loser</div>
+							<div class="JsonBlock mat-elevation-z8" style="color: darkred;">
+								<pre>{{this.formatter.AsJson(this.conflict.loser)}}</pre>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div *ngIf="this.gridData">
+				<div style="font-size: 24pt;">Conflicts ({{this.gridData.length}})</div>
+				<div class="TableGrid mat-elevation-z8">
+					<table mat-table #table [dataSource]="this.gridData">
+						<ng-container matColumnDef="ConflictId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Conflict ID</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.conflictProps.id}}</td>
+						</ng-container>
+						<ng-container matColumnDef="OperationType">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Operation Type</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.conflictProps.operationType}}</td>
+						</ng-container>
+						<ng-container matColumnDef="ResourceId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Resource ID</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.conflictProps.resourceId}}</td>
+						</ng-container>
+						<ng-container matColumnDef="ResourceType">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Resource Type</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.conflictProps.resourceType}}</td>
+						</ng-container>
+						<ng-container matColumnDef="DocumentId">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Document ID</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.id}}</td>
+						</ng-container>
+						<ng-container matColumnDef="PartitionKey">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef>Partition Key</th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">{{item.partitionKey}}</td>
+						</ng-container>
+						<ng-container matColumnDef="Open">
+							<th style="padding: 8px;" mat-header-cell *matHeaderCellDef></th>
+							<td style="padding: 8px;" mat-cell *matCellDef="let item">
+								<button mat-raised-button (click)="this.GetConflict(item.conflictProps)">Open</button>
+							</td>
+						</ng-container>
+						<tr mat-header-row *matHeaderRowDef="this.gridColumns"></tr>
+						<tr mat-row *matRowDef="let row; columns: this.gridColumns;"></tr>
+					</table>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<div>
+	<message-box #alertMessage></message-box>
+</div>

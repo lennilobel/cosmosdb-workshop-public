@@ -1,0 +1,110 @@
+.choice-number {
+	font-size: 14pt;
+	font-weight: bold;
+	color: white;
+	background-color: #757575;
+	padding: 2px 8px 2px 8px;
+	border-radius: 4px;
+	margin-right: 8px;
+}
+
+.choice-heading {
+	font-size: 18pt;
+	color: #757575;
+	margin-right: 8px;
+}
+
+.choice-subheading {
+	font-size: 14pt;
+	color: #757575;
+}
+
+.expand-collapse-div {
+	margin-top: 16px;
+}
+
+.expand-collapse-link {
+	margin-left: 38px;
+	color: #548EC2;
+	font-size: 12pt;
+	cursor: pointer;
+}
+
+	.expand-collapse-link:hover {
+		color: red;
+		text-decoration: none;
+	}
+
+.restaurant-image-large {
+	max-height: 90px;
+	margin-left: 48px;
+}
+
+.result-table {
+	margin-left: 48px;
+	background-color: #e0e7ee;
+	padding: 16px;
+	margin-top: 4px;
+	border: 1px solid #5e7b96;
+	border-radius: 4px;
+	color: #5e7b96;
+}
+
+.step-cell {
+	vertical-align: top;
+	padding: 4px;
+}
+
+.step-number {
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+	padding: 2px 7px 2px 7px;
+	border-radius: 16px;
+}
+
+.step-number-start {
+	background-color: green;
+}
+
+.step-number-go {
+	background-color: darkorange;
+}
+
+.step-number-end {
+	background-color: red;
+}
+
+.step-distance {
+	margin-left: 8px;
+	color: #5e7b96;
+	font-size: 10pt;
+}
+
+.step-restaurant {
+	background-color: white;
+	border-radius: 4px;
+	padding: 4px;
+	font-size: 10pt;
+	color: #5e7b96;
+	width: 140px;
+}
+
+.total-step-distance {
+	text-align: center;
+	background-color: #757575;
+	color: white;
+	font-size: 10pt;
+	padding: 2px;
+	border-radius: 4px;
+}
+
+.total-distance {
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 10pt;
+	padding: 2px;
+	border-radius: 4px;
+}

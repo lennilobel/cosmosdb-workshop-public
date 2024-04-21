@@ -1,0 +1,51 @@
+﻿// *** Social Network Graph ***
+
+// Create vertices
+g.addV('person').property('id', 'John').property('age', 25).property('likes', 'pizza').property('city', 'NY')
+g.addV('person').property('id', 'Alan').property('age', 22).property('likes', 'seafood').property('city', 'NY')
+g.addV('company').property('id', 'Acme').property('founded', '2001').property('city', 'NY')
+
+// Create edges
+g.V().has('id', 'John').addE('worksAt').property('weekends', true).to(g.V().has('id', 'Acme'))
+g.V().has('id', 'Alan').addE('worksAt').to(g.V().has('id', 'Acme'))
+g.V().has('id', 'Alan').addE('manages').to(g.V().has('id', 'John'))
+
+// Who works at Acme (i.e.; which vertices have worksAt edges pointing to Acme)?
+g.V('id', 'Acme').in('worksAt')
+
+// Where does Alan work (i.e.; which vertices have worksAt edges pointed to by Alan)?
+g.V('id', 'Alan').out('worksAt')
+
+// What are all of Alan's outgoing relationships (i.e; which vertices have any edges pointed to by Alan)?
+g.V('id', 'Alan').out()
+
+// Who works on weekends?
+g.V().inE('worksAt').has('weekends', true).outV()
+
+g.V().inE().has('weekends', true).inV()
+
+// Same, but get all INbound vertices (Acme)
+g.V().inE('worksAt').has('weekends', true).inV()
+
+
+// *** Sandwich Graph ***
+
+g.addV('sandwich').property('name', 'tuna sandwich').property('price', 3.99)
+g.addV('sandwich').property('name', 'ham sandwich').property('price', 2.49)
+g.addV('sandwich').property('name', 'peanut butter and jelly sandwich').property('price', 1.79)
+g.addV('ingredient').property('name', 'mustard')
+g.addV('ingredient').property('name', 'tuna')
+g.addV('ingredient').property('name', 'bread')
+g.addV('ingredient').property('name', 'lettuce')
+g.addV('ingredient').property('name', 'ham')
+g.addV('ingredient').property('name', 'peanut butter')
+g.addV('ingredient').property('name', 'jelly')
+g.V().has('name', 'tuna sandwich').addE('has_ingredient').to(g.V().has('name', 'bread'))
+g.V().has('name', 'tuna sandwich').addE('has_ingredient').to(g.V().has('name', 'tuna'))
+g.V().has('name', 'tuna sandwich').addE('has_ingredient').to(g.V().has('name', 'mustard'))
+g.V().has('name', 'ham sandwich').addE('has_ingredient').to(g.V().has('name', 'bread'))
+g.V().has('name', 'ham sandwich').addE('has_ingredient').to(g.V().has('name', 'ham'))
+g.V().has('name', 'ham sandwich').addE('has_ingredient').to(g.V().has('name', 'lettuce'))
+g.V().has('name', 'peanut butter and jelly sandwich').addE('has_ingredient').to(g.V().has('name', 'bread'))
+g.V().has('name', 'peanut butter and jelly sandwich').addE('has_ingredient').to(g.V().has('name', 'peanut butter'))
+g.V().has('name', 'peanut butter and jelly sandwich').addE('has_ingredient').to(g.V().has('name', 'jelly'))

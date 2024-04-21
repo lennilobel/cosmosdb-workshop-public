@@ -1,0 +1,59 @@
+<ng-template #messageBoxDialog>
+	<div class="dialogHeader">
+		{{this.headerText}}
+	</div>
+	<div class="dialogBody">
+		<div style="padding-top: 8px; padding-bottom: 8px;">
+			{{this.bodyText}}
+		</div>
+	</div>
+	<div class="dialogFooter">
+		<button mat-raised-button color="primary" (click)="this.dialogRef.close()">Continue</button>
+	</div>
+</ng-template>
+
+<ng-template #webApiErrorDialog>
+	<div id="webApiErrorDialog">
+		<div class="dialogHeader">
+			<table style="color: red; font-weight: bold">
+				<tr>
+					<td valign="top" style="padding-top: 8px;">
+						<img src="/assets/error-icon-4.png" style="height: 48px; margin-right: 8px;" />
+					</td>
+					<td>
+						<div style="font-size: larger;">Server Error</div>
+						<div style="font-size: smaller;">{{this.webApiErrorUrl}}</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="dialogBody">
+			<div style="padding-top: 8px; padding-bottom: 8px;">
+				<div *ngFor="let detail of this.webApiErrorDetails" style="padding-bottom: 4px;">
+					<div style="font-size: smaller; font-weight: bold;">
+						{{detail.type}}
+					</div>
+					<div style="padding-left: 8px;">
+						{{detail.message}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dialogFooter">
+			<button mat-raised-button color="primary" (click)="this.dialogRef.close()">Continue</button>
+		</div>
+	</div>
+</ng-template>
+
+<ng-template #confirmationDialog>
+	<div class="dialogHeader">
+		Confirm Action
+	</div>
+	<div class="dialogBody">
+		{{this.confirmationModalMessageText}}
+	</div>
+	<div class="dialogFooter">
+		<button mat-raised-button color="primary" (click)="this.ConfirmAction()">{{this.confirmationModalButtonText}}</button>
+		<button mat-raised-button style="margin-left: 4px;" (click)="this.dialogRef.close()">Cancel</button>
+	</div>
+</ng-template>
