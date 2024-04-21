@@ -1,7 +1,7 @@
 -- *** Remote master database ***
 
 -- Create a SQL Login in the logical server's master database
-CREATE LOGIN RemoteLogin WITH PASSWORD='Big$ecret123'
+CREATE LOGIN RemoteLogin WITH PASSWORD='[PASSWORD]'
 
 
 -- *** Remote AdventureWorks database ***
@@ -22,11 +22,11 @@ GO
 -- Create a Master Key
 PRINT 'Creating external data source'
 GO
-CREATE MASTER KEY ENCRYPTION BY PASSWORD='H@rd2Gue$$P@$$w0rd!'
+CREATE MASTER KEY ENCRYPTION BY PASSWORD='[PASSWORD]'
 GO
 
 -- Create a Database Scoped Credential
-CREATE DATABASE SCOPED CREDENTIAL RemoteCredential WITH IDENTITY='RemoteLogin', SECRET='Big$ecret123'
+CREATE DATABASE SCOPED CREDENTIAL RemoteCredential WITH IDENTITY='RemoteLogin', SECRET='[SECRET]'
 
 -- Create the external data source
 CREATE EXTERNAL DATA SOURCE AW2017Remote

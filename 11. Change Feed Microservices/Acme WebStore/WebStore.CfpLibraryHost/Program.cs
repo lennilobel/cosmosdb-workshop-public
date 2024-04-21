@@ -14,7 +14,7 @@ namespace WebStore.CfpLibraryHost
 		{
 			Task.Run(async () =>
 			{
-				Client = new CosmosClient("AccountEndpoint=https://cdb-sql.documents.azure.com:443/;AccountKey=[MASTER-KEY]';");
+				Client = new CosmosClient("AccountEndpoint=https://cdb-sql.documents.azure.com:443/;AccountKey=[MASTER-KEY];");
 
 				var database = Client.GetDatabase("acme-webstore");
 				await database.CreateContainerIfNotExistsAsync("lease", "/id");
