@@ -9,7 +9,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CosmosDb.AlwaysEncrypted.HRService2
+namespace CosmosDb.AlwaysEncrypted.HRService
 {
 	class Program
 	{
@@ -24,26 +24,26 @@ namespace CosmosDb.AlwaysEncrypted.HRService2
 			var endpoint = config["CosmosEndpoint"];
 			var masterKey = config["CosmosMasterKey"];
 
-			// Get AAD directory ID, plus the client ID and secret for the HR Service application
-			var directoryId = config["AadDirectoryId"];
-			var clientId = config["AadHRServiceClientId"];
-			var clientSecret = config["AadHRServiceClientSecret"];
+			// Get Entra ID tenant ID, plus the client ID and secret for the HR Service application
+			var tenantId = config["TenantId"];
+			var clientId = config["ClientId"];
+			var clientSecret = config["ClientSecret"];
 
-			// Create an Azure Key Vault key resolver from the AAD directory ID with the client ID and client secret
-			var credential = new ClientSecretCredential(directoryId, clientId, clientSecret);
+			// Create an Azure Key Vault key store provider from the Entra ID tenant ID with the client ID and client secret
+			var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
 			var keyResolver = new KeyResolver(credential);
 
-			// Create a Cosmos client with Always Encrypted enabled using the key resolver
+			// Create a Cosmos client with Always Encrypted enabled using the key store provider
 			var client = new CosmosClient(endpoint, masterKey)
-				.WithEncryption(keyResolver, KeyEncryptionKeyResolverName.AzureKeyVault);           
-			
+				.WithEncryption(keyResolver, KeyEncryptionKeyResolverName.AzureKeyVault);
+
 			// Create the HR database
 			await client.CreateDatabaseAsync("human-resources");
 			var database = client.GetDatabase("human-resources");
 
 			Console.WriteLine("Created human-resources database");
 
-			// Create salary client encryption key (CEK) from the salary customer-managed key (CMK) in AKV
+			// Create salary data encryption keys (DEK) from the salary customer-managed key (CMK) in AKV
 			var salaryCmkId = config["AkvSalaryCmkId"];
 
 			var salaryEncryptionKeyWrapMetadata = new EncryptionKeyWrapMetadata(
@@ -53,13 +53,13 @@ namespace CosmosDb.AlwaysEncrypted.HRService2
 				algorithm: EncryptionAlgorithm.RsaOaep.ToString());
 
 			await database.CreateClientEncryptionKeyAsync(
-				clientEncryptionKeyId: "salaryCek",
+				clientEncryptionKeyId: "salaryDek",
 				DataEncryptionAlgorithm.AeadAes256CbcHmacSha256,
-				salaryEncryptionKeyWrapMetadata); 
-			
-			Console.WriteLine("Created salary client encryption key");
+				salaryEncryptionKeyWrapMetadata);
 
-			// Create SSN client encryption key (CEK) from the SSN customer-managed key (CMK) in AKV
+			Console.WriteLine("Created salary database encryption key");
+
+			// Create SSN data encryption key (DEK) from the SSN customer-managed key (CMK) in AKV
 			var ssnCmkId = config["AkvSsnCmkId"];
 
 			var ssnEncryptionKeyWrapMetadata = new EncryptionKeyWrapMetadata(
@@ -69,17 +69,17 @@ namespace CosmosDb.AlwaysEncrypted.HRService2
 				algorithm: EncryptionAlgorithm.RsaOaep.ToString());
 
 			await database.CreateClientEncryptionKeyAsync(
-				"ssnCek",
+				"ssnDek",
 				DataEncryptionAlgorithm.AeadAes256CbcHmacSha256,
 				ssnEncryptionKeyWrapMetadata);
 
-			Console.WriteLine("Created SSN client encryption key");
+			Console.WriteLine("Created SSN database encryption key");
 
 			// Define a client-side encryption path for the salary property
 			var path1 = new ClientEncryptionIncludedPath()
 			{
 				Path = "/salary",
-				ClientEncryptionKeyId = "salaryCek",
+				ClientEncryptionKeyId = "salaryDek",
 				EncryptionAlgorithm = DataEncryptionAlgorithm.AeadAes256CbcHmacSha256.ToString(),
 				EncryptionType = EncryptionType.Randomized,  // Most secure, but not queryable
 			};
@@ -88,7 +88,7 @@ namespace CosmosDb.AlwaysEncrypted.HRService2
 			var path2 = new ClientEncryptionIncludedPath()
 			{
 				Path = "/ssn",
-				ClientEncryptionKeyId = "ssnCek",
+				ClientEncryptionKeyId = "ssnDek",
 				EncryptionAlgorithm = DataEncryptionAlgorithm.AeadAes256CbcHmacSha256.ToString(),
 				EncryptionType = EncryptionType.Deterministic,   // Less secure than randomized, but queryable
 			};
@@ -157,7 +157,7 @@ namespace CosmosDb.AlwaysEncrypted.HRService2
 			Console.WriteLine("Press any key to continue");
 			Console.ReadKey();
 			Console.WriteLine();
-		 }
+		}
 
 	}
 }

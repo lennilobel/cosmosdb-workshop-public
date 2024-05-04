@@ -1,7 +1,7 @@
 using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Configuration;
 
-namespace CosmosDb.AccessControl.Demos
+namespace CosmosDb.ResourceTokens.Demos
 {
 	public static class Shared
 	{

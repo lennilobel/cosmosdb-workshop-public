@@ -6,11 +6,11 @@ using System.Diagnostics;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace CosmosDb.AccessControl.Demos
+namespace CosmosDb.EntraId.ReadOnly
 {
-	public static class ReadOnlyApplicationDemo
-	{
-		public async static Task Run()
+	public static class Program
+    {
+		private static async Task Main(string[] args)
 		{
 			Debugger.Break();
 
@@ -24,13 +24,13 @@ namespace CosmosDb.AccessControl.Demos
 			// Get the Cosmos DB account endpoint
 			var endpoint = config["CosmosEndpoint"];
 
-			// Get AAD directory ID, plus the client ID and secret for the read-only application
-			var directoryId = config["AadDirectoryId"];
-			var clientId = config["AadReadOnlyClientId"];
-			var clientSecret = config["AadReadOnlyClientSecret"];
+			// Get Entra ID tenant ID, plus the client ID and secret for the read-only application
+			var tenantId = config["TenantId"];
+			var clientId = config["ClientId"];
+			var clientSecret = config["ClientSecret"];
 
-			// Create a Cosmos client from the AAD directory ID with the client ID and client secret
-			var credential = new ClientSecretCredential(directoryId, clientId, clientSecret);
+			// Create a Cosmos client from the tenant ID with the client ID and client secret
+			var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
 			using var client = new CosmosClient(endpoint, credential);
 
 			// Get a reference to the container
@@ -56,5 +56,5 @@ namespace CosmosDb.AccessControl.Demos
 			Console.WriteLine("Successfully executed query");
 		}
 
-	}
-}	
+    }
+}

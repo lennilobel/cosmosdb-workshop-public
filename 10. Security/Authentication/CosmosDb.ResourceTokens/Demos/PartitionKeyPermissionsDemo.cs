@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace CosmosDb.AccessControl.Demos
+namespace CosmosDb.ResourceTokens.Demos
 {
 	public static class PartitionKeyPermissionsDemo
 	{

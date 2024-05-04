@@ -8,7 +8,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace CosmosDb.AlwaysEncrypted.HRStaff2
+namespace CosmosDb.AlwaysEncrypted.HRStaff
 {
 	class Program
 	{
@@ -23,13 +23,13 @@ namespace CosmosDb.AlwaysEncrypted.HRStaff2
 			var endpoint = config["CosmosEndpoint"];
 			var masterKey = config["CosmosMasterKey"];
 
-			// Get AAD directory ID, plus the client ID and secret for the HR Staff application
-			var directoryId = config["AadDirectoryId"];
-			var clientId = config["AadHRStaffClientId"];
-			var clientSecret = config["AadHRStaffClientSecret"];
+			// Get Entra ID tenant ID, plus the client ID and secret for the HR Staff application
+			var tenantId = config["TenantId"];
+			var clientId = config["ClientId"];
+			var clientSecret = config["ClientSecret"];
 
-			// Create an Azure Key Vault key store provider from the AAD directory ID with the client ID and client secret
-			var credential = new ClientSecretCredential(directoryId, clientId, clientSecret);
+			// Create an Azure Key Vault key store provider from the Entra ID tenant ID with the client ID and client secret
+			var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
 			var keyResolver = new KeyResolver(credential);
 
 			// Create a Cosmos client with Always Encrypted enabled using the key store provider

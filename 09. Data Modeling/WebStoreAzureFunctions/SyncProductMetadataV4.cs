@@ -1,4 +1,5 @@
 using Microsoft.Azure.Cosmos;
+using Microsoft.Azure.Documents;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -8,10 +9,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebStoreAzureFunctions
+namespace WebStoreAzureFunctionsV2
 {
 	public static class SyncProductMetadataV4
-	{
+    {
 		private static CosmosClient Client { get; set; }
 
 		private const string ConnectionStringSetting = "CosmosDbConnectionString";
@@ -29,17 +30,16 @@ namespace WebStoreAzureFunctions
 		public static async Task SyncProductMetadata(
 			[CosmosDBTrigger(
 				databaseName: DatabaseId,
-				containerName: ProductMetaContainerId,
-				Connection = ConnectionStringSetting,
-				LeaseContainerName = LeaseContainerId,
-				CreateLeaseContainerIfNotExists = true
-			)]
-			string documentsJson,
-			ILogger log)
-		{
-			var documents = JsonConvert.DeserializeObject<JArray>(documentsJson);
+				collectionName: ProductMetaContainerId,
+                ConnectionStringSetting = ConnectionStringSetting,
+                LeaseCollectionName = LeaseContainerId,
+                CreateLeaseCollectionIfNotExists = true
+            )]
+            IReadOnlyList<Document> documents,
+            ILogger log)
+        {
 			log.LogInformation($"Change detected in {documents.Count} product metadata document(s)");
-			foreach (JObject document in documents)
+			foreach (var document in documents)
 			{
 				var item = JsonConvert.DeserializeObject<dynamic>(document.ToString());
 				string type = item.type;
@@ -87,7 +87,7 @@ namespace WebStoreAzureFunctions
 		{
 			var sql = $"SELECT * FROM c WHERE ARRAY_CONTAINS(c.tags, {{'id': '{tagId}'}}, true)";
 			var productContainer = Client.GetContainer(DatabaseId, "product");
-			var options = new QueryRequestOptions { MaxConcurrency = -1  };
+			var options = new QueryRequestOptions { MaxConcurrency = -1 };
 			var iterator = productContainer.GetItemQueryIterator<dynamic>(sql, requestOptions: options);
 			var ctr = 0;
 			while (iterator.HasMoreResults)

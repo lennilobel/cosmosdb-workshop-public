@@ -1,11 +1,11 @@
-using CosmosDb.AccessControl.Demos;
+using CosmosDb.ResourceTokens.Demos;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace CosmosDb.ResourceTokens
 {
-    public static class Program
+	public static class Program
     {
         private static IDictionary<string, Func<Task>> DemoMethods;
 
