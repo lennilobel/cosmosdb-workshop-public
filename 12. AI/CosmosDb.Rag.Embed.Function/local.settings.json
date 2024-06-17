@@ -5,7 +5,7 @@
         "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
         "CosmosDbConnectionString": "[CONNECTION-STRING]",
         "OpenAIEndpoint": "[ENDPOINT]",
-        "OpenAIKey": "1e981882b329481ebe4b2bfa261f8dce",
+        "OpenAIKey": "[API-KEY]",
         "OpenAIDeploymentName": "lenni-embeddings-3-large"
     }
 }
