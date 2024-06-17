@@ -9,7 +9,7 @@ namespace CosmosDb.DotNetSdk.Demos
 {
 	public static class Cleanup
 	{
-        public async static Task Run()
+        public static async Task Run()
         {
             Console.WriteLine();
             Console.WriteLine(">>> Cleanup <<<");

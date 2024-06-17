@@ -7,7 +7,7 @@ namespace CosmosDb.DotNetSdk.Demos
 {
     public static class BulkDemo
     {
-        public async static Task Run()
+        public static async Task Run()
         {
             Console.WriteLine();
 
@@ -22,7 +22,7 @@ namespace CosmosDb.DotNetSdk.Demos
             await DeleteContainer();
         }
 
-        private async static Task CreateContainer()
+        private static async Task CreateContainer()
         {
             Console.WriteLine();
             Console.WriteLine("Creating bulk-demo container");
@@ -39,7 +39,7 @@ namespace CosmosDb.DotNetSdk.Demos
             await database.CreateContainerAsync(containerDef, 10000);
         }
 
-        private async static Task RunWithoutBulkDemo(int count)
+        private static async Task RunWithoutBulkDemo(int count)
         {
             Console.WriteLine();
             Console.WriteLine(">>> Non-bulk (insert one at a time) <<<    press any key to start...");
@@ -70,7 +70,7 @@ namespace CosmosDb.DotNetSdk.Demos
             Console.WriteLine($"Created {count - errors} documents (non-bulk): {cost:0.##} RUs in {DateTime.Now.Subtract(started)}");
         }
 
-        private async static Task RunWithBulkDemo(int count)
+        private static async Task RunWithBulkDemo(int count)
         {
             Console.WriteLine();
             Console.WriteLine(">>> Bulk inserts <<<    press any key to start...");
@@ -107,7 +107,7 @@ namespace CosmosDb.DotNetSdk.Demos
             Console.WriteLine($"Created {count - errors} documents (bulk): {cost:0.##} RUs in {DateTime.Now.Subtract(started)}");
         }
 
-        private async static Task DeleteContainer()
+        private static async Task DeleteContainer()
         {
             Console.WriteLine();
             Console.WriteLine("Press any key to delete the container");

@@ -10,7 +10,7 @@ namespace CosmosDb.WebApp.DataLayer.CoreApi
 {
 	public static class CoreApiIndexingRepo
 	{
-		public async static Task<string> IndexingPathExclusions(AppConfig config)
+		public static async Task<string> IndexingPathExclusions(AppConfig config)
 		{
 			var sb = new StringBuilder();
 			sb.AppendLine(">>> Exclude Index Paths <<<");
@@ -108,7 +108,7 @@ namespace CosmosDb.WebApp.DataLayer.CoreApi
 			return sb.ToString();
 		}
 
-		public async static Task<string> IndexingCompositePaths(AppConfig config)
+		public static async Task<string> IndexingCompositePaths(AppConfig config)
 		{
 			var sb = new StringBuilder();
 			sb.AppendLine(">>> Composite Indexes <<<");
@@ -170,7 +170,7 @@ namespace CosmosDb.WebApp.DataLayer.CoreApi
 			return sb.ToString();
 		}
 
-		public async static Task<string> IndexingSpatialPaths(AppConfig config)
+		public static async Task<string> IndexingSpatialPaths(AppConfig config)
 		{
 			var sb = new StringBuilder();
 			sb.AppendLine(">>> Spatial Indexes <<<");

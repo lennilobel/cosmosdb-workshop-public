@@ -7,7 +7,7 @@ namespace CosmosDb.DotNetSdk.Demos
 {
 	public static class DatabasesDemo
 	{
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -20,7 +20,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			await ViewDatabases();
 		}
 
-		private async static Task ViewDatabases()
+		private static async Task ViewDatabases()
 		{
 			Console.WriteLine();
 			Console.WriteLine(">>> View Databases <<<");
@@ -39,7 +39,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			Console.WriteLine($"Total databases: {count}");
 		}
 
-		private async static Task CreateDatabase()
+		private static async Task CreateDatabase()
 		{
 			Console.WriteLine();
 			Console.WriteLine(">>> Create Database <<<");
@@ -50,7 +50,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			Console.WriteLine($" Database Id: {database.Id}; Modified: {database.LastModified}");
 		}
 
-		private async static Task DeleteDatabase()
+		private static async Task DeleteDatabase()
 		{
 			Console.WriteLine();
 			Console.WriteLine(">>> Delete Database <<<");

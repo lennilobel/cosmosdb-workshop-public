@@ -12,7 +12,7 @@ namespace CosmosDb.DotNetSdk.Demos
 {
 	public static class DocumentsDemo
 	{
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -33,7 +33,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			await DeleteDocuments();
 		}
 
-		private async static Task CreateDocuments()
+		private static async Task CreateDocuments()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Create Documents <<<");
@@ -145,7 +145,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			// You only get back the first "page" (up to MaxItemCount)
 		}
 
-		private async static Task QueryWithStatefulPaging()
+		private static async Task QueryWithStatefulPaging()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Query Documents (paged results, stateful) <<<");
@@ -184,7 +184,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			Console.WriteLine();
 		}
 
-		private async static Task QueryWithStatelessPaging()
+		private static async Task QueryWithStatelessPaging()
 		{
 			// Get all pages of large resultset using continuation token
 			Console.WriteLine("Querying for all documents (full resultset, stateless)");
@@ -199,7 +199,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			Console.WriteLine();
 		}
 
-		private async static Task<string> QueryFetchNextPage(string continuationToken)
+		private static async Task<string> QueryFetchNextPage(string continuationToken)
 		{
 			var container = Shared.Client.GetContainer("adventure-works", "stores");
 			var sql = "SELECT * FROM c";
@@ -228,7 +228,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			return continuationToken;
 		}
 
-		private async static Task QueryWithStatefulPagingStreamed()
+		private static async Task QueryWithStatefulPagingStreamed()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Query Documents with Streaming <<<");
@@ -263,7 +263,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			Console.WriteLine();
 		}
 
-		private async static Task QueryWithStatelessPagingStreamed()
+		private static async Task QueryWithStatelessPagingStreamed()
 		{
 			// Get all pages of large resultset using continuation token
 			Console.WriteLine("Querying for all documents (full resultset, stateless, w/streaming iterator)");
@@ -278,7 +278,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			Console.WriteLine();
 		}
 
-		private async static Task<string> QueryFetchNextPageStreamed(string continuationToken)
+		private static async Task<string> QueryFetchNextPageStreamed(string continuationToken)
 		{
 			var container = Shared.Client.GetContainer("adventure-works", "stores");
 			var sql = "SELECT * FROM c";
@@ -316,7 +316,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			return continuationToken;
 		}
 
-		private async static Task QueryWithLinq()
+		private static async Task QueryWithLinq()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Query Documents (LINQ) <<<");
@@ -371,7 +371,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			}
 		}
 
-		private async static Task ReplaceDocuments()
+		private static async Task ReplaceDocuments()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Replace Documents <<<");
@@ -416,7 +416,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			}
 		}
 
-		private async static Task DeleteDocuments()
+		private static async Task DeleteDocuments()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Delete Documents <<<");

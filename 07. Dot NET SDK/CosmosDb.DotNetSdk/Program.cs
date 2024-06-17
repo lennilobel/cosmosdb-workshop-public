@@ -50,7 +50,7 @@ namespace CosmosDb.DotNetSdk
 
 		private static void ShowMenu()
 		{
-			Console.WriteLine(@"Cosmos DB Core API .NET SDK demos
+			Console.WriteLine(@"Cosmos DB NoSQL API .NET SDK demos
 
 DB Databases
 CO Containers
@@ -65,7 +65,7 @@ Q  Quit
 ");
 		}
 
-		private async static Task RunDemo(Func<Task> demoMethod)
+		private static async Task RunDemo(Func<Task> demoMethod)
 		{
 			try
 			{

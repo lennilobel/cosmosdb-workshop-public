@@ -44,7 +44,7 @@ namespace CosmosDb.ServerSide
 
         private static void ShowMenu()
         {
-            Console.WriteLine(@"Cosmos DB Core API Server-Side Programming demos
+            Console.WriteLine(@"Cosmos DB NoSQL API Server-Side Programming demos
 
 SP Stored procedures
 UF User defined functions
@@ -53,7 +53,7 @@ Q  Quit
 ");
         }
 
-        private async static Task RunDemo(Func<Task> demoMethod)
+        private static async Task RunDemo(Func<Task> demoMethod)
         {
             try
             {

@@ -8,7 +8,7 @@ namespace CosmosDb.DotNetSdk.Demos.Batch
 {
     public static class BatchDemo
 	{
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -25,7 +25,7 @@ namespace CosmosDb.DotNetSdk.Demos.Batch
             await DeleteContainer();
         }
 
-        private async static Task CreateContainer()
+        private static async Task CreateContainer()
         {
             Console.WriteLine("Creating batch-demo container");
             Console.WriteLine();
@@ -42,7 +42,7 @@ namespace CosmosDb.DotNetSdk.Demos.Batch
             await database.CreateContainerAsync(containerDef, 400);
         }
 
-        private async static Task CreateCustomerWithOrders()
+        private static async Task CreateCustomerWithOrders()
         {
             Console.WriteLine("Creating customer with two orders");
             Console.WriteLine();
@@ -62,7 +62,7 @@ namespace CosmosDb.DotNetSdk.Demos.Batch
             await ExecuteBatch(batch);
         }
 
-        private async static Task CreateAnotherOrder()
+        private static async Task CreateAnotherOrder()
         {
             Console.WriteLine("Adding another order");
             Console.WriteLine();
@@ -84,7 +84,7 @@ namespace CosmosDb.DotNetSdk.Demos.Batch
             await ExecuteBatch(batch);
         }
 
-        private async static Task CreateBadOrder()
+        private static async Task CreateBadOrder()
         {
             Console.WriteLine("Adding another order (fails as duplicate)");
             Console.WriteLine();
@@ -134,7 +134,7 @@ namespace CosmosDb.DotNetSdk.Demos.Batch
             }
         }
 
-		private async static Task DeleteContainer()
+		private static async Task DeleteContainer()
 		{
 			Console.WriteLine("Deleting bulkdemo container");
             Console.WriteLine();

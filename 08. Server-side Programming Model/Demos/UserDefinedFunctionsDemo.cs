@@ -9,7 +9,7 @@ namespace CosmosDb.ServerSide.Demos
 {
 	public static class UserDefinedFunctionsDemo
 	{
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -24,7 +24,7 @@ namespace CosmosDb.ServerSide.Demos
 			await DeleteUserDefinedFunctions();
 		}
 
-		private async static Task CreateUserDefinedFunctions()
+		private static async Task CreateUserDefinedFunctions()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Create User Defined Functions <<<");
@@ -35,7 +35,7 @@ namespace CosmosDb.ServerSide.Demos
 			await CreateUserDefinedFunction("udfFormatCityStateZip");
 		}
 
-		private async static Task CreateUserDefinedFunction(string udfId)
+		private static async Task CreateUserDefinedFunction(string udfId)
 		{
 			var udfBody = File.ReadAllText($@"Server\{udfId}.js");
 			var udfProps = new UserDefinedFunctionProperties
@@ -49,7 +49,7 @@ namespace CosmosDb.ServerSide.Demos
 			Console.WriteLine($"Created user defined function  {udfId} ({result.RequestCharge} RUs);");
 		}
 
-		private async static Task ViewUserDefinedFunctions()
+		private static async Task ViewUserDefinedFunctions()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> View UDFs <<<");
@@ -71,7 +71,7 @@ namespace CosmosDb.ServerSide.Demos
 			Console.WriteLine($"Total UDFs: {count}");
 		}
 
-		private async static Task Execute_udfCalculatePremium()
+		private static async Task Execute_udfCalculatePremium()
 		{
 			Console.Clear();
 			Console.WriteLine("Querying with calculated premiums");
@@ -101,7 +101,7 @@ namespace CosmosDb.ServerSide.Demos
 			}
 		}
 
-		private async static Task Execute_udfIsNorthAmerica()
+		private static async Task Execute_udfIsNorthAmerica()
 		{
 			Console.Clear();
 			Console.WriteLine("Querying for North American customers");
@@ -139,7 +139,7 @@ namespace CosmosDb.ServerSide.Demos
 			}
 		}
 
-		private async static Task Execute_udfFormatCityStateZip()
+		private static async Task Execute_udfFormatCityStateZip()
 		{
 			Console.Clear();
 			Console.WriteLine("Listing names with formatted city, state, zip");
@@ -154,7 +154,7 @@ namespace CosmosDb.ServerSide.Demos
 			}
 		}
 
-		private async static Task DeleteUserDefinedFunctions()
+		private static async Task DeleteUserDefinedFunctions()
 		{
 			Console.WriteLine();
 			Console.WriteLine(">>> Delete User Defined Functions <<<");
@@ -165,7 +165,7 @@ namespace CosmosDb.ServerSide.Demos
 			await DeleteUserDefinedFunction("udfFormatCityStateZip");
 		}
 
-		private async static Task DeleteUserDefinedFunction(string udfId)
+		private static async Task DeleteUserDefinedFunction(string udfId)
 		{
 			var container = Shared.Client.GetContainer("adventure-works", "stores");
 			await container.Scripts.DeleteUserDefinedFunctionAsync(udfId);

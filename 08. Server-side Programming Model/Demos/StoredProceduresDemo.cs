@@ -10,7 +10,7 @@ namespace CosmosDb.ServerSide.Demos
 {
     public static class StoredProceduresDemo
 	{
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -25,7 +25,7 @@ namespace CosmosDb.ServerSide.Demos
 
 		// Create stored procedures
 
-		private async static Task CreateStoredProcedures()
+		private static async Task CreateStoredProcedures()
 		{
 			Console.WriteLine();
 			Console.WriteLine(">>> Create Stored Procedures <<<");
@@ -35,7 +35,7 @@ namespace CosmosDb.ServerSide.Demos
 			await CreateStoredProcedure("spSetNorthAmerica");
 		}
 
-		private async static Task CreateStoredProcedure(string sprocId)
+		private static async Task CreateStoredProcedure(string sprocId)
 		{
 			var sprocBody = File.ReadAllText($@"Server\{sprocId}.js");
 
@@ -76,7 +76,7 @@ namespace CosmosDb.ServerSide.Demos
 
 		// Execute stored procedures
 
-		private async static Task ExecuteStoredProcedures()
+		private static async Task ExecuteStoredProcedures()
 		{
 			Console.Clear();
 			await Execute_spHelloWorld();
@@ -87,7 +87,7 @@ namespace CosmosDb.ServerSide.Demos
 			await Execute_spSetNorthAmerica3();
 		}
 
-		private async static Task Execute_spHelloWorld()
+		private static async Task Execute_spHelloWorld()
 		{
 			Console.WriteLine();
 			Console.WriteLine("Execute spHelloWorld stored procedure");
@@ -100,7 +100,7 @@ namespace CosmosDb.ServerSide.Demos
 			Console.WriteLine($"Result: {message}");
 		}
 
-		private async static Task Execute_spSetNorthAmerica1()
+		private static async Task Execute_spSetNorthAmerica1()
 		{
 			Console.WriteLine();
 			Console.WriteLine("Execute spSetNorthAmerica (country = United States)");
@@ -133,7 +133,7 @@ namespace CosmosDb.ServerSide.Demos
 			await container.DeleteItemAsync<dynamic>(id, pk);
 		}
 
-		private async static Task Execute_spSetNorthAmerica2()
+		private static async Task Execute_spSetNorthAmerica2()
 		{
 			Console.WriteLine();
 			Console.WriteLine("Execute spSetNorthAmerica (country = United Kingdom)");
@@ -169,7 +169,7 @@ namespace CosmosDb.ServerSide.Demos
 			await container.DeleteItemAsync<dynamic>(id, pk);
 		}
 
-		private async static Task Execute_spSetNorthAmerica3()
+		private static async Task Execute_spSetNorthAmerica3()
 		{
 			Console.WriteLine();
 			Console.WriteLine("Execute spSetNorthAmerica (no country)");
@@ -202,7 +202,7 @@ namespace CosmosDb.ServerSide.Demos
 
 		// Delete stored procedures
 
-		private async static Task DeleteStoredProcedures()
+		private static async Task DeleteStoredProcedures()
 		{
 			Console.WriteLine();
 			Console.WriteLine(">>> Delete Stored Procedures <<<");
@@ -212,7 +212,7 @@ namespace CosmosDb.ServerSide.Demos
 			await DeleteStoredProcedure("spSetNorthAmerica");
 		}
 
-		private async static Task DeleteStoredProcedure(string sprocId)
+		private static async Task DeleteStoredProcedure(string sprocId)
 		{
 			var container = Shared.Client.GetContainer("adventure-works", "stores");
 			await container.Scripts.DeleteStoredProcedureAsync(sprocId);

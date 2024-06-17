@@ -8,7 +8,7 @@ namespace CosmosDb.WebApp.DataLayer.CoreApi
 {
 	public static class CoreApiDatabasesRepo
     {
-        public async static Task<IEnumerable<DatabaseProperties>> GetDatabases(AppConfig config)
+        public static async Task<IEnumerable<DatabaseProperties>> GetDatabases(AppConfig config)
         {
             if (config.BreakForDemos) System.Diagnostics.Debugger.Break();
 

@@ -12,7 +12,7 @@ namespace ConsoleApp1
 			QueryForDocument().Wait();
 		}
 
-		private async static Task QueryForDocument()
+		private static async Task QueryForDocument()
 		{
 			var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
 			var endpoint = config["CosmosEndpoint"];

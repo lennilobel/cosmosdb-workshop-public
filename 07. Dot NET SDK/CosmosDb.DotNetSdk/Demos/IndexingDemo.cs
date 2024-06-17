@@ -10,7 +10,7 @@ namespace CosmosDb.DotNetSdk.Demos
 {
 	public static class IndexingDemo
 	{
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -19,7 +19,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			await SpatialIndexes();	
 		 }
 
-		private async static Task ExcludedPaths()
+		private static async Task ExcludedPaths()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Exclude Index Paths <<<");
@@ -131,7 +131,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			await container.DeleteContainerAsync();
 		}
 
-		private async static Task CompositeIndexes()
+		private static async Task CompositeIndexes()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Composite Indexes <<<");
@@ -188,7 +188,7 @@ namespace CosmosDb.DotNetSdk.Demos
 			await container.ReplaceContainerAsync(containerProperties);
 		}
 
-		private async static Task SpatialIndexes()
+		private static async Task SpatialIndexes()
 		{
 			Console.Clear();
 			Console.WriteLine(">>> Spatial Indexes <<<");

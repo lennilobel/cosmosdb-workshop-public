@@ -9,7 +9,7 @@ namespace CosmosDb.ResourceTokens.Demos
 {
 	public static class PartitionKeyPermissionsDemo
 	{
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -81,7 +81,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			await database.DeleteAsync();
 		}
 
-		private async static Task CreateDocument(string resourceToken, dynamic doc)
+		private static async Task CreateDocument(string resourceToken, dynamic doc)
  		{
 			// Get the endpoint to connect to Cosmos DB with a resource token rather than master key
 			var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
@@ -105,7 +105,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			}
 		}
 
-		private async static Task QueryDocuments(string resourceToken, string pk)
+		private static async Task QueryDocuments(string resourceToken, string pk)
 		{
 			// Get the endpoint to connect to Cosmos DB with a resource token rather than master key
 			var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
@@ -135,7 +135,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			}
 		}
 
-		private async static Task ReadDocument(string resourceToken, string pk, string id)
+		private static async Task ReadDocument(string resourceToken, string pk, string id)
 		{
 			// Get the endpoint to connect to Cosmos DB with a resource token rather than master key
 			var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();

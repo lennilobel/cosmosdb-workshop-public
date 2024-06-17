@@ -17,7 +17,7 @@ namespace CosmosDb.WebApp.DataLayer.GremlinApi
         private const string DatabaseName = "GraphDb";
         private const string GraphName = "ComicBook";
 
-        public async static Task<string> PopulateComicBookGraph(AppConfig config)
+        public static async Task<string> PopulateComicBookGraph(AppConfig config)
         {
             if (config.BreakForDemos) System.Diagnostics.Debugger.Break();
 

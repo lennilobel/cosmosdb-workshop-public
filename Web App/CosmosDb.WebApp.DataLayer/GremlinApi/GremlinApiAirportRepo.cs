@@ -20,7 +20,7 @@ namespace CosmosDb.WebApp.DataLayer.GremlinApi
 
 		#region "Populate Airport Graph"
 
-		public async static Task<string> PopulateAirportGraph(AppConfig config)
+		public static async Task<string> PopulateAirportGraph(AppConfig config)
 		{
 			if (config.BreakForDemos) System.Diagnostics.Debugger.Break();
 
@@ -348,7 +348,7 @@ namespace CosmosDb.WebApp.DataLayer.GremlinApi
 
 		#region "Query Airport Graph (hard-coded)"
 
-		public async static Task<string> QueryAirportGraph(AppConfig config)
+		public static async Task<string> QueryAirportGraph(AppConfig config)
 		{
 			if (config.BreakForDemos) System.Diagnostics.Debugger.Break();
 
@@ -489,7 +489,7 @@ namespace CosmosDb.WebApp.DataLayer.GremlinApi
 
 		#region "Query Airport Graph (application)"
 
-		public async static Task<string[]> GetGates(AppConfig config)
+		public static async Task<string[]> GetGates(AppConfig config)
 		{
 			if (config.BreakForDemos) System.Diagnostics.Debugger.Break();
 
@@ -506,7 +506,7 @@ namespace CosmosDb.WebApp.DataLayer.GremlinApi
 			return gates.ToArray();
 		}
 
-		public async static Task<object> QueryAirportGraph(AppConfig config, AirportQueryRequest request)
+		public static async Task<object> QueryAirportGraph(AppConfig config, AirportQueryRequest request)
 		{
 			if (config.BreakForDemos) System.Diagnostics.Debugger.Break();
 
@@ -603,7 +603,7 @@ namespace CosmosDb.WebApp.DataLayer.GremlinApi
 			return edge;
 		}
 
-		private async static Task<IReadOnlyCollection<dynamic>> ExecuteGremlin(AppConfig config, string gremlinCode)
+		private static async Task<IReadOnlyCollection<dynamic>> ExecuteGremlin(AppConfig config, string gremlinCode)
 		{
 			var hostname = config.GremlinApiHostName;
 			var masterKey = config.GremlinApiMasterKey;

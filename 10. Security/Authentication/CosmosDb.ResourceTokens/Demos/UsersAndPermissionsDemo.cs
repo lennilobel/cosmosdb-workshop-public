@@ -11,7 +11,7 @@ namespace CosmosDb.ResourceTokens.Demos
 	{
 		private static Database _database;
 
-		public async static Task Run()
+		public static async Task Run()
 		{
 			Debugger.Break();
 
@@ -44,7 +44,7 @@ namespace CosmosDb.ResourceTokens.Demos
 
 		// Users
 
-		private async static Task ViewUsers()
+		private static async Task ViewUsers()
 		{
 			Console.WriteLine();
 			Console.WriteLine($">>> View Users in {_database.Id} <<<");
@@ -65,7 +65,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			Console.WriteLine($"Total users in database {_database.Id}: {usersCount}");
 		}
 
-		private async static Task<UserProperties> CreateUser(string userId)
+		private static async Task<UserProperties> CreateUser(string userId)
 		{
 			Console.WriteLine();
 			Console.WriteLine($">>> Create User {userId} in {_database.Id} <<<");
@@ -78,7 +78,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			return userProps;
 		}
 
-		private async static Task DeleteUser(string userId)
+		private static async Task DeleteUser(string userId)
 		{
 			Console.WriteLine();
 			Console.WriteLine($">>> Delete User {userId} in {_database.Id} <<<");
@@ -91,7 +91,7 @@ namespace CosmosDb.ResourceTokens.Demos
 
 		// Permissions
 
-		private async static Task ViewPermissions(string userId)
+		private static async Task ViewPermissions(string userId)
 		{
 			Console.WriteLine();
 			Console.WriteLine($">>> View Permissions for {userId} <<<");
@@ -113,7 +113,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			Console.WriteLine($"Total permissions for {userId}: {permissionsCount}");
 		}
 
-		private async static Task CreatePermission(string userId, string permissionId, PermissionMode permissionMode)
+		private static async Task CreatePermission(string userId, string permissionId, PermissionMode permissionMode)
 		{
 			Console.WriteLine();
 			Console.WriteLine($">>> Create Permission {permissionId} for {userId} <<<");
@@ -126,7 +126,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			Console.WriteLine($"Created new permission: {permissionId} ({permissionMode} on {permissionProps.ResourceUri})");
 		}
 
-		private async static Task DeletePermission(string userId, string permissionId)
+		private static async Task DeletePermission(string userId, string permissionId)
 		{
 			Console.WriteLine();
 			Console.WriteLine($">>> Delete Permission {permissionId} from {userId} <<<");
@@ -139,7 +139,7 @@ namespace CosmosDb.ResourceTokens.Demos
 			Console.WriteLine($"Deleted permission {permissionId} from user {user.Id}");
 		}
 
-		private async static Task TestPermissions(string userId)
+		private static async Task TestPermissions(string userId)
 		{
 			dynamic doc = new
 			{

@@ -53,7 +53,7 @@ Q  Quit
 ");
         }
 
-        private async static Task RunDemo(Func<Task> demoMethod)
+        private static async Task RunDemo(Func<Task> demoMethod)
         {
             try
             {

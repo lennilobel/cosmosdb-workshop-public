@@ -734,7 +734,7 @@ namespace CosmosDb.WebApp.DataLayer.CoreApi
 			return sb.ToString();
 		}
 
-		private async static Task Execute_udfRegEx(CosmosClient client, StringBuilder sb)
+		private static async Task Execute_udfRegEx(CosmosClient client, StringBuilder sb)
 		{
 			Console.Clear();
 			sb.AppendLine("Querying for Rental customers");
@@ -751,7 +751,7 @@ namespace CosmosDb.WebApp.DataLayer.CoreApi
 			}
 		}
 
-		private async static Task Execute_udfIsNorthAmerica(CosmosClient client, StringBuilder sb)
+		private static async Task Execute_udfIsNorthAmerica(CosmosClient client, StringBuilder sb)
 		{
 			sb.AppendLine("Querying for North American customers");
 
@@ -786,7 +786,7 @@ namespace CosmosDb.WebApp.DataLayer.CoreApi
 			}
 		}
 
-		private async static Task Execute_udfFormatCityStateZip(CosmosClient client, StringBuilder sb)
+		private static async Task Execute_udfFormatCityStateZip(CosmosClient client, StringBuilder sb)
 		{
 			sb.AppendLine();
 			sb.AppendLine("Listing names with city, state, zip (first 20)");
