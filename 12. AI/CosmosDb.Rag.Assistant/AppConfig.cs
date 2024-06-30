@@ -1,4 +1,4 @@
-namespace CosmosDb.Rag.Embed.Demos
+namespace CosmosDb.Rag.Assistant
 {
 	public class AppConfig
 	{

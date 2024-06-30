@@ -1,9 +1,9 @@
-using CosmosDb.Rag.Embed.Demos;
+using CosmosDb.Rag.Demos;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CosmosDb.Rag.Embed
+namespace CosmosDb.Rag
 {
 	public static class Program
 	{
@@ -18,6 +18,7 @@ namespace CosmosDb.Rag.Embed
 				{ "CD", CleanseDatasetDemo.Run },
 				{ "PD", PopulateDatabaseDemo.Run },
 				{ "VE", VectorEmbeddingsDemo.Run },
+				{ "MA", MoviesAssistantDemo.Run },
 			};
 
 			Task.Run(async () =>
@@ -52,6 +53,7 @@ namespace CosmosDb.Rag.Embed
 CD Cleanse dataset
 PD Populate database
 VE Vector embeddings
+MA Movies assistant
 
 Q  Quit
 ");

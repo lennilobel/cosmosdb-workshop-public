@@ -7,10 +7,9 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
-using System.Threading;
 using System.Threading.Tasks;
 
-namespace CosmosDb.Rag.Embed.Demos
+namespace CosmosDb.Rag.Demos
 {
 	public static class PopulateDatabaseDemo
 	{
@@ -59,7 +58,7 @@ namespace CosmosDb.Rag.Embed.Demos
 							Path = "/vectors",
 							DataType = VectorDataType.Float32,
 							DistanceFunction = DistanceFunction.Cosine,
-							Dimensions = 1536
+							Dimensions = 256	// recommended starting point
 						}
 					])
 				),

@@ -4,7 +4,7 @@ using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Configuration;
 using System;
 
-namespace CosmosDb.Rag.Embed.Demos
+namespace CosmosDb.Rag.Assistant
 {
 	public static class Shared
 	{

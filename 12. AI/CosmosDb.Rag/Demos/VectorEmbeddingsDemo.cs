@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using PartitionKey = Microsoft.Azure.Cosmos.PartitionKey;
 
-namespace CosmosDb.Rag.Embed.Demos
+namespace CosmosDb.Rag.Demos
 {
 	public static class VectorEmbeddingsDemo
 	{
@@ -75,11 +75,12 @@ namespace CosmosDb.Rag.Embed.Demos
 
 			for (var i = 0; i < documents.Length; i++)
 			{
+				// Discard system properties
 				documents[i].Remove("vectors");
 			}
 
 			var embeddingsOptions = new EmbeddingsOptions(
-				deploymentName: Shared.AppConfig.OpenAI.DeploymentName,
+				deploymentName: Shared.AppConfig.OpenAI.EmbeddingsDeploymentName,
 				input: documents.Select(d => d.ToString()));
 
 			var openAIEmbeddings = await Shared.OpenAIClient.GetEmbeddingsAsync(embeddingsOptions);
@@ -90,13 +91,13 @@ namespace CosmosDb.Rag.Embed.Demos
 			return embeddings;
 		}
 
-		private static async Task UpdateDocuments(Container container, JObject[] documents, IReadOnlyList<EmbeddingItem> openAIEmbeddings)
+		private static async Task UpdateDocuments(Container container, JObject[] documents, IReadOnlyList<EmbeddingItem> embeddings)
 		{
 			Console.Write($"Updating documents... ");
 
 			for (var i = 0; i < documents.Length; i++)
 			{
-				var embeddingsArray = openAIEmbeddings[i].Embedding.ToArray();
+				var embeddingsArray = embeddings[i].Embedding.ToArray();
 				var vectors = JArray.FromObject(embeddingsArray);
 				documents[i]["vectors"] = vectors;
 			}

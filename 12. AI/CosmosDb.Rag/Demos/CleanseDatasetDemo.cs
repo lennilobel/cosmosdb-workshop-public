@@ -6,7 +6,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace CosmosDb.Rag.Embed.Demos
+namespace CosmosDb.Rag.Demos
 {
 	public static class CleanseDatasetDemo
     {

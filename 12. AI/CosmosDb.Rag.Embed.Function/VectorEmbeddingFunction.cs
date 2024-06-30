@@ -58,6 +58,18 @@ namespace CosmosDb.Rag.Embed.Function.V4
 				return;
 			}
 
+			try
+			{
+				await this.ProcessChanges(documentElements);
+			}
+			catch (Exception ex)
+			{
+				_logger.LogError(ex, "An error occurred processing changed movie documents");
+			}
+		}
+
+		private async Task ProcessChanges(IReadOnlyList<JsonElement> documentElements)
+		{
 			var documents = this.GetChangedDocuments(documentElements);
 
 			if (documents.Length == 0)
@@ -67,7 +79,7 @@ namespace CosmosDb.Rag.Embed.Function.V4
 
 			_logger.LogInformation($"Change detected in {documents.Length} movie document(s)");
 
-			var embeddings = await this.GenerateEmbeddings(documents);
+			var embeddings = await this.GenerateVectorEmbeddings(documents);
 
 			await this.UpdateDocuments(documents, embeddings);
 		}
@@ -98,23 +110,23 @@ namespace CosmosDb.Rag.Embed.Function.V4
 			return changedDocuments.ToArray();
 		}
 
-		private async Task<IReadOnlyList<EmbeddingItem>> GenerateEmbeddings(JObject[] documents)
+		private async Task<IReadOnlyList<EmbeddingItem>> GenerateVectorEmbeddings(JObject[] documents)
 		{
-			this._logger.LogInformation($"Generating embeddings for {documents.Length} document(s)");
+			this._logger.LogInformation($"Generating vector embeddings for {documents.Length} document(s)");
 
 			for (var i = 0; i < documents.Length; i++)
 			{
-				documents[i].Remove("vectorArray");
+				documents[i].Remove("vectors");
 			}
 
 			var embeddingsOptions = new EmbeddingsOptions(
 				deploymentName: Environment.GetEnvironmentVariable("OpenAIDeploymentName"),
-				input: documents.Select(d => d.ToString()));
+				input: documents.Select(JsonConvert.SerializeObject));
 
 			var openAIEmbeddings = await OpenAIClient.GetEmbeddingsAsync(embeddingsOptions);
 			var embeddings = openAIEmbeddings.Value.Data;
 
-			this._logger.LogInformation($"Generated embeddings for {documents.Length} document(s)");
+			this._logger.LogInformation($"Generated vector embeddings for {documents.Length} document(s)");
 
 			return embeddings;
 		}
@@ -127,9 +139,9 @@ namespace CosmosDb.Rag.Embed.Function.V4
 
 			for (var i = 0; i < documents.Length; i++)
 			{
-				var embeddingsArray = embeddings[i].Embedding.ToArray();
-				var vectorArray = JArray.FromObject(embeddingsArray);
-				documents[i]["vectorArray"] = vectorArray;
+				var vectorsArray = embeddings[i].Embedding.ToArray();
+				var vectorsJArray = JArray.FromObject(vectorsArray);
+				documents[i]["vectors"] = vectorsJArray;
 			}
 
 			var tasks = new List<Task>(documents.Length);
