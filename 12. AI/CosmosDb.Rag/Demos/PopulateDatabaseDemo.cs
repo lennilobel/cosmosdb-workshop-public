@@ -13,17 +13,28 @@ namespace CosmosDb.Rag.Demos
 {
 	public static class PopulateDatabaseDemo
 	{
-		public static async Task Run()
+		public static async Task CreateDatabase()
 		{
 			Debugger.Break();
 
-			var database = await CreateDatabase();
+			var database = await DropAndCreateDatabase();
 			var container = await CreateContainer(database);
-			await CreateDocuments(container);
+			await CreateDocuments(@"Data\Movies-NoSW.json", container);
 			await container.ReplaceThroughputAsync(ThroughputProperties.CreateAutoscaleThroughput(autoscaleMaxThroughput: 1000));
 		}
 
-		private static async Task<Database> CreateDatabase()
+		public static async Task UpdateDatabase()
+		{
+			Debugger.Break();
+
+			var container = Shared.CosmosClient.GetContainer(
+				Shared.AppConfig.CosmosDb.DatabaseName,
+				Shared.AppConfig.CosmosDb.ContainerName);
+
+			await CreateDocuments(@"Data\Movies-SW.json", container);
+		}
+
+		private static async Task<Database> DropAndCreateDatabase()
 		{
 			var databaseName = Shared.AppConfig.CosmosDb.DatabaseName;
 
@@ -55,10 +66,10 @@ namespace CosmosDb.Rag.Demos
 					[
 						new Embedding
 						{
-							Path = "/vectors",
-							DataType = VectorDataType.Float32,
-							DistanceFunction = DistanceFunction.Cosine,
-							Dimensions = 256	// recommended starting point
+							Path = "/vectors",								// property path to generated vector array
+							DataType = VectorDataType.Float32,				// highest precision values
+							DistanceFunction = DistanceFunction.Cosine,		// calculates the similarity between two vector arrays
+							Dimensions =256 // 1536								// establishes vector array size (start with 256, increase for greater accuracy)
 						}
 					])
 				),
@@ -78,8 +89,8 @@ namespace CosmosDb.Rag.Demos
 					[
 						new VectorIndexPath
 						{
-							Path = "/vectors",
-							Type = VectorIndexType.DiskANN
+							Path = "/vectors",					// property path to generated vector array
+							Type = VectorIndexType.DiskANN		// disk-based approximate near neighbor
 						}
 					]
 				}
@@ -95,9 +106,9 @@ namespace CosmosDb.Rag.Demos
 			return container;
 		}
 
-		private static async Task CreateDocuments(Container container)
+		private static async Task CreateDocuments(string jsonFilename, Container container)
 		{
-			var json = await File.ReadAllTextAsync("Movies.json");
+			var json = await File.ReadAllTextAsync(jsonFilename);
 			var documents = JsonConvert.DeserializeObject<JArray>(json);
 			var count = documents.Count;
 

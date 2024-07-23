@@ -18,6 +18,7 @@ namespace CosmosDb.Rag.Demos
 			public string ApiKey { get; set; }
 			public string EmbeddingsDeploymentName { get; set; }
 			public string CompletionsDeploymentName { get; set; }
+			public string DalleDeploymentName { get; set; }
 		}
 
 	}
